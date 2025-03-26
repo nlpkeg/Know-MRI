@@ -52,7 +52,9 @@ We integrate a variety of interpretation methods to assist users in comprehensiv
 
 ## Example Usage
 
+
 ### Code-based Usage
+We provide some code-based usage examples in `/Know-MRI/example.
 This example uses the KN method to analysis Llama2:
 ```python
 # Import corresponding interpretation method, dataset and model.
@@ -61,8 +63,11 @@ from dataset_process import counterfact
 from methods import kn
 from models import llama
 
+# Loda dataset.
 dataset = counterfact.CounterfactDataset(loc=counterfact.default_loc)
 sample = counterfact.get_processed_kvs(dataset[0], kn.requires_input_keys)
+
+# Diagnose (interpret).
 result = diagnose.diagnosing(sample=sample, model_name_or_path=llama, method=kn.name)
 
 print(result)
@@ -74,6 +79,16 @@ The Know-MRI also has a UI for easy usage:
 <h3 align="center">
 <img src="./src/UI_demo.png">
 </h3>
+
+You can use the UI in the following way:
+```shell
+cd /GUI
+
+python flask_server.py \
+     --vecdb_config_path="Path of config for loading embedding model." \
+    --openai_base_url \
+    --openai_api_key                      
+```
 
 ## For Developers 😎
 We have reserved extension interfaces for developers.
