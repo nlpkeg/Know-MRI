@@ -147,7 +147,7 @@ def diagnose(sample, model_name_or_path, hparams=None):
             model_name = "gpt2-xl"
         else:
             model_name = hparams.model_name
-        model = HookedTransformer.from_pretrained(model_name=model_name, hf_model=model, device="cuda", n_devices=n, move_to_device=True, fold_ln=False, center_writing_weights=False, center_unembed=False)
+        model = HookedTransformer.from_pretrained(model_name=model_name, hf_model=model, tokenizer=mt.tokenizer, device="cuda", n_devices=n, move_to_device=True, fold_ln=False, center_writing_weights=False, center_unembed=False)
         model.cfg.use_split_qkv_input = True
         model.cfg.use_attn_result = True
         model.cfg.use_hook_mlp_in = True
