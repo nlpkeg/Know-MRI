@@ -1,0 +1,12 @@
+{
+    "model_path": "EleutherAI/gpt-j-6b",
+    "top_k": 5,
+    "epoch":5,
+    "lr":0.1,
+    "asl":1,
+    "psl":1,
+    "hidden_dim":4,
+    "noise":0.2,
+    "mean_value":0.15,
+    "topk_tokens":5
+}

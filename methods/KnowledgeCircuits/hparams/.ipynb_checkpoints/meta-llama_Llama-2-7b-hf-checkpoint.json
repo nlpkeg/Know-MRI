@@ -1,0 +1,6 @@
+{
+    "model_path": "/root/autodl-fs/Llama-2-7b-hf",
+    "api_key": "YOUR_API_KEY",
+    "base_url": "YOUR_BASE_URL",
+    "topn": 500
+}

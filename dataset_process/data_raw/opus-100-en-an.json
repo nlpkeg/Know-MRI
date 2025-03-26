@@ -1,0 +1,502 @@
+[
+  {
+    "id": 0,
+    "an": "Client de mensacheria instantania Empathy",
+    "en": "Empathy Internet Messaging"
+  },
+  {
+    "id": 1,
+    "an": "Indica si s'usa a propiedat «altura natural»",
+    "en": "Whether to use the natural-height property"
+  },
+  {
+    "id": 2,
+    "an": "Desactivar optimización de lectura de pixel",
+    "en": "Disable read pixel optimization"
+  },
+  {
+    "id": 3,
+    "an": "barra d'estau",
+    "en": "statusbar"
+  },
+  {
+    "id": 4,
+    "an": "audio",
+    "en": "audio"
+  },
+  {
+    "id": 5,
+    "an": "Rastriar suporte ta difuera d'a pantalla",
+    "en": "Trace offscreen support"
+  },
+  {
+    "id": 6,
+    "an": "Estableix a rechión de retalle ta seguir a ubicación de l'actor",
+    "en": "Sets the clip region to track the actor's allocation"
+  },
+  {
+    "id": 7,
+    "an": "A caixa que rodia a lo conteniu de l'actor",
+    "en": "The bounding box of the actor's content"
+  },
+  {
+    "id": 8,
+    "an": "Adreza d'o texto",
+    "en": "Text Direction"
+  },
+  {
+    "id": 9,
+    "an": "Orichen d'a fleca",
+    "en": "Fragment Source"
+  },
+  {
+    "id": 10,
+    "an": "Si ye cierto, todas as ringleras tienen a mesma altura",
+    "en": "If TRUE, the rows are all the same height"
+  },
+  {
+    "id": 11,
+    "an": "Ausent",
+    "en": "Away"
+  },
+  {
+    "id": 12,
+    "an": "L'anglo de rotación en l'eixe Z",
+    "en": "The rotation angle on the Z axis"
+  },
+  {
+    "id": 13,
+    "an": "Marguin cucha",
+    "en": "Margin Left"
+  },
+  {
+    "id": 14,
+    "an": "A fuent usada ta amostrar os subtitols",
+    "en": "The font used to display subtitles"
+  },
+  {
+    "id": 15,
+    "an": "Formato d'o pixel",
+    "en": "Pixel Format"
+  },
+  {
+    "id": 16,
+    "an": "M_over-lo totz ta la papelera",
+    "en": "Move _All to Trash"
+  },
+  {
+    "id": 17,
+    "an": "Matriz de transformación",
+    "en": "Transformation matrix"
+  },
+  {
+    "id": 18,
+    "an": "Conchunto de nombres de fichero",
+    "en": "Filename Set"
+  },
+  {
+    "id": 19,
+    "an": "TCP",
+    "en": "TCP"
+  },
+  {
+    "id": 20,
+    "an": "Toz os archivos",
+    "en": "All Files"
+  },
+  {
+    "id": 21,
+    "an": "Gravedat d'o conteniu",
+    "en": "Content Gravity"
+  },
+  {
+    "id": 22,
+    "an": "Indica si se debe encetar en modo amplo",
+    "en": "Whether to start in wide mode"
+  },
+  {
+    "id": 23,
+    "an": "L'amplaria d'o mapa de pixels asociau a ista textura",
+    "en": "The width of the pixmap bound to this texture"
+  },
+  {
+    "id": 24,
+    "an": "Interpolar",
+    "en": "Interpolate"
+  },
+  {
+    "id": 25,
+    "an": "Certificau no seguro",
+    "en": "Certificate untrusted"
+  },
+  {
+    "id": 26,
+    "an": "Mover a pestanya a la _dreita",
+    "en": "Move Tab _Right"
+  },
+  {
+    "id": 27,
+    "an": "Longaria d'o texto",
+    "en": "Text length"
+  },
+  {
+    "id": 28,
+    "an": "selector de color",
+    "en": "color chooser"
+  },
+  {
+    "id": 29,
+    "an": "Dispositivo de camara",
+    "en": "Camera device"
+  },
+  {
+    "id": 30,
+    "an": "Indicador d'a cadena de dispositivo d'a camara",
+    "en": "Camera device string indicator"
+  },
+  {
+    "id": 31,
+    "an": "Aliniación de linia",
+    "en": "Line Alignment"
+  },
+  {
+    "id": 32,
+    "an": "Conchunto de selección de colors",
+    "en": "Selection Color Set"
+  },
+  {
+    "id": 33,
+    "an": "Gravedat d'o centro de rotación Z",
+    "en": "Rotation Center Z Gravity"
+  },
+  {
+    "id": 34,
+    "an": "Modificadors de teclau",
+    "en": "Keyboard Modifiers"
+  },
+  {
+    "id": 35,
+    "an": "Indica si s'ha de reproducir un son ta notificar eventos.",
+    "en": "Whether to play a sound to notify of events."
+  },
+  {
+    "id": 36,
+    "an": "piet",
+    "en": "footer"
+  },
+  {
+    "id": 37,
+    "an": "Rastriar o backend d'o mapa de pixels d'a textura de Cogl",
+    "en": "Trace the Cogl texture pixmap backend"
+  },
+  {
+    "id": 38,
+    "an": "Valor alfa calculau por l'alfa",
+    "en": "Alpha value as computed by the alpha"
+  },
+  {
+    "id": 39,
+    "an": "Fendo o hash \"%s\"",
+    "en": "Hashing \"%s\""
+  },
+  {
+    "id": 40,
+    "an": "cita de bloque",
+    "en": "block quote"
+  },
+  {
+    "id": 41,
+    "an": "A ringlera en a quala ye o widget",
+    "en": "The row the widget resides in"
+  },
+  {
+    "id": 42,
+    "an": "Certificau no activau",
+    "en": "Certificate not activated"
+  },
+  {
+    "id": 43,
+    "an": "finestra de dentrada de metodo",
+    "en": "input method window"
+  },
+  {
+    "id": 44,
+    "an": "O ran d'empliu d'o búfer",
+    "en": "The fill level of the buffer"
+  },
+  {
+    "id": 45,
+    "an": "Uembrau d'a fleca",
+    "en": "Fragment shader"
+  },
+  {
+    "id": 46,
+    "an": "Solicitut d'amplaria minima aforzada ta l'actor",
+    "en": "Forced minimum width request for the actor"
+  },
+  {
+    "id": 47,
+    "an": "Altaria d'a superficie",
+    "en": "Surface Height"
+  },
+  {
+    "id": 48,
+    "an": "O «ClutterBackend» d'o chestor de dispositivos",
+    "en": "The ClutterBackend of the device manager"
+  },
+  {
+    "id": 49,
+    "an": "L'amplaria d'a superficie Wayland subchacent",
+    "en": "The width of the underlying wayland surface"
+  },
+  {
+    "id": 50,
+    "an": "Marguin superior",
+    "en": "Margin Top"
+  },
+  {
+    "id": 51,
+    "an": "Indica si a distribución debe estar homochénea, eix. totz os fillos tienen a mesma grandaria",
+    "en": "Whether the layout should be homogeneous, i.e. all childs get the same size"
+  },
+  {
+    "id": 52,
+    "an": "Coordenada Y d'o punto d'ancorau",
+    "en": "Y coordinate of the anchor point"
+  },
+  {
+    "id": 53,
+    "an": "Tien canto",
+    "en": "Has Border"
+  },
+  {
+    "id": 54,
+    "an": "Ruta d'as fotos",
+    "en": "Photo Path"
+  },
+  {
+    "id": 55,
+    "an": "Se fa servir ta notificar que a descripción d'a columna d'a tabla ha cambiau",
+    "en": "Is used to notify that the table column description has changed"
+  },
+  {
+    "id": 56,
+    "an": "Homochénea",
+    "en": "Homogeneous"
+  },
+  {
+    "id": 57,
+    "an": "Columna homochénea",
+    "en": "Column Homogeneous"
+  },
+  {
+    "id": 58,
+    "an": "Fer servir a selección «fosca»",
+    "en": "Use 'fuzzy' picking"
+  },
+  {
+    "id": 59,
+    "an": "Analisar recursivament os puntos de montache",
+    "en": "Recursively analyze mount points"
+  },
+  {
+    "id": 60,
+    "an": "Rota d'o dispositivo en sysfs",
+    "en": "Path of the device in sysfs"
+  },
+  {
+    "id": 61,
+    "an": "¿Cuala ye la tuya clau d'a cuenta SIP?",
+    "en": "What is your SIP account password?"
+  },
+  {
+    "id": 62,
+    "an": "Fuent",
+    "en": "Source"
+  },
+  {
+    "id": 63,
+    "an": "Translación alo luengo de l'eixe X",
+    "en": "Translation along the X axis"
+  },
+  {
+    "id": 64,
+    "an": "URI",
+    "en": "URI"
+  },
+  {
+    "id": 65,
+    "an": "Calidat d'o filtro",
+    "en": "Filter Quality"
+  },
+  {
+    "id": 66,
+    "an": "Ausent",
+    "en": "Away"
+  },
+  {
+    "id": 67,
+    "an": "Escribindo un mensache",
+    "en": "Typing a message."
+  },
+  {
+    "id": 68,
+    "an": "Mena de uembrau",
+    "en": "Shader Type"
+  },
+  {
+    "id": 69,
+    "an": "Empliu d'o búfer",
+    "en": "Buffer Fill"
+  },
+  {
+    "id": 70,
+    "an": "Opcions de depuracion de Colg que activar",
+    "en": "Cogl debugging flags to set"
+  },
+  {
+    "id": 71,
+    "an": "Amostrar notificacions emerchents quan un contacto se connecta",
+    "en": "Pop up notifications when a contact logs in"
+  },
+  {
+    "id": 72,
+    "an": "%s (%s)Edit individual (contextual menu)",
+    "en": "%s (%s)"
+  },
+  {
+    "id": 73,
+    "an": "Solicitut d'altura minima aforzada ta l'actor",
+    "en": "Forced minimum height request for the actor"
+  },
+  {
+    "id": 74,
+    "an": "Ca_ncelarMyUserName on freenode",
+    "en": "Ca_ncel"
+  },
+  {
+    "id": 75,
+    "an": "Resumen accesible d'a tabla",
+    "en": "Accessible Table Summary"
+  },
+  {
+    "id": 76,
+    "an": "Sincronizar automaticament a grandaria de l'actor a las dimensions de «pixbuf» subchacent",
+    "en": "Auto sync size of actor to underlying pixbuf dimensions"
+  },
+  {
+    "id": 77,
+    "an": "L'amplaria d'o video caputrau por a camara, en pixels",
+    "en": "The width of the video captured from the camera, in pixels"
+  },
+  {
+    "id": 78,
+    "an": "Grandaria d'a finestra",
+    "en": "Window size"
+  },
+  {
+    "id": 79,
+    "an": "Indica si cal invertir a endrecera a lo plegar ta la fin",
+    "en": "Whether the direction should be reversed when reaching the end"
+  },
+  {
+    "id": 80,
+    "an": "Conchunto de colors d'o texto seleccionau",
+    "en": "Selected Text Color Set"
+  },
+  {
+    "id": 81,
+    "an": "Color",
+    "en": "Color"
+  },
+  {
+    "id": 82,
+    "an": "L'actor embolicau por istos datos",
+    "en": "The actor wrapped by this data"
+  },
+  {
+    "id": 83,
+    "an": "O chestor que ha creyau iste datodefault:RTLpredefinito:LTR",
+    "en": "The manager that created this data"
+  },
+  {
+    "id": 84,
+    "an": "Omitir a versión de GL que Cogl asumirá que suporta o driver",
+    "en": "Override the GL version that Cogl will assume the driver supports"
+  },
+  {
+    "id": 85,
+    "an": "No se pudo ubrir %s",
+    "en": "Could not open %s"
+  },
+  {
+    "id": 86,
+    "an": "replenador",
+    "en": "filler"
+  },
+  {
+    "id": 87,
+    "an": "Servidor STUN:",
+    "en": "STUN Server:"
+  },
+  {
+    "id": 88,
+    "an": "Espacio inferior adicional",
+    "en": "Extra space at the bottom"
+  },
+  {
+    "id": 89,
+    "an": "O zaguer fillo de l'actor",
+    "en": "The actor's last child"
+  },
+  {
+    "id": 90,
+    "an": "Brilo",
+    "en": "Brightness"
+  },
+  {
+    "id": 91,
+    "an": "Conchunto de colors d'o texto seleccionau",
+    "en": "Selected Text Color Set"
+  },
+  {
+    "id": 92,
+    "an": "A fuent que se fa servir ta lo texto",
+    "en": "The font to be used by the text"
+  },
+  {
+    "id": 93,
+    "an": "_GPS",
+    "en": "_GPS"
+  },
+  {
+    "id": 94,
+    "an": "Chat de Facebook",
+    "en": "Facebook Chat"
+  },
+  {
+    "id": 95,
+    "an": "Mantener a proporción d'aspecto",
+    "en": "Keep Aspect Ratio"
+  },
+  {
+    "id": 96,
+    "an": "lista",
+    "en": "list"
+  },
+  {
+    "id": 97,
+    "an": "%u:%02u.%02u",
+    "en": "%u:%02u.%02u"
+  },
+  {
+    "id": 98,
+    "an": "Rota d'o tema Adium que usar",
+    "en": "Path of the Adium theme to use"
+  },
+  {
+    "id": 99,
+    "an": "Asignar espacio adicional ta lo fillo en l'eixe horizontal",
+    "en": "Allocate extra space for the child in horizontal axis"
+  }
+]

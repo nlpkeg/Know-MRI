@@ -1,0 +1,7 @@
+{
+    "model_path": "Qwen/Qwen2.5-72B-Instruct",
+    "model_name": "Qwen/Qwen2.5-72B-Instruct",
+    "api_key": "YOUR_API_KEY",
+    "base_url": "YOUR_BASE_URL",
+    "topn": 500
+}

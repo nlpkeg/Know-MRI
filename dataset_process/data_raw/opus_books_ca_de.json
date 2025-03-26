@@ -1,0 +1,502 @@
+[
+  {
+    "id": "0",
+    "ca": "Source: Project GutenbergTranslation: Josep Carner",
+    "de": "Source: Project Gutenberg"
+  },
+  {
+    "id": "1",
+    "ca": "Les Aventures De Tom Sawyer",
+    "de": "Die Abenteuer Tom Sawyers"
+  },
+  {
+    "id": "2",
+    "ca": "Mark Twain",
+    "de": "Mark Twain"
+  },
+  {
+    "id": "3",
+    "ca": "PREFACI.",
+    "de": "Vorwort des Autors."
+  },
+  {
+    "id": "4",
+    "ca": "La major part de les aventures consignades en aquest llibre succeiren de bo de bo; una o dues són experiments de la meva collita; la resta pertanyen a minyons que m'eren companys d'escola.",
+    "de": "Die meisten der hier erzählten Abenteuer haben sich tatsächlich zugetragen. Das eine oder das andere habe ich selbst erlebt, die anderen meine Schulkameraden."
+  },
+  {
+    "id": "5",
+    "ca": "Huck Finn és tret de la vida real; Tom Sawyer també, pero no d'un individu: és una combinació de les característiques de tres nois que jo vaig coneixer; així és que pertany a l'orde arquitectonic compost.",
+    "de": "Huck Finn ist nach dem Leben gezeichnet, nicht weniger Tom Sawyer, doch entspricht dieser nicht einer bestimmten Persönlichkeit, sondern wurde mit charakteristischen Zügen mehrerer meiner Altersgenossen ausgestattet und darf daher jenem gegenüber als einigermaßen kompliziertes psychologisches Problem gelten."
+  },
+  {
+    "id": "6",
+    "ca": "Les estranyes supersticions a les quals hom fa referencia, predominaven totes entre nois i esclaus de l'Oest en el període d'aquesta historia; és a dir, fa trenta o quaranta anys.",
+    "de": "Ich muß hier bemerken, daß zur Zeit meiner Erzählung -- vor dreißig bis vierzig Jahren -- unter den Unmündigen und Unwissenden des Westens noch die seltsamsten, unwahrscheinlichsten Vorurteile und Aberglauben herrschten."
+  },
+  {
+    "id": "7",
+    "ca": "Encara que mon llibre s'adreça sobretot al divertiment de nois i noies, espero que aixo no sera causa que el defugin homes i dones, perque part del meu proposit ha estat mirar de fer plaent memoria als adults d'allo que un dia foren, i de com sentiren i pensaren i parlaren, i en quínes singulars empreses s'esmerçaren de vegades.",
+    "de": "Obwohl dies Buch vor allem zur Unterhaltung der kleinen Welt geschrieben wurde, so darf ich doch wohl hoffen, daß es auch von Erwachsenen nicht ganz unbeachtet gelassen werde, habe ich doch darin versucht, ihnen auf angenehme Weise zu zeigen, was sie einst selbst waren, wie sie fühlten, dachten, sprachen, und welcher Art ihr Ehrgeiz und ihre Unternehmungen waren."
+  },
+  {
+    "id": "8",
+    "ca": "CAPÍTOL I",
+    "de": "Erstes Kapitel."
+  },
+  {
+    "id": "9",
+    "ca": "-Tom!",
+    "de": ",,Tom!\""
+  },
+  {
+    "id": "10",
+    "ca": "Cap resposta.",
+    "de": "Keine Antwort."
+  },
+  {
+    "id": "11",
+    "ca": "-Tom!",
+    "de": ",,Tom!\""
+  },
+  {
+    "id": "12",
+    "ca": "Cap resposta.",
+    "de": "Alles still."
+  },
+  {
+    "id": "13",
+    "ca": "-Que s'ha fet aquest noi? em demano.",
+    "de": ",,Soll mich doch wundern, wo der Bengel wieder steckt!"
+  },
+  {
+    "id": "14",
+    "ca": "Tom!",
+    "de": "Tom!\""
+  },
+  {
+    "id": "15",
+    "ca": "La vella senyora tira per avall les seves ulleres i mira per damunt elles al volt de la cambra. Després les tira per amunt i sotja sota d'elles.",
+    "de": "Die alte Dame schob ihre Brille hinunter und schaute darüber hinweg; dann schob sie sie auf die Stirn und schaute darunter weg."
+  },
+  {
+    "id": "16",
+    "ca": "Poques vegades o mai no mirava a través d'elles per una cosa tan petita com és un noi, perque les ulleres eren de cerimonia, i l'orgull de son cor, i cavalcaven per gala i no pas per servei: igual hauria pogut veure a través d'un parell de tapadores d'estufa.",
+    "de": "Selten oder nie schaute sie nach einem so kleinen Ding, wie ein Knabe ist, _durch_ die Gläser dieser ihrer Staatsbrille, die der Stolz ihres Herzens war und mehr stilvoll als brauchbar; sie würde durch ein paar Herdringe ebensoviel gesehen haben."
+  },
+  {
+    "id": "17",
+    "ca": "Sembla un moment perplexa, i digué, no pas ferotgement, pero tanmateix en veu prou alta perque el parament de la cambra la sentís: -Bé, m'hi jugo qualsevol cosa que si us atrapo us…",
+    "de": "Unruhig hielt sie einen Augenblick Umschau und sagte, nicht gerade erzürnt, aber doch immer laut genug, um im ganzen Zimmer gehört zu werden: ,,Ich werde strenges Gericht halten müssen, wenn ich dich erwische, ich werde --\""
+  },
+  {
+    "id": "18",
+    "ca": "No acaba la frase, perque en aquell moment estava decantant-se i furgant sota el llit amb l'escombra: així és que necessitava ale per al ritme de les furgades.",
+    "de": "Hier brach sie ab, denn sie hatte sich inzwischen niedergebeugt und stocherte mit dem Besen unter dem Bett herum, und dann mußte sie wieder Atem holen, um ihrem Ärger Ausdruck zu verleihen."
+  },
+  {
+    "id": "19",
+    "ca": "No desenterra cap cosa sinó el gat.",
+    "de": "Sie hatte nichts als die Katze aufgestöbert."
+  },
+  {
+    "id": "20",
+    "ca": "-Mai no l'he vist atrapat, aquest noi!",
+    "de": ",,So ein Junge ist mir noch gar nicht vorgekommen!\""
+  },
+  {
+    "id": "21",
+    "ca": "Se n'ana cap a la porta oberta i s'hi atura, i sotja entre els emparrats de tomaqueres i herbes tauperes, que constituien el jardí.",
+    "de": "Sie ging zur offenen Tür, blieb stehen und spähte zwischen den Weinranken und dem blühenden Unkraut, welche zusammen den ,,Garten\" ausmachten, hindurch."
+  },
+  {
+    "id": "22",
+    "ca": "Res de Tom.",
+    "de": "Kein Tom."
+  },
+  {
+    "id": "23",
+    "ca": "Així és que ella féu força per alçar la veu fins al grau exigit per la distancia, i crida:",
+    "de": "So erhob sie denn ihre Stimme und rief in alle Ecken hinein: ,,Tom, Tom!\""
+  },
+  {
+    "id": "24",
+    "ca": "-O-o-o Tom! Sentí una fressa lleu al darrera, i es gira a temps per a agafar un petit minyó per l'extrem de son gec, i aturar la seva fugida. -Té!",
+    "de": "Hinter ihr wurde ein schwaches Geräusch hörbar und sie wandte sich noch eben rechtzeitig um, um einen kleinen Burschen zu erwischen und an der Flucht zu hindern. ,,Also, da steckst du?"
+  },
+  {
+    "id": "25",
+    "ca": "Hauria hagut de pensar en aquest recambró.",
+    "de": "An die Speisekammer habe ich freilich nicht gedacht!"
+  },
+  {
+    "id": "26",
+    "ca": "Que hi féieu, aquí dins?",
+    "de": "Was hast du denn da wieder gemacht, he?\""
+  },
+  {
+    "id": "27",
+    "ca": "-Res.",
+    "de": ",,Nichts.\""
+  },
+  {
+    "id": "28",
+    "ca": "-Res!",
+    "de": ",,Nichts!"
+  },
+  {
+    "id": "29",
+    "ca": "Mireu-vos les mans i mireu-vos la boca.",
+    "de": "Schau deine Hände an und deinen Mund."
+  },
+  {
+    "id": "30",
+    "ca": "-No ho sé, tia.",
+    "de": "Was ist das?\""
+  },
+  {
+    "id": "31",
+    "ca": "-Bé, jo sí, que ho sé.",
+    "de": ",,Bei Gott, ich weiß es nicht, Tante!\""
+  },
+  {
+    "id": "32",
+    "ca": "És melmelada: vet aquí el que és.",
+    "de": ",,Aber _ich_ weiß es, 's ist Marmelade."
+  },
+  {
+    "id": "33",
+    "ca": "Us he dit quaranta vegades que si no deixaveu la melmelada tranquila us llevaria la pell.",
+    "de": "Wie oft habe ich dir gesagt, wenn du über die Marmelade gingest, würde ich dich bläuen."
+  },
+  {
+    "id": "34",
+    "ca": "Deu-me aquell fuet.",
+    "de": "Gib mir den Stock her!\""
+  },
+  {
+    "id": "35",
+    "ca": "El fuet fou brandat per l'aire.",
+    "de": "Der Stock zitterte in ihren Händen."
+  },
+  {
+    "id": "36",
+    "ca": "El perill era desesperat.",
+    "de": "Die Gefahr war dringend."
+  },
+  {
+    "id": "37",
+    "ca": "-Ui! Mireu al darrera vostre, tia!",
+    "de": ",,Holla, Tante, sieh dich mal schnell um!\""
+  },
+  {
+    "id": "38",
+    "ca": "La vella senyora es gira arremolinadament, i arrabassa les faldilles cap enfora de l'amenaça; i el minyó fugí tot seguit, s'enfila damunt el clos d'altes estaques, i desaparegué a l'altra banda.",
+    "de": "Die alte Dame fuhr herum und brachte ihre Röcke in Sicherheit, während der Bursche, den Augenblick wahrnehmend, auf den hohen Bretterzaun kletterte und jenseits verschwand."
+  },
+  {
+    "id": "39",
+    "ca": "La tia Polly romangué sorpresa un moment i en acabat esclatá en una dolça rialla.",
+    "de": "Tante Polly stand sprachlos, dann begann sie gutmütig zu lächeln."
+  },
+  {
+    "id": "40",
+    "ca": "-Diastre de noi!",
+    "de": ",,Der Kuckuck hole den Jungen!"
+  },
+  {
+    "id": "41",
+    "ca": "Mireu's que és prou, que jo mai pugui escarmentar!",
+    "de": "Werde ich denn das niemals lernen?"
+  },
+  {
+    "id": "42",
+    "ca": "No m'ha fet prou martingales, perque ara m'emprengui de sotjar-lo?",
+    "de": "Hat er mir denn nicht schon Streiche genug gespielt, daß ich immer wieder auf den Leim krieche?"
+  },
+  {
+    "id": "43",
+    "ca": "Pero un vell ximple és el pitjor dels ximples. Un gos vell no apren cap traça nova, com diu la dita.",
+    "de": "Aber alte Torheit ist die größte Torheit, und ein alter Hund lernt keine neuen Kunststücke mehr."
+  },
+  {
+    "id": "44",
+    "ca": "Tanmateix, en nom de Déu, ell no s'empesca mai les mateixes coses dues vegades seguides; i com pot coneixer un hom la que ha de venir?",
+    "de": "Aber, du lieber Gott, er macht jeden Tag neue, und wie kann jemand bei ihm wissen, was kommt!"
+  },
+  {
+    "id": "45",
+    "ca": "Sembla talment que sapiga per quant de temps podra de consumir-me les sangs sense que m'arribi a arborar, i sap que, si arriba a aconseguir de deixar-me en bitza per un minut o fer-me riure, jo m'aplaco i no puc ventar-li patacada.",
+    "de": "Es scheint, er weiß ganz genau, wie lange er mich quälen kann, bis ich dahinter komme, und ist gar zu gerissen, wenn es gilt, etwas ausfindig zu machen, um mich für einen Augenblick zu verblüffen oder mich wider Willen lachen zu machen, es ist immer dieselbe Geschichte, und ich bringe es nicht fertig, ihn zu prügeln."
+  },
+  {
+    "id": "46",
+    "ca": "No hi compleixo pas la meva obligació amb aquest noi; i aquesta és la santa veritat, Déu ho sap.",
+    "de": "Ich tue meine Pflicht nicht an dem Knaben, wie ich sollte, Gott weiß es. ,Spare die Rute, und du verdirbst dein Kind', heißt es."
+  },
+  {
+    "id": "47",
+    "ca": "Planyer el bastó malmet el minyó, com diu la Bíblia.",
+    "de": "Ich begehe vielleicht unrecht und kann es vor mir und ihm nicht verantworten, fürcht' ich."
+  },
+  {
+    "id": "48",
+    "ca": "Deixo que el pecat s'amuntegui, i pago la pena per tots dos, massa que ho veig.",
+    "de": "Er steckt voller Narrenspossen und allerhand Unsinn -- aber einerlei!"
+  },
+  {
+    "id": "49",
+    "ca": "És un vailet endimoniat; pero, caram!, és el noi de la meva germana morta, pobrissona!, i no tinc cor de ventar-li fuetada, sigui com sigui.",
+    "de": "Er ist meiner toten Schwester Kind, ein armes Kind, und ich habe nicht das Herz, ihn irgendwie am Gängelband zu führen."
+  },
+  {
+    "id": "50",
+    "ca": "Cada vegada que el deixo anar, la consciencia em puny de allo més; i cada vegada que l'aporrino el cor se'm trenca.",
+    "de": "Wenn ich ihn sich selbst überlasse, drückt mich mein Gewissen, und so oft ich ihn schlagen muß, möchte mit das alte Herz brechen."
+  },
+  {
+    "id": "51",
+    "ca": "Tanmateix, home nat de dona és de pocs dies i ple de tribulacions, com diu l'Escriptura, i és la massíssima veritat.",
+    "de": "Nun, mag's drum sein, der weibgeborene Mensch bleibt halt sein ganzes Leben durch in Zweifel und Irrtum, wie die heilige Schrift sagt, und ich denke, es ist so."
+  },
+  {
+    "id": "52",
+    "ca": "Fara campana aquesta tarda, i no tindré més remei que fer-lo treballar dema, per a castigar-lo.",
+    "de": "Er wird wieder den ganzen Abend Blindekuh spielen, und ich sollte ihn von Rechts wegen, um ihn zu strafen, morgen arbeiten lassen."
+  },
+  {
+    "id": "53",
+    "ca": "És ben dur de fer-lo treballar els dissabtes, quan tots els minyons fan festa; pero ell té més rancúnia al treball que a cap altra cosa, i, no hi ha més, he de complir amb ell una mica de la meva obligació, o seré la seva ruina.",
+    "de": "Es ist wohl hart für ihn, am Samstag stillzusitzen, wenn alle anderen Knaben Feiertag haben, aber er haßt Arbeit mehr als irgend sonst was, und ich will meine Pflicht an ihm tun, oder ich würde das Kind zu Grunde richten.\""
+  },
+  {
+    "id": "54",
+    "ca": "Tom va fer campana, i va passar una gentil estona.",
+    "de": "Tom spielte Blindekuh und fühlte sich sehr wohl dabei."
+  },
+  {
+    "id": "55",
+    "ca": "Torna a casa amb prou feines a temps d'ajudar Jim, el vailet negre, a serrar la llenya del dia següent; i partí les teies abans de sopar, o almenys estigué allí a una hora escaient per a dir ses aventures a Jim, mentre Jim feia les tres quartes parts de la feina.",
+    "de": "Zur rechten Zeit kehrte er ganz frech nach Hause zurück, um Jim, dem kleinen, farbigen Bengel, zu helfen, noch vor Tisch das Holz für den nächsten Tag zu sägen und zu spalten -- und schließlich hatte er Jim die Abenteuer des Tages erzählt, während Jim drei Viertel der Arbeit getan hatte."
+  },
+  {
+    "id": "56",
+    "ca": "El germa petit de Tom (o, millor, germanastre), Sid, estava ja enfeinat en la seva contribució al treball (arreplegant les miques de fusta), perque era un noi tranquil, i no pas de mena aventurera ni enquimeradora.",
+    "de": "Toms jüngerer Bruder (oder vielmehr Halbbruder) Sid war bereits fertig mit seinem Anteil an der Arbeit, dem Zusammenlesen des Holzes, denn er war ein phlegmatischer Junge und hatte keinerlei Abenteuer und kühne Unternehmungen."
+  },
+  {
+    "id": "57",
+    "ca": "Mentre Tom anava menjant-se el seu sopar i robava el sucre en oferir-se-n'hi avinentesa, la tia Polly li feia preguntes que eren plenes d'artifici i molt pregones, perque volia atrapar-lo en revelacions perjudicials.",
+    "de": "Während Tom nun seine Suppe aß und nach Möglichkeit Zuckerstückchen stahl, stellte Tante Polly allerhand Fragen an ihn, arglistige und verfängliche Fragen, denn sie brannte darauf, ihn in eine Falle zu locken."
+  },
+  {
+    "id": "58",
+    "ca": "Com esdevé a moltes altres animes senzilles, la seva vanitat predilecta era de creure que tenia un talent especial per a l'ombrívola i misteriosa diplomacia, i li plaia de considerar sos enginys més transparents com a meravelles d'extraordinaria trapelleria.",
+    "de": "Wie so viele gutherzige Geschöpfe, bildete sie sich auf ihr Talent in der höheren Diplomatie nicht wenig ein und betrachtete ihre sehr durchsichtigen Anschläge als wahre Wunder inquisitorischer Verschlagenheit."
+  },
+  {
+    "id": "59",
+    "ca": "-Tom- digué ella -feia bastanta calor a l'escola: veritat?",
+    "de": ",,Tom,\" sagte sie, ,,es war wohl ziemlich heiß in der Schule?\""
+  },
+  {
+    "id": "60",
+    "ca": "-Sí, senyora.",
+    "de": ",,M -- ja\""
+  },
+  {
+    "id": "61",
+    "ca": "-Molta calor: veritat?",
+    "de": ",,_Sehr_ heiß, he?\""
+  },
+  {
+    "id": "62",
+    "ca": "-Sí, senyora.",
+    "de": ",,M -- ja.\""
+  },
+  {
+    "id": "63",
+    "ca": "-No teníeu ganes de rabejar-vos una mica a l'aigua, Tom?",
+    "de": ",,Hattest du nicht Lust, zum Schwimmen zu gehen?\""
+  },
+  {
+    "id": "64",
+    "ca": "Tom es sentí ferit d'un bri d'alarma, d'un toc de sospita inquieta.",
+    "de": "Tom stutzte -- ein ungemütlicher Verdacht stieg in ihm auf."
+  },
+  {
+    "id": "65",
+    "ca": "Escruta la cara de la tia Polly, pero ella no li digué res.",
+    "de": "Er schaute forschend in Tante Pollys Gesicht, aber es war nichts darin zu lesen."
+  },
+  {
+    "id": "66",
+    "ca": "Així és que féu: -No sé…, és a dir, no molt.",
+    "de": "So sagte er: ,,Nein -- das heißt -- nicht so sehr.\""
+  },
+  {
+    "id": "67",
+    "ca": "La vella senyora estengué la seva ma i toca la camisa de Tom, i digué: -Pero tampoc no esteu massa calent, ara.",
+    "de": "Die alte Dame streckte ihre Hand nach ihm aus, befühlte seinen Kragen und sagte: ,,Jetzt, scheint mir, kann dir jedenfalls nicht mehr zu warm sein, nicht?\""
+  },
+  {
+    "id": "68",
+    "ca": "I li fou cosa afalagadora, de reflexionar que ella havia descobert que la camisa era seca, sense que ningú s'adonés que aixo era la cosa que portava al magí.",
+    "de": "Auf diese Art, dachte sie, habe sie sich von der vollkommenen Trockenheit seines Kragens überzeugt, ohne ihre wahre Absicht von fern merken zu lassen."
+  },
+  {
+    "id": "69",
+    "ca": "Pero, a desgrat d'ella, Tom ara sabia d'on venia el vent.",
+    "de": "Aber Tom hatte trotzdem begriffen, woher der Wind wehte."
+  },
+  {
+    "id": "70",
+    "ca": "Així és que preveié quína seria la vinent jugada.",
+    "de": "So beeilte er sich wohlweislich, allen etwaigen Fragen zuvorzukommen."
+  },
+  {
+    "id": "71",
+    "ca": "-Alguns de nosaltres ens mullarem el cap sota la bomba… Jo encara el tinc humit. Veieu?",
+    "de": ",,Einige von uns haben sich den Kopf unter die Pumpe gehalten -- meiner ist noch feucht -- fühl nur.\""
+  },
+  {
+    "id": "72",
+    "ca": "La tia Polly va enrabinar-se de pensar que havia passat per alt aquell bocí de prova circumstancial i negligit una pista.",
+    "de": "Tante Polly ärgerte sich, eine so wichtige Indizie übersehen zu haben; so hatte sie von vornherein ihre Waffen aus der Hand gegeben."
+  },
+  {
+    "id": "73",
+    "ca": "Aleshores digué, amb nova inspiració:",
+    "de": "Dann kam ihr aber ein neuer Gedanke."
+  },
+  {
+    "id": "74",
+    "ca": "-Tom: no us calgué pas d'arrencar el coll de la camisa d'alla on jo l'havia cosit, per mullar-vos el cap: oi?",
+    "de": ",,Tom, du hast doch wohl nicht den Kragen, den ich dir an die Jacke genäht hatte, beim Unter-die-Pumpe-halten des Kopfes abgenommen?"
+  },
+  {
+    "id": "75",
+    "ca": "Descordeu-vos el gec!",
+    "de": "Mach doch mal die Jacke auf!\""
+  },
+  {
+    "id": "76",
+    "ca": "A la cara de Tom s'hi esvaí la preocupació.",
+    "de": "Toms Mienen hellten sich auf."
+  },
+  {
+    "id": "77",
+    "ca": "Obrí son gec.",
+    "de": "Er öffnete seine Jacke."
+  },
+  {
+    "id": "78",
+    "ca": "Son coll de camisa estava solidament cosit.",
+    "de": "Sein Kragen saß ganz fest."
+  },
+  {
+    "id": "79",
+    "ca": "-Dolentot!",
+    "de": ",,Wirklich."
+  },
+  {
+    "id": "80",
+    "ca": "Bé, ja podeu tocar pirandó.",
+    "de": "Na 's ist gut, du kannst gehen."
+  },
+  {
+    "id": "81",
+    "ca": "Estava segura que havíeu fet el plaga i havíeu anat a nedar.",
+    "de": "Ich hätte darauf geschworen, daß du im Wasser gewesen seiest."
+  },
+  {
+    "id": "82",
+    "ca": "Pero us perdono. Tom: em fa l'efecte que sou una mena de gat escaldat, com diu la gent… i millor del que sembleu, per aquesta vegada.",
+    "de": "Nun, dir geht es diesmal wie der gebrannten Katze, ich habe dich zu Unrecht in Verdacht gehabt -- _diesmal_, Tom.\""
+  },
+  {
+    "id": "83",
+    "ca": "Mig li recava que la seva sagacitat hagués fet fallida, i mig s'alegrava que Tom s'hagués ensopegat, per una vegada, a servar obedient conducta.",
+    "de": "Sie war halb verdrießlich, so aus dem Felde geschlagen zu sein, und doch freute sie sich, daß Tom doch wirklich mal gehorsam gewesen war."
+  },
+  {
+    "id": "84",
+    "ca": "Pero Sidney digué: -Bé, jo diria que li havíeu cosit el coll amb fil blanc; pero ara és negre.",
+    "de": "Plötzlich sagte Sidney: ,,Ich hab' aber doch gesehen, daß du seinen Kragen mit weißem Zwirn genäht hast -- und jetzt ist er auf einmal schwarz!\""
+  },
+  {
+    "id": "85",
+    "ca": "-Oital, si el vaig cosir amb fil blanc!",
+    "de": ",,Freilich hab' ich weißen genommen -- Tom!\""
+  },
+  {
+    "id": "86",
+    "ca": "Tom! Pero Tom no n'espera l'acabament. En passar la porta, digué:",
+    "de": "Aber Tom hatte sich schon aus dem Staube gemacht. ,,Na, warte, Sidney, das sollst du mir büßen,\" damit war er aus der Tür."
+  },
+  {
+    "id": "87",
+    "ca": "-Siddy, aixo et valdra una pallissa. En un indret segur, Tom examina dues grans agulles clavades a les gires del seu gec; i estaven enfilades, l'una enfilada de fil blanc i l'altra de negre.",
+    "de": "An einem sicheren Plätzchen beschaute Tom dann zwei lange Nadeln, welche unter dem Kragen seines Rockes steckten, die eine mit schwarzem, die andere mit weißem Zwirn."
+  },
+  {
+    "id": "88",
+    "ca": "-Mai no n'hauria hagut esment, si no hagués estat per Sid.",
+    "de": ",,Sie allein hätte es nie gemerkt,\" dachte er, ,,ohne diesen Sid."
+  },
+  {
+    "id": "89",
+    "ca": "Llamp! De vegades ella ho cus amb fil blanc, i de vegades ho cus amb fil negre. Voldria, en nom de Déu, que sempre ho fes amb l'un o amb l'altre: no puc estar tan amatent als canvis.",
+    "de": "Einmal schwarzen, das andere Mal weißen -- zum Teufel, ich wollte, sie entschiede sich für einen, damit ich wüßte, woran ich wäre."
+  },
+  {
+    "id": "90",
+    "ca": "Pero em jugo qualsevol cosa que a Sid l'estaborniré.",
+    "de": "Und Sid -- na, seine Prügel sind ihm sicher; wenn ich's nicht tue, soll man mir die Ohren abschneiden.\""
+  },
+  {
+    "id": "91",
+    "ca": "Li daré una lliçó! Tom no era pas el noi model del poblet.",
+    "de": "Tom war kein Musterknabe, aber er kannte einen und haßte ihn von Herzen."
+  },
+  {
+    "id": "92",
+    "ca": "Al cap de dos minuts, o menys i tot, havia oblidat tots els seus mals de cap.",
+    "de": "Ein Augenblick -- und Tom hatte alle seine Kümmernisse vergessen."
+  },
+  {
+    "id": "93",
+    "ca": "No era perque sos mals de cap fossin per a ell ni una mica mica menys amargs i atuidors que els d'un home gran per a un home gran, sinó perque un nou i poderós interes els passa al davant, i els esvaí per aquella estona en la seva ment; igual que els infortunis dels homes són oblidats en l'exaltació de les empreses noves.",
+    "de": "Nicht, daß sie auf einmal geringer geworden wären oder weniger auf dem Herzen des kleinen Mannes gelastet hätten, -- aber Tom hatte eine neue, wundervolle Beschäftigung, und die richtete ihn auf und half ihm über alles hinweg -- für den Augenblick; wie eben ein Mann alles Mißgeschick beim Gedanken an neue Taten verschmerzt."
+  },
+  {
+    "id": "94",
+    "ca": "Aquest nou interes era una valuosa novetat en l'art de xiular, que acabava d'adquirir d'un negre; i ell es delia per ensinistrar-s'hi sense noses.",
+    "de": "Diese neue Beschäftigung war eine ganz neue Art, zu pfeifen, die ihm irgend ein Negerbengel vor kurzem beigebracht hatte, und die jetzt ungestört geübt werden mußte."
+  },
+  {
+    "id": "95",
+    "ca": "Consistia en un peculiar caient ocellívol, una mena de líquid refilet, que hom produia per un contacte de la llengua amb el paladar, a breus intervals, en mig de la música.",
+    "de": "Die wichtige Erfindung beruhte auf einem vogelartigen, schmetternden Triller, mit gleichzeitigem, durch Zungenschlag hervorgebrachten Geschwindmarsch von Tönen."
+  },
+  {
+    "id": "96",
+    "ca": "El lector probablement recorda com es fa, si mai ha estat noi.",
+    "de": "Der Leser weiß, wie man diese delikate Musik ausübt -- oder er ist niemals jung gewesen."
+  },
+  {
+    "id": "97",
+    "ca": "Diligencia i atenció aviat aconseguiren de fer-l'hi dominar, i ell baixa a grans passes pel carrer, amb la boca plena d'harmonia i l'anima plena de gratitud.",
+    "de": "Tom hatte mit Fleiß und Aufmerksamkeit bald den Trick heraus und schlenderte, den Mund voll Harmonie und Stolz im Herzen, die Dorfstraße hinunter."
+  },
+  {
+    "id": "98",
+    "ca": "Sos sentiments eren ben iguals als d'un astronom que ha descobert un nou planeta.",
+    "de": "Er fühlte sich wie ein Sterngucker, der ein neues Gestirn entdeckt hat."
+  },
+  {
+    "id": "99",
+    "ca": "Sens dubte, pel que pertoca a un plaer intens, pregon, sense mescla, l'aventatge era per al noi i no pas per a l'astronom.",
+    "de": "Nur daß keines Sternguckers Freude und Genugtuung so tief und ungetrübt hatte sein können wie die Toms."
+  }
+]

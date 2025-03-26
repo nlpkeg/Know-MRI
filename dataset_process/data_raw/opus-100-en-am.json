@@ -1,0 +1,502 @@
+[
+  {
+    "id": 0,
+    "am": "ቀን (_D)",
+    "en": "Date"
+  },
+  {
+    "id": 1,
+    "am": "ሰ_ብሰባ",
+    "en": "M_eeting"
+  },
+  {
+    "id": 2,
+    "am": "የዌብ አድራሻ ዎች",
+    "en": "Web Addresses"
+  },
+  {
+    "id": 3,
+    "am": "universal access, delay",
+    "en": "universal access, delay"
+  },
+  {
+    "id": 4,
+    "am": "ደረጃ አንድ",
+    "en": "Level one"
+  },
+  {
+    "id": 5,
+    "am": "D",
+    "en": "D"
+  },
+  {
+    "id": 6,
+    "am": "አዲስ ዶሴ ፍጠርNew",
+    "en": "Create a new assigned task"
+  },
+  {
+    "id": 7,
+    "am": "%d %B",
+    "en": "%d %B"
+  },
+  {
+    "id": 8,
+    "am": "ጥቅሎችን በማስወገድ ላይ",
+    "en": "Removing packages"
+  },
+  {
+    "id": 9,
+    "am": "ለአጭር ጊዜ አሳርፍ",
+    "en": "Pause"
+  },
+  {
+    "id": 10,
+    "am": "15ኛ",
+    "en": "15th"
+  },
+  {
+    "id": 11,
+    "am": "መጠቀሚያ ፕሮግራም",
+    "en": "application"
+  },
+  {
+    "id": 12,
+    "am": "i p,",
+    "en": "%I:%M %p"
+  },
+  {
+    "id": 13,
+    "am": "kphknots",
+    "en": "mph"
+  },
+  {
+    "id": 14,
+    "am": "ሙሉ ስም",
+    "en": "_Label name:"
+  },
+  {
+    "id": 15,
+    "am": "ከ-ፐ_BAR_ስፓኒሽ (የሜክሲኮ)",
+    "en": "N-Z_BAR_Spanish (El Salvador)"
+  },
+  {
+    "id": 16,
+    "am": "አስፈላጊ",
+    "en": "_Important"
+  },
+  {
+    "id": 17,
+    "am": "አንቱ",
+    "en": "You:"
+  },
+  {
+    "id": 18,
+    "am": "ታሪክ",
+    "en": "History"
+  },
+  {
+    "id": 19,
+    "am": "ቡልጋሪኛ",
+    "en": "Belarusian Sun keymap"
+  },
+  {
+    "id": 20,
+    "am": "ሀ-አ_BAR_ቼክኛ",
+    "en": "A-M_BAR_Czech"
+  },
+  {
+    "id": 21,
+    "am": "ፌብሩabbreviated month name",
+    "en": "Feb"
+  },
+  {
+    "id": 22,
+    "am": "mahjongg map name",
+    "en": "Tic-Tac-Toe"
+  },
+  {
+    "id": 23,
+    "am": "መስኮቱን ዝጋ",
+    "en": "Close window"
+  },
+  {
+    "id": 24,
+    "am": "Delegated: Meeting NameMeeting",
+    "en": "Declined"
+  },
+  {
+    "id": 25,
+    "am": "3ኛ",
+    "en": "3rd"
+  },
+  {
+    "id": 26,
+    "am": "Ctrm",
+    "en": "Ctrm"
+  },
+  {
+    "id": 27,
+    "am": "1/x",
+    "en": "1/x"
+  },
+  {
+    "id": 28,
+    "am": "በየወር",
+    "en": "Once per month"
+  },
+  {
+    "id": 29,
+    "am": "ተወው",
+    "en": "Cancelled"
+  },
+  {
+    "id": 30,
+    "am": "ምስሎች",
+    "en": "No Image"
+  },
+  {
+    "id": 31,
+    "am": "ቡልጋሪኛ",
+    "en": "British Sun Type-4 keymap"
+  },
+  {
+    "id": 32,
+    "am": "Cc፦",
+    "en": "_Cc:"
+  },
+  {
+    "id": 33,
+    "am": "ፈልግ",
+    "en": "_Search"
+  },
+  {
+    "id": 34,
+    "am": "_የሰርቨር ስም፦",
+    "en": "Server Type:"
+  },
+  {
+    "id": 35,
+    "am": "ባንዲራዎች፦",
+    "en": "Faces:"
+  },
+  {
+    "id": 36,
+    "am": "ዐምድ ጨምር...",
+    "en": "Add a C_olumn..."
+  },
+  {
+    "id": 37,
+    "am": "ማላይኛ",
+    "en": "Malaysia"
+  },
+  {
+    "id": 38,
+    "am": "stockslot hint",
+    "en": "%s on reserve"
+  },
+  {
+    "id": 39,
+    "am": "%B %Y",
+    "en": "%B %Y"
+  },
+  {
+    "id": 40,
+    "am": "እንግዳ ተቀባይ",
+    "en": "Host"
+  },
+  {
+    "id": 41,
+    "am": "የጨዋታ አርእስት",
+    "en": "Game preview"
+  },
+  {
+    "id": 42,
+    "am": "ወደቀኝ አንቀሳቅስ",
+    "en": "_Move Hints"
+  },
+  {
+    "id": 43,
+    "am": "Calibration quality",
+    "en": "Calibration quality"
+  },
+  {
+    "id": 44,
+    "am": "የጽሑፎችን በቅደም ተከተል ጠብቅ",
+    "en": "Collate"
+  },
+  {
+    "id": 45,
+    "am": "Interpolation",
+    "en": "Interpolation:"
+  },
+  {
+    "id": 46,
+    "am": "ያልታወቀ ዕሴት",
+    "en": "Unknown value"
+  },
+  {
+    "id": 47,
+    "am": "(ም) 2002 ኖም",
+    "en": "(c) 2002 GNOME"
+  },
+  {
+    "id": 48,
+    "am": "ሰዓቶች",
+    "en": "Hours"
+  },
+  {
+    "id": 49,
+    "am": "Password strength",
+    "en": "Password strength"
+  },
+  {
+    "id": 50,
+    "am": "የቤት ፋክስ",
+    "en": "Home page"
+  },
+  {
+    "id": 51,
+    "am": "ግራ፦",
+    "en": "Left:"
+  },
+  {
+    "id": 52,
+    "am": "ሌላ",
+    "en": "Other Email"
+  },
+  {
+    "id": 53,
+    "am": "በዐምድ _ጀምር፦",
+    "en": "Display right _margin at column:"
+  },
+  {
+    "id": 54,
+    "am": "ብርሃን",
+    "en": "Light"
+  },
+  {
+    "id": 55,
+    "am": "በአግድም",
+    "en": "Flip _Horizontal"
+  },
+  {
+    "id": 56,
+    "am": "_የሰነዶች ቍጥር መረጃ ጥናት",
+    "en": "_Document Statistics"
+  },
+  {
+    "id": 57,
+    "am": "ዩኒኮድ",
+    "en": "Unicode"
+  },
+  {
+    "id": 58,
+    "am": "ድርድር",
+    "en": "_Tile set:"
+  },
+  {
+    "id": 59,
+    "am": "ሰዓት፦",
+    "en": "Size:"
+  },
+  {
+    "id": 60,
+    "am": "18ኛ",
+    "en": "18th"
+  },
+  {
+    "id": 61,
+    "am": "አዲስ ሰነድ ፍጠር",
+    "en": "Create new snippet"
+  },
+  {
+    "id": 62,
+    "am": "_አትም...",
+    "en": "_Print..."
+  },
+  {
+    "id": 63,
+    "am": "ቦታ",
+    "en": "Location"
+  },
+  {
+    "id": 64,
+    "am": "ላክ",
+    "en": "_Sound:"
+  },
+  {
+    "id": 65,
+    "am": "ያልታወቀ ቀለም",
+    "en": "Unknown room"
+  },
+  {
+    "id": 66,
+    "am": "ጀርመን",
+    "en": "German keymap"
+  },
+  {
+    "id": 67,
+    "am": "ዝምብለህ ይግባ",
+    "en": "Login"
+  },
+  {
+    "id": 68,
+    "am": "መረጃ (_H)",
+    "en": "_Help"
+  },
+  {
+    "id": 69,
+    "am": "ጣሊያንኛ",
+    "en": "Italic"
+  },
+  {
+    "id": 70,
+    "am": "አልተገኘም",
+    "en": "Not connected"
+  },
+  {
+    "id": 71,
+    "am": "ማጠቃለያ: %s",
+    "en": "Summary: %s"
+  },
+  {
+    "id": 72,
+    "am": "የማህጆንግ ጨዋታ",
+    "en": "Mahjongg Scores"
+  },
+  {
+    "id": 73,
+    "am": "የአሁኑ ዕይታ",
+    "en": "Save current changes"
+  },
+  {
+    "id": 74,
+    "am": "ከ-ፐ_BAR_ስሎቪኛ",
+    "en": "N-Z_BAR_Slovenian"
+  },
+  {
+    "id": 75,
+    "am": "ደቡባዊ አውሮፓውያን",
+    "en": "South European"
+  },
+  {
+    "id": 76,
+    "am": "ሌላ",
+    "en": "Other Email"
+  },
+  {
+    "id": 77,
+    "am": "ሁሉም",
+    "en": "All"
+  },
+  {
+    "id": 78,
+    "am": "የሚገኙ ፎርማቶች",
+    "en": "Available formats"
+  },
+  {
+    "id": 79,
+    "am": "የመስመር ቍጥሮች አሳይ",
+    "en": "Display Line Numbers"
+  },
+  {
+    "id": 80,
+    "am": "የጨዋታ አይነት፦",
+    "en": "Game speed"
+  },
+  {
+    "id": 81,
+    "am": "ፋይል ክፈት",
+    "en": "Folder:"
+  },
+  {
+    "id": 82,
+    "am": "ቀን (_D)",
+    "en": "Delete text"
+  },
+  {
+    "id": 83,
+    "am": "አገናኝ",
+    "en": "Conflicts"
+  },
+  {
+    "id": 84,
+    "am": "8ኛ",
+    "en": "8th"
+  },
+  {
+    "id": 85,
+    "am": "ቀን",
+    "en": "Date"
+  },
+  {
+    "id": 86,
+    "am": "አጥፉ (_D)",
+    "en": "_Delete"
+  },
+  {
+    "id": 87,
+    "am": "%A, %B %e %Y",
+    "en": "%A, %B %e %H:%M"
+  },
+  {
+    "id": 88,
+    "am": "23ኛ",
+    "en": "23rd"
+  },
+  {
+    "id": 89,
+    "am": "ተገናኝቷል (_N)",
+    "en": "C_onnect"
+  },
+  {
+    "id": 90,
+    "am": "ላምፕ ሰርቨር ይጫን",
+    "en": "Install a LAMP server"
+  },
+  {
+    "id": 91,
+    "am": "ትግባሮች (_A)Tentatively Accepted: Meeting NameMeeting",
+    "en": "Accepted"
+  },
+  {
+    "id": 92,
+    "am": "ዶሴ ፍጠር (_F)",
+    "en": "Create _Folder"
+  },
+  {
+    "id": 93,
+    "am": "የምስል እርዝማኔ፦",
+    "en": "Image height:"
+  },
+  {
+    "id": 94,
+    "am": "አይ",
+    "en": "_No"
+  },
+  {
+    "id": 95,
+    "am": "አስተያየት፦",
+    "en": "Comment:"
+  },
+  {
+    "id": 96,
+    "am": "gesture_BAR_",
+    "en": "gesture_BAR_Move left"
+  },
+  {
+    "id": 97,
+    "am": "አስቸኳይ",
+    "en": "Urgent"
+  },
+  {
+    "id": 98,
+    "am": "\"%s\": %s",
+    "en": "\"%s\": %s"
+  },
+  {
+    "id": 99,
+    "am": "የአደራጆች ረዳት ፕሮግራም",
+    "en": "Developer's Help program"
+  }
+]

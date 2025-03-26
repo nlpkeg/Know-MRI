@@ -1,0 +1,4 @@
+{
+    "model_path": "baichuan-inc/Baichuan-7B",
+    "num_heads": 5
+}

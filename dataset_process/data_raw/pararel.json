@@ -1,0 +1,1914 @@
+[
+    {
+        "prompt": "Guy Babylon works as",
+        "prompts": [
+            "Guy Babylon works as",
+            "Guy Babylon, who works as",
+            "the occupation of Guy Babylon is",
+            "Guy Babylon's profession is a",
+            "Guy Babylon's profession is an",
+            "the profession of Guy Babylon is"
+        ],
+        "ground_truth": "composer",
+        "triple": [
+            "Guy Babylon",
+            "by-profession",
+            "composer"
+        ],
+        "triple_subject": "Guy Babylon",
+        "triple_relation": "by-profession",
+        "triple_object": "composer"
+    },
+    {
+        "prompt": "Francisco Goya is a citizen of",
+        "prompts": [
+            "Francisco Goya is a citizen of",
+            "Francisco Goya, a citizen of",
+            "Francisco Goya, who is a citizen of",
+            "Francisco Goya holds a citizenship of",
+            "Francisco Goya has a citizenship of",
+            "Francisco Goya, who holds a citizenship of",
+            "Francisco Goya, who has a citizenship of"
+        ],
+        "ground_truth": "Spain",
+        "triple": [
+            "Francisco Goya",
+            "citizen",
+            "Spain"
+        ],
+        "triple_subject": "Francisco Goya",
+        "triple_relation": "citizen",
+        "triple_object": "Spain"
+    },
+    {
+        "prompt": "Arab is follower of",
+        "prompts": [
+            "Arab is follower of"
+        ],
+        "ground_truth": "Christianity",
+        "triple": [
+            "Arab",
+            "affiliated-with",
+            "Christianity"
+        ],
+        "triple_subject": "Arab",
+        "triple_relation": "affiliated-with",
+        "triple_object": "Christianity"
+    },
+    {
+        "prompt": "Ostermundigen is located in",
+        "prompts": [
+            "Ostermundigen is located in",
+            "Ostermundigen, which is located in",
+            "Ostermundigen, located in"
+        ],
+        "ground_truth": "Switzerland",
+        "triple": [
+            "Ostermundigen",
+            "is-located",
+            "Switzerland"
+        ],
+        "triple_subject": "Ostermundigen",
+        "triple_relation": "is-located",
+        "triple_object": "Switzerland"
+    },
+    {
+        "prompt": "Microsoft Developer Network is owned by",
+        "prompts": [
+            "Microsoft Developer Network is owned by",
+            "Microsoft Developer Network owner"
+        ],
+        "ground_truth": "Microsoft",
+        "triple": [
+            "Microsoft Developer Network",
+            "owned-by",
+            "Microsoft"
+        ],
+        "triple_subject": "Microsoft Developer Network",
+        "triple_relation": "owned-by",
+        "triple_object": "Microsoft"
+    },
+    {
+        "prompt": "Auguste Cain was born in",
+        "prompts": [
+            "Auguste Cain was born in",
+            "Auguste Cain is originally from",
+            "Auguste Cain was originally from",
+            "Auguste Cain is native to",
+            "Auguste Cain was native to",
+            "Auguste Cain originated from",
+            "Auguste Cain originates from"
+        ],
+        "ground_truth": "Paris",
+        "triple": [
+            "Auguste Cain",
+            "born",
+            "Paris"
+        ],
+        "triple_subject": "Auguste Cain",
+        "triple_relation": "born",
+        "triple_object": "Paris"
+    },
+    {
+        "prompt": "Ukraine maintains diplomatic relations with",
+        "prompts": [
+            "Ukraine maintains diplomatic relations with",
+            "Ukraine ties diplomatic relations with",
+            "Ukraine has diplomatic relations with"
+        ],
+        "ground_truth": "Lithuania",
+        "triple": [
+            "Ukraine",
+            "maintains",
+            "Lithuania"
+        ],
+        "triple_subject": "Ukraine",
+        "triple_relation": "maintains",
+        "triple_object": "Lithuania"
+    },
+    {
+        "prompt": "Barnsley shares border with",
+        "prompts": [
+            "Barnsley shares border with",
+            "Barnsley borders with",
+            "Barnsley shares the border with",
+            "Barnsley shares its border with",
+            "Barnsley shares a common border with"
+        ],
+        "ground_truth": "Sheffield",
+        "triple": [
+            "Barnsley",
+            "border",
+            "Sheffield"
+        ],
+        "triple_subject": "Barnsley",
+        "triple_relation": "border",
+        "triple_object": "Sheffield"
+    },
+    {
+        "prompt": "Honda Zoomer is produced by",
+        "prompts": [
+            "Honda Zoomer is produced by",
+            "Honda Zoomer is developed by",
+            "Honda Zoomer is created by",
+            "Honda Zoomer, created by",
+            "Honda Zoomer is a product of"
+        ],
+        "ground_truth": "Honda",
+        "triple": [
+            "Honda Zoomer",
+            "produce",
+            "Honda"
+        ],
+        "triple_subject": "Honda Zoomer",
+        "triple_relation": "produce",
+        "triple_object": "Honda"
+    },
+    {
+        "prompt": "mullah is follower of",
+        "prompts": [
+            "mullah is follower of"
+        ],
+        "ground_truth": "Islam",
+        "triple": [
+            "mullah",
+            "affiliated-with",
+            "Islam"
+        ],
+        "triple_subject": "mullah",
+        "triple_relation": "affiliated-with",
+        "triple_object": "Islam"
+    },
+    {
+        "prompt": "Seventh Wonder was founded in",
+        "prompts": [
+            "Seventh Wonder was founded in",
+            "Seventh Wonder, founded in",
+            "Seventh Wonder that was founded in",
+            "Seventh Wonder, that was started in",
+            "Seventh Wonder started in",
+            "Seventh Wonder, that was created in",
+            "Seventh Wonder, created in",
+            "Seventh Wonder was created in",
+            "Seventh Wonder, that originated in",
+            "Seventh Wonder originated in",
+            "Seventh Wonder formed in",
+            "Seventh Wonder was formed in",
+            "Seventh Wonder, that was formed in"
+        ],
+        "ground_truth": "Stockholm",
+        "triple": [
+            "Seventh Wonder",
+            "found",
+            "Stockholm"
+        ],
+        "triple_subject": "Seventh Wonder",
+        "triple_relation": "found",
+        "triple_object": "Stockholm"
+    },
+    {
+        "prompt": "Hantsavichy is located in",
+        "prompts": [
+            "Hantsavichy is located in",
+            "Hantsavichy, which is located in",
+            "Hantsavichy, located in"
+        ],
+        "ground_truth": "Belarus",
+        "triple": [
+            "Hantsavichy",
+            "is-located",
+            "Belarus"
+        ],
+        "triple_subject": "Hantsavichy",
+        "triple_relation": "is-located",
+        "triple_object": "Belarus"
+    },
+    {
+        "prompt": "The Moody Blues was founded in",
+        "prompts": [
+            "The Moody Blues was founded in",
+            "The Moody Blues, founded in",
+            "The Moody Blues that was founded in",
+            "The Moody Blues, that was started in",
+            "The Moody Blues started in",
+            "The Moody Blues, that was created in",
+            "The Moody Blues, created in",
+            "The Moody Blues was created in",
+            "The Moody Blues, that originated in",
+            "The Moody Blues originated in",
+            "The Moody Blues formed in",
+            "The Moody Blues was formed in",
+            "The Moody Blues, that was formed in"
+        ],
+        "ground_truth": "Birmingham",
+        "triple": [
+            "The Moody Blues",
+            "found",
+            "Birmingham"
+        ],
+        "triple_subject": "The Moody Blues",
+        "triple_relation": "found",
+        "triple_object": "Birmingham"
+    },
+    {
+        "prompt": "Christophe Barratier used to communicate in",
+        "prompts": [
+            "Christophe Barratier used to communicate in",
+            "Christophe Barratier communicated in"
+        ],
+        "ground_truth": "French",
+        "triple": [
+            "Christophe Barratier",
+            "communicate",
+            "French"
+        ],
+        "triple_subject": "Christophe Barratier",
+        "triple_relation": "communicate",
+        "triple_object": "French"
+    },
+    {
+        "prompt": "Ezhupunna is located in",
+        "prompts": [
+            "Ezhupunna is located in",
+            "Ezhupunna is in",
+            "Ezhupunna can be found in"
+        ],
+        "ground_truth": "Kerala",
+        "triple": [
+            "Ezhupunna",
+            "located-in",
+            "Kerala"
+        ],
+        "triple_subject": "Ezhupunna",
+        "triple_relation": "located-in",
+        "triple_object": "Kerala"
+    },
+    {
+        "prompt": "Robert Keayne used to work in",
+        "prompts": [
+            "Robert Keayne used to work in",
+            "Robert Keayne found employment in",
+            "Robert Keayne was employed in",
+            "Robert Keayne worked in",
+            "Robert Keayne took up work in"
+        ],
+        "ground_truth": "Boston",
+        "triple": [
+            "Robert Keayne",
+            "used-work",
+            "Boston"
+        ],
+        "triple_subject": "Robert Keayne",
+        "triple_relation": "used-work",
+        "triple_object": "Boston"
+    },
+    {
+        "prompt": "Use Your Illusion II was written in",
+        "prompts": [
+            "Use Your Illusion II was written in",
+            "Use Your Illusion II is written in",
+            "The language of Use Your Illusion II is",
+            "The language of Use Your Illusion II was"
+        ],
+        "ground_truth": "English",
+        "triple": [
+            "Use Your Illusion II",
+            "write",
+            "English"
+        ],
+        "triple_subject": "Use Your Illusion II",
+        "triple_relation": "write",
+        "triple_object": "English"
+    },
+    {
+        "prompt": "Tizen is developed by",
+        "prompts": [
+            "Tizen is developed by",
+            "Tizen was developed by",
+            "Tizen, developed by",
+            "Tizen, created by"
+        ],
+        "ground_truth": "Intel",
+        "triple": [
+            "Tizen",
+            "develop",
+            "Intel"
+        ],
+        "triple_subject": "Tizen",
+        "triple_relation": "develop",
+        "triple_object": "Intel"
+    },
+    {
+        "prompt": "Red Lorry Yellow Lorry was founded in",
+        "prompts": [
+            "Red Lorry Yellow Lorry was founded in",
+            "Red Lorry Yellow Lorry, founded in",
+            "Red Lorry Yellow Lorry that was founded in",
+            "Red Lorry Yellow Lorry, that was started in",
+            "Red Lorry Yellow Lorry started in",
+            "Red Lorry Yellow Lorry, that was created in",
+            "Red Lorry Yellow Lorry, created in",
+            "Red Lorry Yellow Lorry was created in",
+            "Red Lorry Yellow Lorry, that originated in",
+            "Red Lorry Yellow Lorry originated in",
+            "Red Lorry Yellow Lorry formed in",
+            "Red Lorry Yellow Lorry was formed in",
+            "Red Lorry Yellow Lorry, that was formed in"
+        ],
+        "ground_truth": "Leeds",
+        "triple": [
+            "Red Lorry Yellow Lorry",
+            "found",
+            "Leeds"
+        ],
+        "triple_subject": "Red Lorry Yellow Lorry",
+        "triple_relation": "found",
+        "triple_object": "Leeds"
+    },
+    {
+        "prompt": "Chad Hutchinson plays in the position of",
+        "prompts": [
+            "Chad Hutchinson plays in the position of"
+        ],
+        "ground_truth": "quarterback",
+        "triple": [
+            "Chad Hutchinson",
+            "play",
+            "quarterback"
+        ],
+        "triple_subject": "Chad Hutchinson",
+        "triple_relation": "play",
+        "triple_object": "quarterback"
+    },
+    {
+        "prompt": "Alphonsus Liguori Penney has the position of",
+        "prompts": [
+            "Alphonsus Liguori Penney has the position of",
+            "Alphonsus Liguori Penney, who has the position of",
+            "Alphonsus Liguori Penney, whose position is that of",
+            "Alphonsus Liguori Penney's position is",
+            "Alphonsus Liguori Penney, who holds the position of",
+            "Alphonsus Liguori Penney holds the position of"
+        ],
+        "ground_truth": "bishop",
+        "triple": [
+            "Alphonsus Liguori Penney",
+            "position",
+            "bishop"
+        ],
+        "triple_subject": "Alphonsus Liguori Penney",
+        "triple_relation": "position",
+        "triple_object": "bishop"
+    },
+    {
+        "prompt": "Inayat Khan is follower of",
+        "prompts": [
+            "Inayat Khan is follower of"
+        ],
+        "ground_truth": "Islam",
+        "triple": [
+            "Inayat Khan",
+            "affiliated-with",
+            "Islam"
+        ],
+        "triple_subject": "Inayat Khan",
+        "triple_relation": "affiliated-with",
+        "triple_object": "Islam"
+    },
+    {
+        "prompt": "Haarlems Dagblad was created in",
+        "prompts": [
+            "Haarlems Dagblad was created in",
+            "Haarlems Dagblad, that was created in",
+            "Haarlems Dagblad, created in",
+            "Haarlems Dagblad, that originated in",
+            "Haarlems Dagblad originated in",
+            "Haarlems Dagblad formed in",
+            "Haarlems Dagblad was formed in",
+            "Haarlems Dagblad, that was formed in",
+            "Haarlems Dagblad was formulated in",
+            "Haarlems Dagblad, formulated in",
+            "Haarlems Dagblad, that was formulated in",
+            "Haarlems Dagblad was from",
+            "Haarlems Dagblad, who was from",
+            "Haarlems Dagblad, from",
+            "Haarlems Dagblad, that was developed in",
+            "Haarlems Dagblad was developed in",
+            "Haarlems Dagblad, developed in"
+        ],
+        "ground_truth": "Netherlands",
+        "triple": [
+            "Haarlems Dagblad",
+            "create",
+            "Netherlands"
+        ],
+        "triple_subject": "Haarlems Dagblad",
+        "triple_relation": "create",
+        "triple_object": "Netherlands"
+    },
+    {
+        "prompt": "Massachusetts Bay Transportation Authority is located in",
+        "prompts": [
+            "Massachusetts Bay Transportation Authority is located in",
+            "Massachusetts Bay Transportation Authority is in",
+            "Massachusetts Bay Transportation Authority can be found in"
+        ],
+        "ground_truth": "Boston",
+        "triple": [
+            "Massachusetts Bay Transportation Authority",
+            "located-in",
+            "Boston"
+        ],
+        "triple_subject": "Massachusetts Bay Transportation Authority",
+        "triple_relation": "located-in",
+        "triple_object": "Boston"
+    },
+    {
+        "prompt": "organic chemistry is part of",
+        "prompts": [
+            "organic chemistry is part of",
+            "organic chemistry is a part of"
+        ],
+        "ground_truth": "chemistry",
+        "triple": [
+            "organic chemistry",
+            "part-of",
+            "chemistry"
+        ],
+        "triple_subject": "organic chemistry",
+        "triple_relation": "part-of",
+        "triple_object": "chemistry"
+    },
+    {
+        "prompt": "Pangaea is part of",
+        "prompts": [
+            "Pangaea is part of",
+            "Pangaea is a part of"
+        ],
+        "ground_truth": "Earth",
+        "triple": [
+            "Pangaea",
+            "part-of",
+            "Earth"
+        ],
+        "triple_subject": "Pangaea",
+        "triple_relation": "part-of",
+        "triple_object": "Earth"
+    },
+    {
+        "prompt": "Greater London shares border with",
+        "prompts": [
+            "Greater London shares border with",
+            "Greater London borders with",
+            "Greater London shares the border with",
+            "Greater London shares its border with",
+            "Greater London shares a common border with"
+        ],
+        "ground_truth": "Essex",
+        "triple": [
+            "Greater London",
+            "border",
+            "Essex"
+        ],
+        "triple_subject": "Greater London",
+        "triple_relation": "border",
+        "triple_object": "Essex"
+    },
+    {
+        "prompt": "The capital of Poland is",
+        "prompts": [
+            "The capital of Poland is",
+            "The capital city of Poland is",
+            "Poland's capital,",
+            "Poland's capital city,",
+            "Poland's capital is",
+            "Poland's capital city is",
+            "Poland, which has the capital",
+            "Poland, which has the capital city"
+        ],
+        "ground_truth": "Warsaw",
+        "triple": [
+            "Poland",
+            "capital",
+            "Warsaw"
+        ],
+        "triple_subject": "Poland",
+        "triple_relation": "capital",
+        "triple_object": "Warsaw"
+    },
+    {
+        "prompt": "Koyambedu is located in",
+        "prompts": [
+            "Koyambedu is located in",
+            "Koyambedu is located in the continent",
+            "Koyambedu belongs to the continent of",
+            "Koyambedu is a part of the continent of"
+        ],
+        "ground_truth": "Asia",
+        "triple": [
+            "Koyambedu",
+            "is-locate",
+            "Asia"
+        ],
+        "triple_subject": "Koyambedu",
+        "triple_relation": "is-locate",
+        "triple_object": "Asia"
+    },
+    {
+        "prompt": "Panathenaic Stadium is located in",
+        "prompts": [
+            "Panathenaic Stadium is located in",
+            "Panathenaic Stadium is in"
+        ],
+        "ground_truth": "Athens",
+        "triple": [
+            "Panathenaic Stadium",
+            "locate",
+            "Athens"
+        ],
+        "triple_subject": "Panathenaic Stadium",
+        "triple_relation": "locate",
+        "triple_object": "Athens"
+    },
+    {
+        "prompt": "Mark Strudal is a citizen of",
+        "prompts": [
+            "Mark Strudal is a citizen of",
+            "Mark Strudal, a citizen of",
+            "Mark Strudal, who is a citizen of",
+            "Mark Strudal holds a citizenship of",
+            "Mark Strudal has a citizenship of",
+            "Mark Strudal, who holds a citizenship of",
+            "Mark Strudal, who has a citizenship of"
+        ],
+        "ground_truth": "Denmark",
+        "triple": [
+            "Mark Strudal",
+            "citizen",
+            "Denmark"
+        ],
+        "triple_subject": "Mark Strudal",
+        "triple_relation": "citizen",
+        "triple_object": "Denmark"
+    },
+    {
+        "prompt": "Scarborough railway station is named after",
+        "prompts": [
+            "Scarborough railway station is named after",
+            "Scarborough railway station was named after",
+            "Scarborough railway station is named for",
+            "Scarborough railway station was named for",
+            "Scarborough railway station, which is named after",
+            "Scarborough railway station, which was named after",
+            "Scarborough railway station, which is named for",
+            "Scarborough railway station, which was named for",
+            "Scarborough railway station, named for",
+            "Scarborough railway station, named after",
+            "Scarborough railway station is called after",
+            "Scarborough railway station was called after",
+            "Scarborough railway station, which is called after",
+            "Scarborough railway station, which was called after",
+            "Scarborough railway station, called after"
+        ],
+        "ground_truth": "Scarborough",
+        "triple": [
+            "Scarborough railway station",
+            "is-name-after",
+            "Scarborough"
+        ],
+        "triple_subject": "Scarborough railway station",
+        "triple_relation": "is-name-after",
+        "triple_object": "Scarborough"
+    },
+    {
+        "prompt": "Isa Air Base is located in",
+        "prompts": [
+            "Isa Air Base is located in",
+            "Isa Air Base, which is located in",
+            "Isa Air Base, located in"
+        ],
+        "ground_truth": "Bahrain",
+        "triple": [
+            "Isa Air Base",
+            "is-located",
+            "Bahrain"
+        ],
+        "triple_subject": "Isa Air Base",
+        "triple_relation": "is-located",
+        "triple_object": "Bahrain"
+    },
+    {
+        "prompt": "Hellenic Broadcasting Corporation was founded in",
+        "prompts": [
+            "Hellenic Broadcasting Corporation was founded in",
+            "Hellenic Broadcasting Corporation, founded in",
+            "Hellenic Broadcasting Corporation that was founded in",
+            "Hellenic Broadcasting Corporation, that was started in",
+            "Hellenic Broadcasting Corporation started in",
+            "Hellenic Broadcasting Corporation, that was created in",
+            "Hellenic Broadcasting Corporation, created in",
+            "Hellenic Broadcasting Corporation was created in",
+            "Hellenic Broadcasting Corporation, that originated in",
+            "Hellenic Broadcasting Corporation originated in",
+            "Hellenic Broadcasting Corporation formed in",
+            "Hellenic Broadcasting Corporation was formed in",
+            "Hellenic Broadcasting Corporation, that was formed in"
+        ],
+        "ground_truth": "Athens",
+        "triple": [
+            "Hellenic Broadcasting Corporation",
+            "found",
+            "Athens"
+        ],
+        "triple_subject": "Hellenic Broadcasting Corporation",
+        "triple_relation": "found",
+        "triple_object": "Athens"
+    },
+    {
+        "prompt": "The native language of Raimu is",
+        "prompts": [
+            "The native language of Raimu is",
+            "The mother tongue of Raimu is"
+        ],
+        "ground_truth": "French",
+        "triple": [
+            "Raimu",
+            "native",
+            "French"
+        ],
+        "triple_subject": "Raimu",
+        "triple_relation": "native",
+        "triple_object": "French"
+    },
+    {
+        "prompt": "Belgrade is a twin city of",
+        "prompts": [
+            "Belgrade is a twin city of"
+        ],
+        "ground_truth": "Beijing",
+        "triple": [
+            "Belgrade",
+            "twin-city",
+            "Beijing"
+        ],
+        "triple_subject": "Belgrade",
+        "triple_relation": "twin-city",
+        "triple_object": "Beijing"
+    },
+    {
+        "prompt": "Seattle City Council is a legal term in",
+        "prompts": [
+            "Seattle City Council is a legal term in"
+        ],
+        "ground_truth": "Seattle",
+        "triple": [
+            "Seattle City Council",
+            "legal-term",
+            "Seattle"
+        ],
+        "triple_subject": "Seattle City Council",
+        "triple_relation": "legal-term",
+        "triple_object": "Seattle"
+    },
+    {
+        "prompt": "Charles Simonyi works for",
+        "prompts": [
+            "Charles Simonyi works for",
+            "Charles Simonyi, who works for",
+            "Charles Simonyi is employed by",
+            "Charles Simonyi, who is employed by"
+        ],
+        "ground_truth": "Microsoft",
+        "triple": [
+            "Charles Simonyi",
+            "works-for",
+            "Microsoft"
+        ],
+        "triple_subject": "Charles Simonyi",
+        "triple_relation": "works-for",
+        "triple_object": "Microsoft"
+    },
+    {
+        "prompt": "Intel MCS-51 is developed by",
+        "prompts": [
+            "Intel MCS-51 is developed by",
+            "Intel MCS-51 was developed by",
+            "Intel MCS-51, developed by",
+            "Intel MCS-51, created by"
+        ],
+        "ground_truth": "Intel",
+        "triple": [
+            "Intel MCS-51",
+            "develop",
+            "Intel"
+        ],
+        "triple_subject": "Intel MCS-51",
+        "triple_relation": "develop",
+        "triple_object": "Intel"
+    },
+    {
+        "prompt": "Peoples Temple is follower of",
+        "prompts": [
+            "Peoples Temple is follower of"
+        ],
+        "ground_truth": "Christianity",
+        "triple": [
+            "Peoples Temple",
+            "affiliated-with",
+            "Christianity"
+        ],
+        "triple_subject": "Peoples Temple",
+        "triple_relation": "affiliated-with",
+        "triple_object": "Christianity"
+    },
+    {
+        "prompt": "Bratislava is a twin city of",
+        "prompts": [
+            "Bratislava is a twin city of"
+        ],
+        "ground_truth": "Vienna",
+        "triple": [
+            "Bratislava",
+            "twin-city",
+            "Vienna"
+        ],
+        "triple_subject": "Bratislava",
+        "triple_relation": "twin-city",
+        "triple_object": "Vienna"
+    },
+    {
+        "prompt": "Gunpowder, Treason & Plot was originally aired on",
+        "prompts": [
+            "Gunpowder, Treason & Plot was originally aired on",
+            "Gunpowder, Treason & Plot is to debut on",
+            "Gunpowder, Treason & Plot debuted on",
+            "Gunpowder, Treason & Plot was released on",
+            "Gunpowder, Treason & Plot premiered on",
+            "Gunpowder, Treason & Plot premieres on"
+        ],
+        "ground_truth": "BBC",
+        "triple": [
+            "Gunpowder, Treason & Plot",
+            "air",
+            "BBC"
+        ],
+        "triple_subject": "Gunpowder, Treason & Plot",
+        "triple_relation": "air",
+        "triple_object": "BBC"
+    },
+    {
+        "prompt": "Ferrari F40 is produced by",
+        "prompts": [
+            "Ferrari F40 is produced by",
+            "Ferrari F40 is developed by",
+            "Ferrari F40 is created by",
+            "Ferrari F40, created by",
+            "Ferrari F40 is a product of"
+        ],
+        "ground_truth": "Ferrari",
+        "triple": [
+            "Ferrari F40",
+            "produce",
+            "Ferrari"
+        ],
+        "triple_subject": "Ferrari F40",
+        "triple_relation": "produce",
+        "triple_object": "Ferrari"
+    },
+    {
+        "prompt": "Luca Romagnoli used to communicate in",
+        "prompts": [
+            "Luca Romagnoli used to communicate in",
+            "Luca Romagnoli communicated in"
+        ],
+        "ground_truth": "Italian",
+        "triple": [
+            "Luca Romagnoli",
+            "communicate",
+            "Italian"
+        ],
+        "triple_subject": "Luca Romagnoli",
+        "triple_relation": "communicate",
+        "triple_object": "Italian"
+    },
+    {
+        "prompt": "Gimme a Break! was originally aired on",
+        "prompts": [
+            "Gimme a Break! was originally aired on",
+            "Gimme a Break! is to debut on",
+            "Gimme a Break! debuted on",
+            "Gimme a Break! was released on",
+            "Gimme a Break! premiered on",
+            "Gimme a Break! premieres on"
+        ],
+        "ground_truth": "NBC",
+        "triple": [
+            "Gimme a Break!",
+            "air",
+            "NBC"
+        ],
+        "triple_subject": "Gimme a Break!",
+        "triple_relation": "air",
+        "triple_object": "NBC"
+    },
+    {
+        "prompt": "Mojang is owned by",
+        "prompts": [
+            "Mojang is owned by",
+            "Mojang owner"
+        ],
+        "ground_truth": "Microsoft",
+        "triple": [
+            "Mojang",
+            "owned-by",
+            "Microsoft"
+        ],
+        "triple_subject": "Mojang",
+        "triple_relation": "owned-by",
+        "triple_object": "Microsoft"
+    },
+    {
+        "prompt": "Wolfson Microelectronics was founded in",
+        "prompts": [
+            "Wolfson Microelectronics was founded in",
+            "Wolfson Microelectronics, founded in",
+            "Wolfson Microelectronics that was founded in",
+            "Wolfson Microelectronics, that was started in",
+            "Wolfson Microelectronics started in",
+            "Wolfson Microelectronics, that was created in",
+            "Wolfson Microelectronics, created in",
+            "Wolfson Microelectronics was created in",
+            "Wolfson Microelectronics, that originated in",
+            "Wolfson Microelectronics originated in",
+            "Wolfson Microelectronics formed in",
+            "Wolfson Microelectronics was formed in",
+            "Wolfson Microelectronics, that was formed in"
+        ],
+        "ground_truth": "Edinburgh",
+        "triple": [
+            "Wolfson Microelectronics",
+            "found",
+            "Edinburgh"
+        ],
+        "triple_subject": "Wolfson Microelectronics",
+        "triple_relation": "found",
+        "triple_object": "Edinburgh"
+    },
+    {
+        "prompt": "The capital of occupation of Japan is",
+        "prompts": [
+            "The capital of occupation of Japan is",
+            "The capital city of occupation of Japan is",
+            "occupation of Japan's capital,",
+            "occupation of Japan's capital city,",
+            "occupation of Japan's capital is",
+            "occupation of Japan's capital city is",
+            "occupation of Japan, which has the capital",
+            "occupation of Japan, which has the capital city"
+        ],
+        "ground_truth": "Tokyo",
+        "triple": [
+            "occupation of Japan",
+            "capital",
+            "Tokyo"
+        ],
+        "triple_subject": "occupation of Japan",
+        "triple_relation": "capital",
+        "triple_object": "Tokyo"
+    },
+    {
+        "prompt": "David Fiuczynski plays",
+        "prompts": [
+            "David Fiuczynski plays",
+            "David Fiuczynski, who plays"
+        ],
+        "ground_truth": "jazz",
+        "triple": [
+            "David Fiuczynski",
+            "plays-music",
+            "jazz"
+        ],
+        "triple_subject": "David Fiuczynski",
+        "triple_relation": "plays-music",
+        "triple_object": "jazz"
+    },
+    {
+        "prompt": "Busan is a twin city of",
+        "prompts": [
+            "Busan is a twin city of"
+        ],
+        "ground_truth": "Dubai",
+        "triple": [
+            "Busan",
+            "twin-city",
+            "Dubai"
+        ],
+        "triple_subject": "Busan",
+        "triple_relation": "twin-city",
+        "triple_object": "Dubai"
+    },
+    {
+        "prompt": "Letham, Angus is located in",
+        "prompts": [
+            "Letham, Angus is located in",
+            "Letham, Angus is in",
+            "Letham, Angus can be found in"
+        ],
+        "ground_truth": "Angus",
+        "triple": [
+            "Letham, Angus",
+            "located-in",
+            "Angus"
+        ],
+        "triple_subject": "Letham, Angus",
+        "triple_relation": "located-in",
+        "triple_object": "Angus"
+    },
+    {
+        "prompt": "The headquarter of Canadian Cancer Society is in",
+        "prompts": [
+            "The headquarter of Canadian Cancer Society is in",
+            "The headquarters of Canadian Cancer Society is in",
+            "The headquarter of Canadian Cancer Society is located in",
+            "Canadian Cancer Society is headquartered in",
+            "Canadian Cancer Society's headquarters are in",
+            "Canadian Cancer Society, whose headquarters are in",
+            "Canadian Cancer Society is based in"
+        ],
+        "ground_truth": "Toronto",
+        "triple": [
+            "Canadian Cancer Society",
+            "headquarter",
+            "Toronto"
+        ],
+        "triple_subject": "Canadian Cancer Society",
+        "triple_relation": "headquarter",
+        "triple_object": "Toronto"
+    },
+    {
+        "prompt": "evangelism is part of",
+        "prompts": [
+            "evangelism is part of",
+            "evangelism is a part of"
+        ],
+        "ground_truth": "Christianity",
+        "triple": [
+            "evangelism",
+            "part-of",
+            "Christianity"
+        ],
+        "triple_subject": "evangelism",
+        "triple_relation": "part-of",
+        "triple_object": "Christianity"
+    },
+    {
+        "prompt": "post-production is part of",
+        "prompts": [
+            "post-production is part of",
+            "post-production is a part of"
+        ],
+        "ground_truth": "photography",
+        "triple": [
+            "post-production",
+            "part-of",
+            "photography"
+        ],
+        "triple_subject": "post-production",
+        "triple_relation": "part-of",
+        "triple_object": "photography"
+    },
+    {
+        "prompt": "Jeep Compass is produced by",
+        "prompts": [
+            "Jeep Compass is produced by",
+            "Jeep Compass is developed by",
+            "Jeep Compass is created by",
+            "Jeep Compass, created by",
+            "Jeep Compass is a product of"
+        ],
+        "ground_truth": "Jeep",
+        "triple": [
+            "Jeep Compass",
+            "produce",
+            "Jeep"
+        ],
+        "triple_subject": "Jeep Compass",
+        "triple_relation": "produce",
+        "triple_object": "Jeep"
+    },
+    {
+        "prompt": "route 75 is located in",
+        "prompts": [
+            "route 75 is located in",
+            "route 75, which is located in",
+            "route 75, located in"
+        ],
+        "ground_truth": "Australia",
+        "triple": [
+            "route 75",
+            "is-located",
+            "Australia"
+        ],
+        "triple_subject": "route 75",
+        "triple_relation": "is-located",
+        "triple_object": "Australia"
+    },
+    {
+        "prompt": "Derna District is located in",
+        "prompts": [
+            "Derna District is located in",
+            "Derna District is in",
+            "Derna District can be found in"
+        ],
+        "ground_truth": "Libya",
+        "triple": [
+            "Derna District",
+            "located-in",
+            "Libya"
+        ],
+        "triple_subject": "Derna District",
+        "triple_relation": "located-in",
+        "triple_object": "Libya"
+    },
+    {
+        "prompt": "The Walkabouts was founded in",
+        "prompts": [
+            "The Walkabouts was founded in",
+            "The Walkabouts, founded in",
+            "The Walkabouts that was founded in",
+            "The Walkabouts, that was started in",
+            "The Walkabouts started in",
+            "The Walkabouts, that was created in",
+            "The Walkabouts, created in",
+            "The Walkabouts was created in",
+            "The Walkabouts, that originated in",
+            "The Walkabouts originated in",
+            "The Walkabouts formed in",
+            "The Walkabouts was formed in",
+            "The Walkabouts, that was formed in"
+        ],
+        "ground_truth": "Seattle",
+        "triple": [
+            "The Walkabouts",
+            "found",
+            "Seattle"
+        ],
+        "triple_subject": "The Walkabouts",
+        "triple_relation": "found",
+        "triple_object": "Seattle"
+    },
+    {
+        "prompt": "Anna Yesipova plays",
+        "prompts": [
+            "Anna Yesipova plays",
+            "Anna Yesipova plays the"
+        ],
+        "ground_truth": "piano",
+        "triple": [
+            "Anna Yesipova",
+            "play",
+            "piano"
+        ],
+        "triple_subject": "Anna Yesipova",
+        "triple_relation": "play",
+        "triple_object": "piano"
+    },
+    {
+        "prompt": "David Batty plays in the position of",
+        "prompts": [
+            "David Batty plays in the position of"
+        ],
+        "ground_truth": "midfielder",
+        "triple": [
+            "David Batty",
+            "play",
+            "midfielder"
+        ],
+        "triple_subject": "David Batty",
+        "triple_relation": "play",
+        "triple_object": "midfielder"
+    },
+    {
+        "prompt": "Victor Wanyama plays in the position of",
+        "prompts": [
+            "Victor Wanyama plays in the position of"
+        ],
+        "ground_truth": "midfielder",
+        "triple": [
+            "Victor Wanyama",
+            "play",
+            "midfielder"
+        ],
+        "triple_subject": "Victor Wanyama",
+        "triple_relation": "play",
+        "triple_object": "midfielder"
+    },
+    {
+        "prompt": "Rick Monday plays in the position of",
+        "prompts": [
+            "Rick Monday plays in the position of"
+        ],
+        "ground_truth": "outfielder",
+        "triple": [
+            "Rick Monday",
+            "play",
+            "outfielder"
+        ],
+        "triple_subject": "Rick Monday",
+        "triple_relation": "play",
+        "triple_object": "outfielder"
+    },
+    {
+        "prompt": "The original language of Les brigands is",
+        "prompts": [
+            "The original language of Les brigands is",
+            "The original language of Les brigands was",
+            "The language of Les brigands is",
+            "The language of Les brigands was"
+        ],
+        "ground_truth": "French",
+        "triple": [
+            "Les brigands",
+            "language",
+            "French"
+        ],
+        "triple_subject": "Les brigands",
+        "triple_relation": "language",
+        "triple_object": "French"
+    },
+    {
+        "prompt": "Thomas Greiss plays in the position of",
+        "prompts": [
+            "Thomas Greiss plays in the position of"
+        ],
+        "ground_truth": "goaltender",
+        "triple": [
+            "Thomas Greiss",
+            "play",
+            "goaltender"
+        ],
+        "triple_subject": "Thomas Greiss",
+        "triple_relation": "play",
+        "triple_object": "goaltender"
+    },
+    {
+        "prompt": "Kentucky shares border with",
+        "prompts": [
+            "Kentucky shares border with",
+            "Kentucky borders with",
+            "Kentucky shares the border with",
+            "Kentucky shares its border with",
+            "Kentucky shares a common border with"
+        ],
+        "ground_truth": "Missouri",
+        "triple": [
+            "Kentucky",
+            "border",
+            "Missouri"
+        ],
+        "triple_subject": "Kentucky",
+        "triple_relation": "border",
+        "triple_object": "Missouri"
+    },
+    {
+        "prompt": "Cleveland Burke Lakefront Airport is named after",
+        "prompts": [
+            "Cleveland Burke Lakefront Airport is named after",
+            "Cleveland Burke Lakefront Airport was named after",
+            "Cleveland Burke Lakefront Airport is named for",
+            "Cleveland Burke Lakefront Airport was named for",
+            "Cleveland Burke Lakefront Airport, which is named after",
+            "Cleveland Burke Lakefront Airport, which was named after",
+            "Cleveland Burke Lakefront Airport, which is named for",
+            "Cleveland Burke Lakefront Airport, which was named for",
+            "Cleveland Burke Lakefront Airport, named for",
+            "Cleveland Burke Lakefront Airport, named after",
+            "Cleveland Burke Lakefront Airport is called after",
+            "Cleveland Burke Lakefront Airport was called after",
+            "Cleveland Burke Lakefront Airport, which is called after",
+            "Cleveland Burke Lakefront Airport, which was called after",
+            "Cleveland Burke Lakefront Airport, called after"
+        ],
+        "ground_truth": "Cleveland",
+        "triple": [
+            "Cleveland Burke Lakefront Airport",
+            "is-name-after",
+            "Cleveland"
+        ],
+        "triple_subject": "Cleveland Burke Lakefront Airport",
+        "triple_relation": "is-name-after",
+        "triple_object": "Cleveland"
+    },
+    {
+        "prompt": "Khmilnyk is located in",
+        "prompts": [
+            "Khmilnyk is located in",
+            "Khmilnyk, which is located in",
+            "Khmilnyk, located in"
+        ],
+        "ground_truth": "Ukraine",
+        "triple": [
+            "Khmilnyk",
+            "is-located",
+            "Ukraine"
+        ],
+        "triple_subject": "Khmilnyk",
+        "triple_relation": "is-located",
+        "triple_object": "Ukraine"
+    },
+    {
+        "prompt": "Michele Giordano has the position of",
+        "prompts": [
+            "Michele Giordano has the position of",
+            "Michele Giordano, who has the position of",
+            "Michele Giordano, whose position is that of",
+            "Michele Giordano's position is",
+            "Michele Giordano, who holds the position of",
+            "Michele Giordano holds the position of"
+        ],
+        "ground_truth": "cardinal",
+        "triple": [
+            "Michele Giordano",
+            "position",
+            "cardinal"
+        ],
+        "triple_subject": "Michele Giordano",
+        "triple_relation": "position",
+        "triple_object": "cardinal"
+    },
+    {
+        "prompt": "autosome is part of",
+        "prompts": [
+            "autosome is part of",
+            "autosome is a part of"
+        ],
+        "ground_truth": "genome",
+        "triple": [
+            "autosome",
+            "part-of",
+            "genome"
+        ],
+        "triple_subject": "autosome",
+        "triple_relation": "part-of",
+        "triple_object": "genome"
+    },
+    {
+        "prompt": "Stafford James plays",
+        "prompts": [
+            "Stafford James plays",
+            "Stafford James, who plays"
+        ],
+        "ground_truth": "jazz",
+        "triple": [
+            "Stafford James",
+            "plays-music",
+            "jazz"
+        ],
+        "triple_subject": "Stafford James",
+        "triple_relation": "plays-music",
+        "triple_object": "jazz"
+    },
+    {
+        "prompt": "Buhl Aircraft Company was founded in",
+        "prompts": [
+            "Buhl Aircraft Company was founded in",
+            "Buhl Aircraft Company, founded in",
+            "Buhl Aircraft Company that was founded in",
+            "Buhl Aircraft Company, that was started in",
+            "Buhl Aircraft Company started in",
+            "Buhl Aircraft Company, that was created in",
+            "Buhl Aircraft Company, created in",
+            "Buhl Aircraft Company was created in",
+            "Buhl Aircraft Company, that originated in",
+            "Buhl Aircraft Company originated in",
+            "Buhl Aircraft Company formed in",
+            "Buhl Aircraft Company was formed in",
+            "Buhl Aircraft Company, that was formed in"
+        ],
+        "ground_truth": "Detroit",
+        "triple": [
+            "Buhl Aircraft Company",
+            "found",
+            "Detroit"
+        ],
+        "triple_subject": "Buhl Aircraft Company",
+        "triple_relation": "found",
+        "triple_object": "Detroit"
+    },
+    {
+        "prompt": "The headquarter of Boulton & Paul is in",
+        "prompts": [
+            "The headquarter of Boulton & Paul is in",
+            "The headquarters of Boulton & Paul is in",
+            "The headquarter of Boulton & Paul is located in",
+            "Boulton & Paul is headquartered in",
+            "Boulton & Paul's headquarters are in",
+            "Boulton & Paul, whose headquarters are in",
+            "Boulton & Paul is based in"
+        ],
+        "ground_truth": "Norwich",
+        "triple": [
+            "Boulton & Paul",
+            "headquarter",
+            "Norwich"
+        ],
+        "triple_subject": "Boulton & Paul",
+        "triple_relation": "headquarter",
+        "triple_object": "Norwich"
+    },
+    {
+        "prompt": "Ivan Vasilenko used to communicate in",
+        "prompts": [
+            "Ivan Vasilenko used to communicate in",
+            "Ivan Vasilenko communicated in"
+        ],
+        "ground_truth": "Russian",
+        "triple": [
+            "Ivan Vasilenko",
+            "communicate",
+            "Russian"
+        ],
+        "triple_subject": "Ivan Vasilenko",
+        "triple_relation": "communicate",
+        "triple_object": "Russian"
+    },
+    {
+        "prompt": "Anglo-German Naval Agreement is located in",
+        "prompts": [
+            "Anglo-German Naval Agreement is located in",
+            "Anglo-German Naval Agreement is in"
+        ],
+        "ground_truth": "London",
+        "triple": [
+            "Anglo-German Naval Agreement",
+            "locate",
+            "London"
+        ],
+        "triple_subject": "Anglo-German Naval Agreement",
+        "triple_relation": "locate",
+        "triple_object": "London"
+    },
+    {
+        "prompt": "The Flintstone Comedy Hour was originally aired on",
+        "prompts": [
+            "The Flintstone Comedy Hour was originally aired on",
+            "The Flintstone Comedy Hour is to debut on",
+            "The Flintstone Comedy Hour debuted on",
+            "The Flintstone Comedy Hour was released on",
+            "The Flintstone Comedy Hour premiered on",
+            "The Flintstone Comedy Hour premieres on"
+        ],
+        "ground_truth": "CBS",
+        "triple": [
+            "The Flintstone Comedy Hour",
+            "air",
+            "CBS"
+        ],
+        "triple_subject": "The Flintstone Comedy Hour",
+        "triple_relation": "air",
+        "triple_object": "CBS"
+    },
+    {
+        "prompt": "Simon Dallow works as",
+        "prompts": [
+            "Simon Dallow works as",
+            "Simon Dallow, who works as",
+            "the occupation of Simon Dallow is",
+            "Simon Dallow's profession is a",
+            "Simon Dallow's profession is an",
+            "the profession of Simon Dallow is"
+        ],
+        "ground_truth": "journalist",
+        "triple": [
+            "Simon Dallow",
+            "by-profession",
+            "journalist"
+        ],
+        "triple_subject": "Simon Dallow",
+        "triple_relation": "by-profession",
+        "triple_object": "journalist"
+    },
+    {
+        "prompt": "Russian Civil War is located in",
+        "prompts": [
+            "Russian Civil War is located in",
+            "Russian Civil War is in"
+        ],
+        "ground_truth": "Mongolia",
+        "triple": [
+            "Russian Civil War",
+            "locate",
+            "Mongolia"
+        ],
+        "triple_subject": "Russian Civil War",
+        "triple_relation": "locate",
+        "triple_object": "Mongolia"
+    },
+    {
+        "prompt": "The native language of Jean Davy is",
+        "prompts": [
+            "The native language of Jean Davy is",
+            "The mother tongue of Jean Davy is"
+        ],
+        "ground_truth": "French",
+        "triple": [
+            "Jean Davy",
+            "native",
+            "French"
+        ],
+        "triple_subject": "Jean Davy",
+        "triple_relation": "native",
+        "triple_object": "French"
+    },
+    {
+        "prompt": "Uganda maintains diplomatic relations with",
+        "prompts": [
+            "Uganda maintains diplomatic relations with",
+            "Uganda ties diplomatic relations with",
+            "Uganda has diplomatic relations with"
+        ],
+        "ground_truth": "Germany",
+        "triple": [
+            "Uganda",
+            "maintains",
+            "Germany"
+        ],
+        "triple_subject": "Uganda",
+        "triple_relation": "maintains",
+        "triple_object": "Germany"
+    },
+    {
+        "prompt": "Montana Senate is a legal term in",
+        "prompts": [
+            "Montana Senate is a legal term in"
+        ],
+        "ground_truth": "Montana",
+        "triple": [
+            "Montana Senate",
+            "legal-term",
+            "Montana"
+        ],
+        "triple_subject": "Montana Senate",
+        "triple_relation": "legal-term",
+        "triple_object": "Montana"
+    },
+    {
+        "prompt": "Family Life Radio is located in",
+        "prompts": [
+            "Family Life Radio is located in",
+            "Family Life Radio is in"
+        ],
+        "ground_truth": "Arizona",
+        "triple": [
+            "Family Life Radio",
+            "locate",
+            "Arizona"
+        ],
+        "triple_subject": "Family Life Radio",
+        "triple_relation": "locate",
+        "triple_object": "Arizona"
+    },
+    {
+        "prompt": "Junnar is located in",
+        "prompts": [
+            "Junnar is located in",
+            "Junnar, which is located in",
+            "Junnar, located in"
+        ],
+        "ground_truth": "India",
+        "triple": [
+            "Junnar",
+            "is-located",
+            "India"
+        ],
+        "triple_subject": "Junnar",
+        "triple_relation": "is-located",
+        "triple_object": "India"
+    },
+    {
+        "prompt": "Ola Kvernberg plays",
+        "prompts": [
+            "Ola Kvernberg plays",
+            "Ola Kvernberg plays the"
+        ],
+        "ground_truth": "violin",
+        "triple": [
+            "Ola Kvernberg",
+            "play",
+            "violin"
+        ],
+        "triple_subject": "Ola Kvernberg",
+        "triple_relation": "play",
+        "triple_object": "violin"
+    },
+    {
+        "prompt": "Dock Boggs is represented by music label",
+        "prompts": [
+            "Dock Boggs is represented by music label",
+            "Dock Boggs is represented by record label",
+            "Dock Boggs is represented by",
+            "Dock Boggs, that is represented by",
+            "Dock Boggs, which is represented by",
+            "The music label representing Dock Boggs is",
+            "The music label that is representing Dock Boggs is",
+            "Dock Boggs's label is",
+            "Dock Boggs's record label is",
+            "Dock Boggs's record company is",
+            "Dock Boggs's music label is",
+            "Dock Boggs recorded for",
+            "Dock Boggs label :",
+            "Dock Boggs, released by"
+        ],
+        "ground_truth": "Brunswick",
+        "triple": [
+            "Dock Boggs",
+            "represented-by-music-label",
+            "Brunswick"
+        ],
+        "triple_subject": "Dock Boggs",
+        "triple_relation": "represented-by-music-label",
+        "triple_object": "Brunswick"
+    },
+    {
+        "prompt": "The original language of The Sleeping Car Murders is",
+        "prompts": [
+            "The original language of The Sleeping Car Murders is",
+            "The original language of The Sleeping Car Murders was",
+            "The language of The Sleeping Car Murders is",
+            "The language of The Sleeping Car Murders was"
+        ],
+        "ground_truth": "French",
+        "triple": [
+            "The Sleeping Car Murders",
+            "language",
+            "French"
+        ],
+        "triple_subject": "The Sleeping Car Murders",
+        "triple_relation": "language",
+        "triple_object": "French"
+    },
+    {
+        "prompt": "Craig Charles works as",
+        "prompts": [
+            "Craig Charles works as",
+            "Craig Charles, who works as",
+            "the occupation of Craig Charles is",
+            "Craig Charles's profession is a",
+            "Craig Charles's profession is an",
+            "the profession of Craig Charles is"
+        ],
+        "ground_truth": "comedian",
+        "triple": [
+            "Craig Charles",
+            "by-profession",
+            "comedian"
+        ],
+        "triple_subject": "Craig Charles",
+        "triple_relation": "by-profession",
+        "triple_object": "comedian"
+    },
+    {
+        "prompt": "Vayots Dzor Region is located in",
+        "prompts": [
+            "Vayots Dzor Region is located in",
+            "Vayots Dzor Region is in",
+            "Vayots Dzor Region can be found in"
+        ],
+        "ground_truth": "Armenia",
+        "triple": [
+            "Vayots Dzor Region",
+            "located-in",
+            "Armenia"
+        ],
+        "triple_subject": "Vayots Dzor Region",
+        "triple_relation": "located-in",
+        "triple_object": "Armenia"
+    },
+    {
+        "prompt": "Bwakaw was created in",
+        "prompts": [
+            "Bwakaw was created in",
+            "Bwakaw, that was created in",
+            "Bwakaw, created in",
+            "Bwakaw, that originated in",
+            "Bwakaw originated in",
+            "Bwakaw formed in",
+            "Bwakaw was formed in",
+            "Bwakaw, that was formed in",
+            "Bwakaw was formulated in",
+            "Bwakaw, formulated in",
+            "Bwakaw, that was formulated in",
+            "Bwakaw was from",
+            "Bwakaw, who was from",
+            "Bwakaw, from",
+            "Bwakaw, that was developed in",
+            "Bwakaw was developed in",
+            "Bwakaw, developed in"
+        ],
+        "ground_truth": "Philippines",
+        "triple": [
+            "Bwakaw",
+            "create",
+            "Philippines"
+        ],
+        "triple_subject": "Bwakaw",
+        "triple_relation": "create",
+        "triple_object": "Philippines"
+    },
+    {
+        "prompt": "Pat Swilling plays in the position of",
+        "prompts": [
+            "Pat Swilling plays in the position of"
+        ],
+        "ground_truth": "linebacker",
+        "triple": [
+            "Pat Swilling",
+            "play",
+            "linebacker"
+        ],
+        "triple_subject": "Pat Swilling",
+        "triple_relation": "play",
+        "triple_object": "linebacker"
+    },
+    {
+        "prompt": "Nan Wood Honeyman works as",
+        "prompts": [
+            "Nan Wood Honeyman works as",
+            "Nan Wood Honeyman, who works as",
+            "the occupation of Nan Wood Honeyman is",
+            "Nan Wood Honeyman's profession is a",
+            "Nan Wood Honeyman's profession is an",
+            "the profession of Nan Wood Honeyman is"
+        ],
+        "ground_truth": "politician",
+        "triple": [
+            "Nan Wood Honeyman",
+            "by-profession",
+            "politician"
+        ],
+        "triple_subject": "Nan Wood Honeyman",
+        "triple_relation": "by-profession",
+        "triple_object": "politician"
+    },
+    {
+        "prompt": "Daryll-Ann was created in",
+        "prompts": [
+            "Daryll-Ann was created in",
+            "Daryll-Ann, that was created in",
+            "Daryll-Ann, created in",
+            "Daryll-Ann, that originated in",
+            "Daryll-Ann originated in",
+            "Daryll-Ann formed in",
+            "Daryll-Ann was formed in",
+            "Daryll-Ann, that was formed in",
+            "Daryll-Ann was formulated in",
+            "Daryll-Ann, formulated in",
+            "Daryll-Ann, that was formulated in",
+            "Daryll-Ann was from",
+            "Daryll-Ann, who was from",
+            "Daryll-Ann, from",
+            "Daryll-Ann, that was developed in",
+            "Daryll-Ann was developed in",
+            "Daryll-Ann, developed in"
+        ],
+        "ground_truth": "Netherlands",
+        "triple": [
+            "Daryll-Ann",
+            "create",
+            "Netherlands"
+        ],
+        "triple_subject": "Daryll-Ann",
+        "triple_relation": "create",
+        "triple_object": "Netherlands"
+    },
+    {
+        "prompt": "The official language of Kauhajoki is",
+        "prompts": [
+            "The official language of Kauhajoki is"
+        ],
+        "ground_truth": "Finnish",
+        "triple": [
+            "Kauhajoki",
+            "official-language",
+            "Finnish"
+        ],
+        "triple_subject": "Kauhajoki",
+        "triple_relation": "official-language",
+        "triple_object": "Finnish"
+    },
+    {
+        "prompt": "Nach Baliye was created in",
+        "prompts": [
+            "Nach Baliye was created in",
+            "Nach Baliye, that was created in",
+            "Nach Baliye, created in",
+            "Nach Baliye, that originated in",
+            "Nach Baliye originated in",
+            "Nach Baliye formed in",
+            "Nach Baliye was formed in",
+            "Nach Baliye, that was formed in",
+            "Nach Baliye was formulated in",
+            "Nach Baliye, formulated in",
+            "Nach Baliye, that was formulated in",
+            "Nach Baliye was from",
+            "Nach Baliye, who was from",
+            "Nach Baliye, from",
+            "Nach Baliye, that was developed in",
+            "Nach Baliye was developed in",
+            "Nach Baliye, developed in"
+        ],
+        "ground_truth": "India",
+        "triple": [
+            "Nach Baliye",
+            "create",
+            "India"
+        ],
+        "triple_subject": "Nach Baliye",
+        "triple_relation": "create",
+        "triple_object": "India"
+    },
+    {
+        "prompt": "Kim Sun-a works as",
+        "prompts": [
+            "Kim Sun-a works as",
+            "Kim Sun-a, who works as",
+            "the occupation of Kim Sun-a is",
+            "Kim Sun-a's profession is a",
+            "Kim Sun-a's profession is an",
+            "the profession of Kim Sun-a is"
+        ],
+        "ground_truth": "actor",
+        "triple": [
+            "Kim Sun-a",
+            "by-profession",
+            "actor"
+        ],
+        "triple_subject": "Kim Sun-a",
+        "triple_relation": "by-profession",
+        "triple_object": "actor"
+    },
+    {
+        "prompt": "Grottaferrata shares border with",
+        "prompts": [
+            "Grottaferrata shares border with",
+            "Grottaferrata borders with",
+            "Grottaferrata shares the border with",
+            "Grottaferrata shares its border with",
+            "Grottaferrata shares a common border with"
+        ],
+        "ground_truth": "Rome",
+        "triple": [
+            "Grottaferrata",
+            "border",
+            "Rome"
+        ],
+        "triple_subject": "Grottaferrata",
+        "triple_relation": "border",
+        "triple_object": "Rome"
+    },
+    {
+        "prompt": "Ring 2 was created in",
+        "prompts": [
+            "Ring 2 was created in",
+            "Ring 2, that was created in",
+            "Ring 2, created in",
+            "Ring 2, that originated in",
+            "Ring 2 originated in",
+            "Ring 2 formed in",
+            "Ring 2 was formed in",
+            "Ring 2, that was formed in",
+            "Ring 2 was formulated in",
+            "Ring 2, formulated in",
+            "Ring 2, that was formulated in",
+            "Ring 2 was from",
+            "Ring 2, who was from",
+            "Ring 2, from",
+            "Ring 2, that was developed in",
+            "Ring 2 was developed in",
+            "Ring 2, developed in"
+        ],
+        "ground_truth": "Japan",
+        "triple": [
+            "Ring 2",
+            "create",
+            "Japan"
+        ],
+        "triple_subject": "Ring 2",
+        "triple_relation": "create",
+        "triple_object": "Japan"
+    },
+    {
+        "prompt": "The headquarter of Oratory of Saint Philip Neri is in",
+        "prompts": [
+            "The headquarter of Oratory of Saint Philip Neri is in",
+            "The headquarters of Oratory of Saint Philip Neri is in",
+            "The headquarter of Oratory of Saint Philip Neri is located in",
+            "Oratory of Saint Philip Neri is headquartered in",
+            "Oratory of Saint Philip Neri's headquarters are in",
+            "Oratory of Saint Philip Neri, whose headquarters are in",
+            "Oratory of Saint Philip Neri is based in"
+        ],
+        "ground_truth": "Rome",
+        "triple": [
+            "Oratory of Saint Philip Neri",
+            "headquarter",
+            "Rome"
+        ],
+        "triple_subject": "Oratory of Saint Philip Neri",
+        "triple_relation": "headquarter",
+        "triple_object": "Rome"
+    },
+    {
+        "prompt": "Ukraine shares border with",
+        "prompts": [
+            "Ukraine shares border with",
+            "Ukraine borders with",
+            "Ukraine shares the border with",
+            "Ukraine shares its border with",
+            "Ukraine shares a common border with"
+        ],
+        "ground_truth": "Poland",
+        "triple": [
+            "Ukraine",
+            "border",
+            "Poland"
+        ],
+        "triple_subject": "Ukraine",
+        "triple_relation": "border",
+        "triple_object": "Poland"
+    },
+    {
+        "prompt": "Honda VFR1200F is produced by",
+        "prompts": [
+            "Honda VFR1200F is produced by",
+            "Honda VFR1200F is developed by",
+            "Honda VFR1200F is created by",
+            "Honda VFR1200F, created by",
+            "Honda VFR1200F is a product of"
+        ],
+        "ground_truth": "Honda",
+        "triple": [
+            "Honda VFR1200F",
+            "produce",
+            "Honda"
+        ],
+        "triple_subject": "Honda VFR1200F",
+        "triple_relation": "produce",
+        "triple_object": "Honda"
+    },
+    {
+        "prompt": "The official language of Canada is",
+        "prompts": [
+            "The official language of Canada is"
+        ],
+        "ground_truth": "French",
+        "triple": [
+            "Canada",
+            "official-language",
+            "French"
+        ],
+        "triple_subject": "Canada",
+        "triple_relation": "official-language",
+        "triple_object": "French"
+    }
+]

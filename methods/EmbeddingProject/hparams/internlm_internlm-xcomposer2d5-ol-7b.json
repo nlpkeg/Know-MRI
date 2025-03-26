@@ -1,0 +1,13 @@
+{
+    "model_path": "internlm/internlm-xcomposer2d5-ol-7b",
+    "top_k": 2, 
+    "token_nums":3,
+    "dim":3,
+    "method": "pca",
+    "num_neighbors":3,
+    "show_original_points":1,
+    "show_similar_points":1,
+    "show_original_tokens":0,
+    "show_similar_tokens":0,
+    "show_connection_lines":0
+}

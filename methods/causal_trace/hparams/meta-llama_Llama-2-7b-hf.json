@@ -1,0 +1,6 @@
+{
+    "model_path": "meta-llama/Llama-2-7b-hf",
+    "replace": false,
+    "window": 10, 
+    "noise_level": "s3"
+}

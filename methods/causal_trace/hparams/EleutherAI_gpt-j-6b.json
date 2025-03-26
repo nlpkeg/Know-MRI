@@ -1,0 +1,6 @@
+{
+    "model_path": "EleutherAI/gpt-j-6b", 
+    "replace": false,
+    "window": 10, 
+    "noise_level": "s3"
+}

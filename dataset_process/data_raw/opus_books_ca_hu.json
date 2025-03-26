@@ -1,0 +1,502 @@
+[
+  {
+    "id": "0",
+    "ca": "Source: Project GutenbergTranslation: Josep Carner",
+    "hu": "Source: mek.oszk.huTranslation: Koroknay István, Karinthy Frigyes"
+  },
+  {
+    "id": "1",
+    "ca": "Les Aventures De Tom Sawyer",
+    "hu": "TOM SAWYER KALANDJAI"
+  },
+  {
+    "id": "2",
+    "ca": "Mark Twain",
+    "hu": "MARK TWAIN"
+  },
+  {
+    "id": "3",
+    "ca": "PREFACI.",
+    "hu": "ELŐSZÓ"
+  },
+  {
+    "id": "4",
+    "ca": "La major part de les aventures consignades en aquest llibre succeiren de bo de bo; una o dues són experiments de la meva collita; la resta pertanyen a minyons que m'eren companys d'escola.",
+    "hu": "A könyvben leírt kalandok nagy része valóban megtörtént, egyik-másik velem, a többi hajdani iskolatársaimmal."
+  },
+  {
+    "id": "5",
+    "ca": "Huck Finn és tret de la vida real; Tom Sawyer també, pero no d'un individu: és una combinació de les característiques de tres nois que jo vaig coneixer; així és que pertany a l'orde arquitectonic compost.",
+    "hu": "Huck Finnt, akárcsak Tom Sawyert, az életből lestem el, mégsem egy bizonyos fiúról mintáztam - három jól ismert gyerek vonásait egyesítettem benne a regényszerkesztés szabályai szerint."
+  },
+  {
+    "id": "6",
+    "ca": "Les estranyes supersticions a les quals hom fa referencia, predominaven totes entre nois i esclaus de l'Oest en el període d'aquesta historia; és a dir, fa trenta o quaranta anys.",
+    "hu": "Az itt említett babonákat történetünk idejében - a harminc-negyven évvel ezelőtti Nyugaton - a gyerekek és a rabszolgák még nagyon komolyan vették."
+  },
+  {
+    "id": "7",
+    "ca": "Encara que mon llibre s'adreça sobretot al divertiment de nois i noies, espero que aixo no sera causa que el defugin homes i dones, perque part del meu proposit ha estat mirar de fer plaent memoria als adults d'allo que un dia foren, i de com sentiren i pensaren i parlaren, i en quínes singulars empreses s'esmerçaren de vegades.",
+    "hu": "Noha könyvemet főképpen gyerekeknek szántam, remélem, a felnőttek sem teszik majd félre, hiszen szeretném bennük is gyengéden felidézni, milyenek voltak valamikor, hogyan éreztek, gondolkoztak és beszéltek, s olykor micsoda különös dolgokba keveredtek."
+  },
+  {
+    "id": "8",
+    "ca": "L'AUTOR (Hartford, 1876).",
+    "hu": "Hartford, 1876 A szerző"
+  },
+  {
+    "id": "9",
+    "ca": "CAPÍTOL I",
+    "hu": "I. FEJEZET"
+  },
+  {
+    "id": "10",
+    "ca": "-Tom!",
+    "hu": "- Tom!"
+  },
+  {
+    "id": "11",
+    "ca": "Cap resposta.",
+    "hu": "Semmi válasz."
+  },
+  {
+    "id": "12",
+    "ca": "-Tom!",
+    "hu": "Tom!"
+  },
+  {
+    "id": "13",
+    "ca": "Cap resposta.",
+    "hu": "Semmi válasz."
+  },
+  {
+    "id": "14",
+    "ca": "-Que s'ha fet aquest noi? em demano.",
+    "hu": "Kíváncsi vagyok, hol csatangol ez a gyerek!"
+  },
+  {
+    "id": "15",
+    "ca": "Tom!",
+    "hu": "Hé, Tom!"
+  },
+  {
+    "id": "16",
+    "ca": "La vella senyora tira per avall les seves ulleres i mira per damunt elles al volt de la cambra. Després les tira per amunt i sotja sota d'elles.",
+    "hu": "Az idős hölgy letolta orrán a szemüvegét, és elnézett fölötte, körös-körül a szobában; aztán visszatolta, és alatta nézett körül."
+  },
+  {
+    "id": "17",
+    "ca": "Poques vegades o mai no mirava a través d'elles per una cosa tan petita com és un noi, perque les ulleres eren de cerimonia, i l'orgull de son cor, i cavalcaven per gala i no pas per servei: igual hauria pogut veure a través d'un parell de tapadores d'estufa.",
+    "hu": "Ritkán vagy tán sohasem nézett át rajta egyenesen olyan jelentéktelen valami miatt, mint egy kisfiú. Ez a szemüveg dísztárgy volt, szíve büszkesége, az \"előkelőség\" érdekében, nem szükségből készült; két tűzhelykarikán keresztül éppen olyan jól látott volna."
+  },
+  {
+    "id": "18",
+    "ca": "Sembla un moment perplexa, i digué, no pas ferotgement, pero tanmateix en veu prou alta perque el parament de la cambra la sentís: -Bé, m'hi jugo qualsevol cosa que si us atrapo us…",
+    "hu": "Pillanatig zavarodottan állt, aztán nem túl hangosan, csak éppen hogy a bútorok hallhassák, azt mondta: - Csak kapjam a kezembe..."
+  },
+  {
+    "id": "19",
+    "ca": "No acaba la frase, perque en aquell moment estava decantant-se i furgant sota el llit amb l'escombra: així és que necessitava ale per al ritme de les furgades.",
+    "hu": "Nem fejezte be, lehajolt, az ágy alá böködött a söprűvel, nagyokat szusszant, hogy a bökések annál hatásosabbak legyenek."
+  },
+  {
+    "id": "20",
+    "ca": "No desenterra cap cosa sinó el gat.",
+    "hu": "De csak a macskát riasztotta föl."
+  },
+  {
+    "id": "21",
+    "ca": "-Mai no l'he vist atrapat, aquest noi!",
+    "hu": "Ilyen kölyök még nem volt a világon!"
+  },
+  {
+    "id": "22",
+    "ca": "Se n'ana cap a la porta oberta i s'hi atura, i sotja entre els emparrats de tomaqueres i herbes tauperes, que constituien el jardí.",
+    "hu": "Kiállt a nyitott ajtóba, és szétnézett a paradicsomok és articsókák közt, amelyek a kertet jelentették."
+  },
+  {
+    "id": "23",
+    "ca": "Res de Tom.",
+    "hu": "Tomnak se híre, se pora."
+  },
+  {
+    "id": "24",
+    "ca": "Així és que ella féu força per alçar la veu fins al grau exigit per la distancia, i crida:",
+    "hu": "Fölemelte hangját, hogy messzebbre is hallhassák, és elkiáltotta magát:"
+  },
+  {
+    "id": "25",
+    "ca": "-O-o-o Tom!",
+    "hu": "Hé-é-é, Tom!"
+  },
+  {
+    "id": "26",
+    "ca": "Sentí una fressa lleu al darrera, i es gira a temps per a agafar un petit minyó per l'extrem de son gec, i aturar la seva fugida. -Té!",
+    "hu": "Halk nesz hallatszott a háta mögött, és ahogy hirtelen megfordult, éppen hogy el tudta kapni egy kölyök gallérját, amint el akart iszkolni. - Na, ugye!"
+  },
+  {
+    "id": "27",
+    "ca": "Hauria hagut de pensar en aquest recambró.",
+    "hu": "Mindjárt gondolhattam volna a kamrára."
+  },
+  {
+    "id": "28",
+    "ca": "Que hi féieu, aquí dins?",
+    "hu": "Mit kerestél ott?"
+  },
+  {
+    "id": "29",
+    "ca": "-Res.",
+    "hu": "Semmit!"
+  },
+  {
+    "id": "30",
+    "ca": "-Res!",
+    "hu": "Semmit!"
+  },
+  {
+    "id": "31",
+    "ca": "Mireu-vos les mans i mireu-vos la boca.",
+    "hu": "Nézd csak meg a kezedet meg a szádat."
+  },
+  {
+    "id": "32",
+    "ca": "Que és, aquesta brutor?",
+    "hu": "Mi ragad rajta?"
+  },
+  {
+    "id": "33",
+    "ca": "-No ho sé, tia.",
+    "hu": "Én nem tudom, néni."
+  },
+  {
+    "id": "34",
+    "ca": "-Bé, jo sí, que ho sé.",
+    "hu": "De én tudom!"
+  },
+  {
+    "id": "35",
+    "ca": "És melmelada: vet aquí el que és.",
+    "hu": "Lekvár, az bizony."
+  },
+  {
+    "id": "36",
+    "ca": "Us he dit quaranta vegades que si no deixaveu la melmelada tranquila us llevaria la pell.",
+    "hu": "Hát nem százszor megmondtam, hogy nyughass attól a lekvártól, különben megnyúzlak."
+  },
+  {
+    "id": "37",
+    "ca": "Deu-me aquell fuet.",
+    "hu": "Add csak ide azt a pálcát."
+  },
+  {
+    "id": "38",
+    "ca": "El fuet fou brandat per l'aire.",
+    "hu": "A pálca a levegőbe emelkedett."
+  },
+  {
+    "id": "39",
+    "ca": "El perill era desesperat.",
+    "hu": "Elkerülhetetlennek látszott a végzet."
+  },
+  {
+    "id": "40",
+    "ca": "-Ui!",
+    "hu": "Szent Isten!"
+  },
+  {
+    "id": "41",
+    "ca": "Mireu al darrera vostre, tia!",
+    "hu": "Nézz csak hátra, néni!"
+  },
+  {
+    "id": "42",
+    "ca": "La vella senyora es gira arremolinadament, i arrabassa les faldilles cap enfora de l'amenaça; i el minyó fugí tot seguit, s'enfila damunt el clos d'altes estaques, i desaparegué a l'altra banda.",
+    "hu": "Az idős hölgy megpördült a sarkán, ijedtében összehúzta szoknyáját, a kölyök pedig egy pillanat alatt elszaladt, fölkapaszkodott a magas palánkra, és eltűnt mögötte."
+  },
+  {
+    "id": "43",
+    "ca": "La tia Polly romangué sorpresa un moment i en acabat esclatá en una dolça rialla.",
+    "hu": "Polly néni egy pillanatig meghökkenve állt, aztán elnevette magát:"
+  },
+  {
+    "id": "44",
+    "ca": "-Diastre de noi!",
+    "hu": "Ördög vigye ezt a gyereket!"
+  },
+  {
+    "id": "45",
+    "ca": "Mireu's que és prou, que jo mai pugui escarmentar!",
+    "hu": "Hát soha nem tanulok meg semmit?"
+  },
+  {
+    "id": "46",
+    "ca": "No m'ha fet prou martingales, perque ara m'emprengui de sotjar-lo?",
+    "hu": "Hányszor ugratott már be ugyanígy, és mégse tudok rá vigyázni."
+  },
+  {
+    "id": "47",
+    "ca": "Pero un vell ximple és el pitjor dels ximples.",
+    "hu": "Úgy látszik, mégiscsak igaz, hogy mentül öregebb valaki, annál kevesebb az esze."
+  },
+  {
+    "id": "48",
+    "ca": "Un gos vell no apren cap traça nova, com diu la dita.",
+    "hu": "Nemhiába mondják: vén kutya nem tanul már újat."
+  },
+  {
+    "id": "49",
+    "ca": "Tanmateix, en nom de Déu, ell no s'empesca mai les mateixes coses dues vegades seguides; i com pot coneixer un hom la que ha de venir?",
+    "hu": "No, és nincs két nap egymás után, hogy ugyanúgy járatná a bolondját velem; hogy is tudhatnám, mit forral?"
+  },
+  {
+    "id": "50",
+    "ca": "Sembla talment que sapiga per quant de temps podra de consumir-me les sangs sense que m'arribi a arborar, i sap que, si arriba a aconseguir de deixar-me en bitza per un minut o fer-me riure, jo m'aplaco i no puc ventar-li patacada.",
+    "hu": "Mintha pontosan tudná, meddig élhet vissza a türelmemmel, és azt is tudja, hogy ha egy szempillantásra kizökkent vagy megnevettet, vége az egésznek, nem vagyok képes megverni."
+  },
+  {
+    "id": "51",
+    "ca": "No hi compleixo pas la meva obligació amb aquest noi; i aquesta és la santa veritat, Déu ho sap.",
+    "hu": "Isten látja lelkem, nem teljesítem kötelességem evvel a gyerekkel szemben."
+  },
+  {
+    "id": "52",
+    "ca": "Planyer el bastó malmet el minyó, com diu la Bíblia.",
+    "hu": "Ha pihen a pálca, elkanászodik a tanítvány, mondják."
+  },
+  {
+    "id": "53",
+    "ca": "Deixo que el pecat s'amuntegui, i pago la pena per tots dos, massa que ho veig.",
+    "hu": "Bűn ez, tudom én jól, s mindketten megszenvedünk majd érte."
+  },
+  {
+    "id": "54",
+    "ca": "És un vailet endimoniat; pero, caram!, és el noi de la meva germana morta, pobrissona!, i no tinc cor de ventar-li fuetada, sigui com sigui.",
+    "hu": "Mindig huncutságon jár az esze, de istenem, mégiscsak szegény elhalt nővérem gyereke szegényke, nincs szívem hozzá, úgy istenigazában elnadrágolni."
+  },
+  {
+    "id": "55",
+    "ca": "Cada vegada que el deixo anar, la consciencia em puny de allo més; i cada vegada que l'aporrino el cor se'm trenca.",
+    "hu": "Valahányszor eleresztem, furdal a lelkiismeret; de valahányszor kihúzza tőlem a lutrit, öreg szívem vallja kárát."
+  },
+  {
+    "id": "56",
+    "ca": "Tanmateix, home nat de dona és de pocs dies i ple de tribulacions, com diu l'Escriptura, i és la massíssima veritat.",
+    "hu": "Bizony, bizony, akit anya szült, annak meg vannak számlálva napjai, és rögösek az ő útjai, mint az írás mondja, és azt hiszem, úgy is van ez."
+  },
+  {
+    "id": "57",
+    "ca": "Fara campana aquesta tarda, i no tindré més remei que fer-lo treballar dema, per a castigar-lo.",
+    "hu": "Ma délután biztosan felé se megy az iskolának, holnap muszáj lesz munkára fognom, hogy megbüntessem."
+  },
+  {
+    "id": "58",
+    "ca": "És ben dur de fer-lo treballar els dissabtes, quan tots els minyons fan festa; pero ell té més rancúnia al treball que a cap altra cosa, i, no hi ha més, he de complir amb ell una mica de la meva obligació, o seré la seva ruina.",
+    "hu": "Keserves dolog szombaton dolgoztatni, mikor a többi fiú mind szabad, de a munkát jobban utálja, mint bármi mást, és hát teljesítenem kell vele szemben kötelességemet, különben én leszek az oka, ha rossz útra téved."
+  },
+  {
+    "id": "59",
+    "ca": "Tom va fer campana, i va passar una gentil estona.",
+    "hu": "Tom csakugyan felé se ment az iskolának, és igen jól érezte magát."
+  },
+  {
+    "id": "60",
+    "ca": "Torna a casa amb prou feines a temps d'ajudar Jim, el vailet negre, a serrar la llenya del dia següent; i partí les teies abans de sopar, o almenys estigué allí a una hora escaient per a dir ses aventures a Jim, mentre Jim feia les tres quartes parts de la feina.",
+    "hu": "Későn jött meg, de még épp idejében, hogy vacsora előtt segítsen Jimnek, a kis néger fiúnak a másnapi fát felvágni és gyújtóst hasogatni - vagyis inkább idejében érkezett, hogy elmesélje kalandjait Jimnek, amíg Jim elvégezte a munka háromnegyed részét."
+  },
+  {
+    "id": "61",
+    "ca": "El germa petit de Tom (o, millor, germanastre), Sid, estava ja enfeinat en la seva contribució al treball (arreplegant les miques de fusta), perque era un noi tranquil, i no pas de mena aventurera ni enquimeradora.",
+    "hu": "Tom öccse (azaz inkább féltestvére), Sid, már elvégezte a maga dolgát, összeszedte a forgácsot. Sid csöndes fiú volt, nem járt kalandos, zavaros utakon."
+  },
+  {
+    "id": "62",
+    "ca": "Mentre Tom anava menjant-se el seu sopar i robava el sucre en oferir-se-n'hi avinentesa, la tia Polly li feia preguntes que eren plenes d'artifici i molt pregones, perque volia atrapar-lo en revelacions perjudicials.",
+    "hu": "Míg Tom vacsorázott, és alkalmilag elcsórt egy kockacukrot, Polly néni mély és csalafinta kérdéseket intézett hozzá - szerette volna beismerő vallomásra kényszeríteni."
+  },
+  {
+    "id": "63",
+    "ca": "Com esdevé a moltes altres animes senzilles, la seva vanitat predilecta era de creure que tenia un talent especial per a l'ombrívola i misteriosa diplomacia, i li plaia de considerar sos enginys més transparents com a meravelles d'extraordinaria trapelleria.",
+    "hu": "Mint a hozzá hasonló jótét lelkek általában, azzal tetszelgett magának, hogy burkolt és rejtélyes diplomáciai képesség lappang benne, és legátlátszóbb csapdáiról is azt hitte, hogy azok a mélységes diplomáciai ravaszság remekei."
+  },
+  {
+    "id": "64",
+    "ca": "-Tom- digué ella -feia bastanta calor a l'escola: veritat?",
+    "hu": "Tom, nem volt nagyon meleg az iskolában?"
+  },
+  {
+    "id": "65",
+    "ca": "-Sí, senyora.",
+    "hu": "De igen."
+  },
+  {
+    "id": "66",
+    "ca": "-Molta calor: veritat?",
+    "hu": "Túlságosan meleg volt, nem?"
+  },
+  {
+    "id": "67",
+    "ca": "-Sí, senyora.",
+    "hu": "De igen."
+  },
+  {
+    "id": "68",
+    "ca": "-No teníeu ganes de rabejar-vos una mica a l'aigua, Tom?",
+    "hu": "Nem kerekedett kedved fürödni menni, Tom?"
+  },
+  {
+    "id": "69",
+    "ca": "Tom es sentí ferit d'un bri d'alarma, d'un toc de sospita inquieta.",
+    "hu": "Valami átvillant Tomon - a sanda gyanú árnyéka."
+  },
+  {
+    "id": "70",
+    "ca": "Escruta la cara de la tia Polly, pero ella no li digué res.",
+    "hu": "Kutatva nézett Polly néni szemébe, de az semmit sem árult el."
+  },
+  {
+    "id": "71",
+    "ca": "Així és que féu: -No sé…, és a dir, no molt.",
+    "hu": "Ezért azt mondta: - Ne-em - igazán nem volt kedvem."
+  },
+  {
+    "id": "72",
+    "ca": "La vella senyora estengué la seva ma i toca la camisa de Tom, i digué: -Pero tampoc no esteu massa calent, ara.",
+    "hu": "Az öreg hölgy megtapogatta Tom ingét. - Nem is vagy nagyon kimelegedve."
+  },
+  {
+    "id": "73",
+    "ca": "I li fou cosa afalagadora, de reflexionar que ella havia descobert que la camisa era seca, sense que ningú s'adonés que aixo era la cosa que portava al magí.",
+    "hu": "Büszke volt rá, hogy most megállapította: a fiúnak száraz az inge, és senki nem is sejthette, hogy mi a szándéka."
+  },
+  {
+    "id": "74",
+    "ca": "Pero, a desgrat d'ella, Tom ara sabia d'on venia el vent.",
+    "hu": "De Tom tudta már, hogy honnan fúj a szél."
+  },
+  {
+    "id": "75",
+    "ca": "Així és que preveié quína seria la vinent jugada.",
+    "hu": "Ezért megelőzte a következő sakkhúzást."
+  },
+  {
+    "id": "76",
+    "ca": "-Alguns de nosaltres ens mullarem el cap sota la bomba… Jo encara el tinc humit. Veieu?",
+    "hu": "Vizet húztunk egymás fejére - az enyém is egész nedves még, nézd csak!"
+  },
+  {
+    "id": "77",
+    "ca": "La tia Polly va enrabinar-se de pensar que havia passat per alt aquell bocí de prova circumstancial i negligit una pista. Aleshores digué, amb nova inspiració:",
+    "hu": "Polly nénit bántotta, hogy elmulasztotta ennek a fontos ténykörülménynek a megállapítását, és így a cselvetés nem sikerült, azonban új ötlete támadt:"
+  },
+  {
+    "id": "78",
+    "ca": "-Tom: no us calgué pas d'arrencar el coll de la camisa d'alla on jo l'havia cosit, per mullar-vos el cap: oi?",
+    "hu": "Tudom, ha vizet húztál a fejedre, csak nem fejtetted le a gallért, amit az ingre varrtam, mi?"
+  },
+  {
+    "id": "79",
+    "ca": "Descordeu-vos el gec!",
+    "hu": "Gombold ki a kabátodat!"
+  },
+  {
+    "id": "80",
+    "ca": "A la cara de Tom s'hi esvaí la preocupació.",
+    "hu": "Minden aggodalom eltűnt Tom arcáról."
+  },
+  {
+    "id": "81",
+    "ca": "Obrí son gec.",
+    "hu": "Kinyitotta a kabátját."
+  },
+  {
+    "id": "82",
+    "ca": "Son coll de camisa estava solidament cosit.",
+    "hu": "A gallér erősen oda volt varrva."
+  },
+  {
+    "id": "83",
+    "ca": "-Dolentot!",
+    "hu": "Adta kölyke."
+  },
+  {
+    "id": "84",
+    "ca": "Bé, ja podeu tocar pirandó.",
+    "hu": "No, csak tűnj el innét."
+  },
+  {
+    "id": "85",
+    "ca": "Estava segura que havíeu fet el plaga i havíeu anat a nedar.",
+    "hu": "Biztos voltam benne, hogy iskolát kerültél, és fürödtél."
+  },
+  {
+    "id": "86",
+    "ca": "Pero us perdono.",
+    "hu": "De most megbocsátok."
+  },
+  {
+    "id": "87",
+    "ca": "Tom: em fa l'efecte que sou una mena de gat escaldat, com diu la gent… i millor del que sembleu, per aquesta vegada.",
+    "hu": "Néha jobb vagy, mint amilyennek általában látszol."
+  },
+  {
+    "id": "88",
+    "ca": "Mig li recava que la seva sagacitat hagués fet fallida, i mig s'alegrava que Tom s'hagués ensopegat, per una vegada, a servar obedient conducta.",
+    "hu": "Polly néni félig sajnálta, hogy éleselméjűsége így csődöt mondott, félig pedig örült, hogy Tom egyszerre ilyen engedelmes lett. De Sidney megszólalt:"
+  },
+  {
+    "id": "89",
+    "ca": "Pero Sidney digué: -Bé, jo diria que li havíeu cosit el coll amb fil blanc; pero ara és negre.",
+    "hu": "Ejnye, mintha úgy emlékeznék, hogy fehér cérnával varrtad föl azt a gallért, most pedig feketével van odavarrva."
+  },
+  {
+    "id": "90",
+    "ca": "-Oital, si el vaig cosir amb fil blanc!",
+    "hu": "Persze hogy fehérrel varrtam meg, Tom!"
+  },
+  {
+    "id": "91",
+    "ca": "Tom!",
+    "hu": "De Tom nem várta ki a végét."
+  },
+  {
+    "id": "92",
+    "ca": "Pero Tom no n'espera l'acabament. En passar la porta, digué:",
+    "hu": "Amint kiugrott az ajtón, még hátraszólt: - Siddy, ezért megkapod a magadét!"
+  },
+  {
+    "id": "93",
+    "ca": "-Siddy, aixo et valdra una pallissa. En un indret segur, Tom examina dues grans agulles clavades a les gires del seu gec; i estaven enfilades, l'una enfilada de fil blanc i l'altra de negre.",
+    "hu": "Biztonságba kerülve, Tom megvizsgálta a két hatalmas, kabátja hajtókájába tűzött, cérnával körültekert tűt, az egyik fehérrel, a másik feketével volt befűzve."
+  },
+  {
+    "id": "94",
+    "ca": "-Mai no n'hauria hagut esment, si no hagués estat per Sid.",
+    "hu": "\"Soha nem vette volna észre, ha Siddy nem szól - tűnődött."
+  },
+  {
+    "id": "95",
+    "ca": "Llamp! De vegades ella ho cus amb fil blanc, i de vegades ho cus amb fil negre.",
+    "hu": "- Az ördög vigye el, a néni mindig cserélgeti, egyszer fehérrel varr, egyszer feketével."
+  },
+  {
+    "id": "96",
+    "ca": "Voldria, en nom de Déu, que sempre ho fes amb l'un o amb l'altre: no puc estar tan amatent als canvis.",
+    "hu": "Igazán megmaradhatna valamelyiknél - magam is eltévesztettem már."
+  },
+  {
+    "id": "97",
+    "ca": "Pero em jugo qualsevol cosa que a Sid l'estaborniré.",
+    "hu": "De Sid is megemlegeti, amit azért kap, vagy egyszerűen leharapom a fejem!\""
+  },
+  {
+    "id": "98",
+    "ca": "Li daré una lliçó! Tom no era pas el noi model del poblet.",
+    "hu": "Tom nem állt éppen mintagyerek hírében."
+  },
+  {
+    "id": "99",
+    "ca": "Coneixia molt bé quin era el noi model, tanmateix, i li feia fastic.",
+    "hu": "Jól ismerte a mintagyerekeket, és megfelelően utálta is őket."
+  }
+]

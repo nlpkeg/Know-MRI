@@ -1,0 +1,9 @@
+{
+    "model_path": "EleutherAI/gpt-j-6b", 
+    "refine": false,
+    "adaptive_threshold": 0.2,
+    "p": 0.4,
+    "num_neuron": 1000,
+    "unembedding_num": 3,
+    "max_layer": -1
+}

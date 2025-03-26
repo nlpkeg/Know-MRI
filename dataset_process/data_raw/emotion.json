@@ -1,0 +1,602 @@
+[
+   {
+  "id": 0,
+  "text": "i feel awful about it too because it s my job to get him in a position to succeed and it just didn t happen here",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 1,
+  "text": "im alone i feel awful",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 2,
+  "text": "ive probably mentioned this before but i really do feel proud of myself for actually keeping up with my new years resolution of monthly and weekly goals",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 3,
+  "text": "i was feeling a little low few days back",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 4,
+  "text": "i beleive that i am much more sensitive to other peoples feelings and tend to be more compassionate",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 5,
+  "text": "i find myself frustrated with christians because i feel that there is constantly a talk about loving one another being there for each other and praying for each other and i have seen that this is not always the case",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 6,
+  "text": "i am one of those people who feels like going to the gym is only worthwhile if you can be there for an hour or more",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 7,
+  "text": "i feel especially pleased about this as this has been a long time coming",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 8,
+  "text": "i was struggling with these awful feelings and was saying such sweet things about not deserving my and my sisters friendship and we agreed well she was in her car just starting to drive away when she reached out her hand",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 9,
+  "text": "i feel so enraged but helpless at the same time",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 10,
+  "text": "i said feeling a bit rebellious",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 11,
+  "text": "i also feel disillusioned that someone who claimed to value the truth as i do was a fraud",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 12,
+  "text": "i mean is on this stupid trip of making the great album when things are going well i feel ecstatic",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 13,
+  "text": "i woke up feeling particularly vile tried to ignore it but it got worse and worse and worse",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 14,
+  "text": "i could feel the vile moth burrowing its way into my brain seeking my brain as a means to control and enslave me just as those nasty bug things did to chekov in star trek the wrath of khan",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 15,
+  "text": "i know its just doing its job and doesnt actually have thoughts or feelings but that little jingle it does at the end of every cycle just makes it seem so excited to have done another load that it cant help but sing about it",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 16,
+  "text": "i wish you knew every word i write i write for you and i think it s useless because i m just heartless this feeling is empty in it s w",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 17,
+  "text": "i feel weird knowing mine died when i wasn t around",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 18,
+  "text": "i feel assured that there is no such thing as ultimate forgetting traces once impressed upon the memory are indestructible",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 19,
+  "text": "i feel blessed everyday for our little man and love to watch him grow",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 20,
+  "text": "i feel exhausted when i go home but i am always glad that i am learning new things and i can help others learn as well",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 21,
+  "text": "i stil can see kaibas face on every tv screen still see amateur duelists prowling the good side of city and still feel the urge to throttle all those idiotic mortals that dare to look me in the eye",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 22,
+  "text": "i don t like to feel uncomfortable with being alone and being quiet",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 23,
+  "text": "i was left kinda feeling stupid and insecure",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 24,
+  "text": "i alternate between feeling sympathetic toward humanity and being a misanthrope",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 25,
+  "text": "i have a pretty bad feeling the last two books will be rushed in terms of story",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 26,
+  "text": "i sincerely believe that every client celebrity or not deserves my full attention and leaves feeling more glamorous than when they arrived",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 27,
+  "text": "i don t feel comfortable around you",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 28,
+  "text": "i am happy that you don t feel as burdened and consumed as i do",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 29,
+  "text": "i am still here i am not dead yet but these things can not be said without feeling humiliated",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 30,
+  "text": "i have been continually surprised at how much less i need to eat to feel truly satisfied if im eating good food and sitting down for a whole lovely little experience at each meal satisfying the soul as well as the stomach",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 31,
+  "text": "i pretty much waddled out of the hospital feeling weird lightheaded but ok",
+  "label": 5,
+  "emotion": "surprise"
+ },
+   {
+  "id": 32,
+  "text": "i apologize to him almost every day for my lack of faith and i ask him to give me more because i feel uncertain about my future here in kiev",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 33,
+  "text": "i am still searching for direction but at least now i feel slightly more assured more hopeful",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 34,
+  "text": "i am so angry that i feel like i have to go through life not being as carefree as i want to be",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 35,
+  "text": "i feel passionate about today because of him",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 36,
+  "text": "i am only having day a week where i am feeling depressed or seriously anxious",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 37,
+  "text": "article published",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 38,
+  "text": "i see things so clearly and with so much depth peace that it makes me feel unsure",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 39,
+  "text": "i feel myself relax a little he wouldn t be this friendly if he was going to tear me off a strip but my mind is working overtime trying to work out what he does want",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 40,
+  "text": "i feel doubtful about my place in the world of technology and the applicable value of the work i do i often find it helpful to think about doug engelbart listening to him describe in one of many interviews his goals the genesis of his goals and his dogged perseverance toward meeting his plan",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 41,
+  "text": "im feeling rotten i dont post much new material that doesnt mean you shouldnt be reading when youre feeling rotten",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 42,
+  "text": "i have a feeling that theyre probably not going to be thrilled with me",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 43,
+  "text": "ive been feeling pretty shitty and been in a pretty shitty mood the past few days",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 44,
+  "text": "i cant even imagine how my mom and her three younger sisters must feel i think the weird thing about death is that from an early age we associate it with something evil and tragic",
+  "label": 5,
+  "emotion": "surprise"
+ },
+   {
+  "id": 45,
+  "text": "i feel glad i am on the side of the law and the only journey about to start was our weekend sojourn to the city of pines",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 46,
+  "text": "i will most likely feel overwhelmed and exhausted again",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 47,
+  "text": "i can feel myself reaching out extending through time and space to touch my beloved",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 48,
+  "text": "im looking right now so desperately looking for a creative project that i feel like i have had a hand in that i need to sit and write my fucking mother fucker of a fuckity fuckers fucked play before i feel satisfied doing anything else",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 49,
+  "text": "i am really hoping to get to target soon and i am so glad im feeling more positive this week",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 50,
+  "text": "i dont know if i feel appreciative of all the talent out there or depressed that i suck at this so much",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 51,
+  "text": "i feel he will be ok with out it",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 52,
+  "text": "i tend to stop breathing when i m feeling stressed",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 53,
+  "text": "i feel sickened by and disgusted with the sins of man despite my divinity i feel sickened by and disgusted with the sins of man",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 54,
+  "text": "i feel that i have nothing smart or interesting to write about these days",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 55,
+  "text": "i feel blessed and grateful today",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 56,
+  "text": "i am not feeling very compassionate towards those that need our help i just want them to fix their own problems so i dont have to figure out what parts they need or how long it will take to get the job done or is this an emergency",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 57,
+  "text": "i had my week appointment yesterday and left feeling a little defeated",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 58,
+  "text": "i know it isnt true but sometimes i feel like the most unimportant insignificant person on the face of the earth",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 59,
+  "text": "i feel so numb to everything right now and its hard to express exactly what i feel but we went for a little harrison walk nonetheless to clear our heads",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 60,
+  "text": "i feel for you makes me brave",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 61,
+  "text": "i am feeling incredibly thankful for this year my children",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 62,
+  "text": "i write this i m sipping on a martini which is probably why i m feeling so generous",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 63,
+  "text": "i would recommend watching them to feel amazed and inspired",
+  "label": 5,
+  "emotion": "surprise"
+ },
+   {
+  "id": 64,
+  "text": "i can t really put into eloquent words what i m trying to say i just feel listless and useless and meaningless as though i ve failed in life",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 65,
+  "text": "i feel that i have a really funny side that i would like people to see",
+  "label": 5,
+  "emotion": "surprise"
+ },
+   {
+  "id": 66,
+  "text": "i already feel awful about what happened and i actually needed to hear you say everything you just said more than anything else in the whole world",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 67,
+  "text": "i feel divine and strong",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 68,
+  "text": "i can say that i feel amazed",
+  "label": 5,
+  "emotion": "surprise"
+ },
+   {
+  "id": 69,
+  "text": "i actually think i am a fairly authentic person generally i am pretty honest about my opinions desires etc and almost never lie even white lies but when it comes to those deep dark close to home negative feelings in your gut oh how i have repressed them out of fear",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 70,
+  "text": "i slept horribly and i m feeling doubtful about everything like why can t i manage to figure out how to save more money",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 71,
+  "text": "i feel hopeful yet at times not so hopeful",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 72,
+  "text": "i just supposed to read the bible and think well god wants me to feel peaceful so thats what i will do",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 73,
+  "text": "i hated growing up i have no good memories of a life as an innocent child only the feeling of being hated and worthlessness consume the memories",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 74,
+  "text": "i am having really badly cannot wear anything without causing spasms diarrhea or eat more than a few of mouthfuls i am feeling very miserable",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 75,
+  "text": "when my kid brother broke my reading spectacles",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 76,
+  "text": "i could feel my mouth water as i devoted all my energy to evoking yelps from his lips",
+  "label": 2,
+  "emotion": "love"
+ },
+   {
+  "id": 77,
+  "text": "im feeling though that it may be worthwhile to learn the terminology and thus improve my ability to communicate",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 78,
+  "text": "i don t feel afraid i m a nurse i m doing my job",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 79,
+  "text": "i was feeling confident that i could work with these kids teach them",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 80,
+  "text": "im feeling scared",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 81,
+  "text": "i was feeling really cute and happy for church on sunday so i thought itd be a good time to take a belly picture",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 82,
+  "text": "i feel burdened because yuchun and junsu have been doing so well",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 83,
+  "text": "i had to really say that i m feeling remorseful and regretful for what i ve done",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 84,
+  "text": "im associated with what they do despite how i feel and protest about it whilst reaping the benefits of a relatively peaceful society",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 85,
+  "text": "i have a feeling i will once again walk out pressured to induce but i just have to remain strong in the face of pressure",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 86,
+  "text": "i feel like i m frolicking away precious time to do something for my future",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 87,
+  "text": "i feel like i have some useful tools",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 88,
+  "text": "i feel like im in some kind of defective shell that prevents me from utilizing who i know myself to be from using the tools i was given",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 89,
+  "text": "i feel so empty i dont know what i am suppose to do",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 90,
+  "text": "i genuinely feel for the characters and am keen to uncover every part of the story",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 91,
+  "text": "im feeling adventurous i might toss in a scoop of protein powder for an extra punch of nutrition",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 92,
+  "text": "i feel awkward around rose",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 93,
+  "text": "i want to be generous but sometimes i feel greedy",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 94,
+  "text": "i feel so unsure about this book was the ending",
+  "label": 4,
+  "emotion": "fear"
+ },
+   {
+  "id": 95,
+  "text": "i really liked it and i have a feeling the beloved would have liked it too except hes away still and missed out",
+  "label": 1,
+  "emotion": "joy"
+ },
+   {
+  "id": 96,
+  "text": "i feel like talking in a snobbish uppity accent and responding with let me just say a lot while flipping my hair and then trying to pull the cheese wiz out of it",
+  "label": 3,
+  "emotion": "anger"
+ },
+   {
+  "id": 97,
+  "text": "i don t feel as needy and desperate to prove things",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 98,
+  "text": "i feel bad for my mum who carries everything and everyone",
+  "label": 0,
+  "emotion": "sadness"
+ },
+   {
+  "id": 99,
+  "text": "i have a feeling some people really outgoing people must feel like that naturally",
+  "label": 1,
+  "emotion": "joy"
+ }
+]

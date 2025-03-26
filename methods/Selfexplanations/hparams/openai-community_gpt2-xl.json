@@ -1,0 +1,10 @@
+{
+    "model_path": "openai-community/gpt2-xl",
+    "do_sample":false,
+    "max_length":150,
+    "top_k":30,
+    "top_p":0.7,
+    "temperature":0.5,
+    "repetition_penalty":1.2,
+    "topk_words":4
+}

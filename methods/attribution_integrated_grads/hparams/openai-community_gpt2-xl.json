@@ -1,0 +1,5 @@
+{
+    "model_path": "openai-community/gpt2-xl",
+    "num_steps": 20, 
+    "batch_size": 10
+}

@@ -1,0 +1,1202 @@
+[
+    {
+        "prompt": "dog exhale air",
+        "ground_truth": "1",
+        "triple": [
+            "dog",
+            "exhale",
+            "air"
+        ],
+        "triple_subject": "dog",
+        "triple_relation": "exhale",
+        "triple_object": "air"
+    },
+    {
+        "prompt": "rabbit drop elephant",
+        "ground_truth": "0",
+        "triple": [
+            "rabbit",
+            "drop",
+            "elephant"
+        ],
+        "triple_subject": "rabbit",
+        "triple_relation": "drop",
+        "triple_object": "elephant"
+    },
+    {
+        "prompt": "dog burn ham",
+        "ground_truth": "0",
+        "triple": [
+            "dog",
+            "burn",
+            "ham"
+        ],
+        "triple_subject": "dog",
+        "triple_relation": "burn",
+        "triple_object": "ham"
+    },
+    {
+        "prompt": "stick rip rock",
+        "ground_truth": "0",
+        "triple": [
+            "stick",
+            "rip",
+            "rock"
+        ],
+        "triple_subject": "stick",
+        "triple_relation": "rip",
+        "triple_object": "rock"
+    },
+    {
+        "prompt": "bug fish shark",
+        "ground_truth": "0",
+        "triple": [
+            "bug",
+            "fish",
+            "shark"
+        ],
+        "triple_subject": "bug",
+        "triple_relation": "fish",
+        "triple_object": "shark"
+    },
+    {
+        "prompt": "man grab apple",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "grab",
+            "apple"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "grab",
+        "triple_object": "apple"
+    },
+    {
+        "prompt": "paper sharpen knife",
+        "ground_truth": "0",
+        "triple": [
+            "paper",
+            "sharpen",
+            "knife"
+        ],
+        "triple_subject": "paper",
+        "triple_relation": "sharpen",
+        "triple_object": "knife"
+    },
+    {
+        "prompt": "elephant tackle bus",
+        "ground_truth": "1",
+        "triple": [
+            "elephant",
+            "tackle",
+            "bus"
+        ],
+        "triple_subject": "elephant",
+        "triple_relation": "tackle",
+        "triple_object": "bus"
+    },
+    {
+        "prompt": "finger hang rabbit",
+        "ground_truth": "1",
+        "triple": [
+            "finger",
+            "hang",
+            "rabbit"
+        ],
+        "triple_subject": "finger",
+        "triple_relation": "hang",
+        "triple_object": "rabbit"
+    },
+    {
+        "prompt": "fist tap smoke",
+        "ground_truth": "0",
+        "triple": [
+            "fist",
+            "tap",
+            "smoke"
+        ],
+        "triple_subject": "fist",
+        "triple_relation": "tap",
+        "triple_object": "smoke"
+    },
+    {
+        "prompt": "girl grope oil",
+        "ground_truth": "0",
+        "triple": [
+            "girl",
+            "grope",
+            "oil"
+        ],
+        "triple_subject": "girl",
+        "triple_relation": "grope",
+        "triple_object": "oil"
+    },
+    {
+        "prompt": "man toss air",
+        "ground_truth": "0",
+        "triple": [
+            "man",
+            "toss",
+            "air"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "toss",
+        "triple_object": "air"
+    },
+    {
+        "prompt": "lake beat rust",
+        "ground_truth": "0",
+        "triple": [
+            "lake",
+            "beat",
+            "rust"
+        ],
+        "triple_subject": "lake",
+        "triple_relation": "beat",
+        "triple_object": "rust"
+    },
+    {
+        "prompt": "man pack smoke",
+        "ground_truth": "0",
+        "triple": [
+            "man",
+            "pack",
+            "smoke"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "pack",
+        "triple_object": "smoke"
+    },
+    {
+        "prompt": "ant clench closet",
+        "ground_truth": "0",
+        "triple": [
+            "ant",
+            "clench",
+            "closet"
+        ],
+        "triple_subject": "ant",
+        "triple_relation": "clench",
+        "triple_object": "closet"
+    },
+    {
+        "prompt": "ant stroke elephant",
+        "ground_truth": "0",
+        "triple": [
+            "ant",
+            "stroke",
+            "elephant"
+        ],
+        "triple_subject": "ant",
+        "triple_relation": "stroke",
+        "triple_object": "elephant"
+    },
+    {
+        "prompt": "glove hold stick",
+        "ground_truth": "1",
+        "triple": [
+            "glove",
+            "hold",
+            "stick"
+        ],
+        "triple_subject": "glove",
+        "triple_relation": "hold",
+        "triple_object": "stick"
+    },
+    {
+        "prompt": "sun heat water",
+        "ground_truth": "1",
+        "triple": [
+            "sun",
+            "heat",
+            "water"
+        ],
+        "triple_subject": "sun",
+        "triple_relation": "heat",
+        "triple_object": "water"
+    },
+    {
+        "prompt": "water feed horse",
+        "ground_truth": "1",
+        "triple": [
+            "water",
+            "feed",
+            "horse"
+        ],
+        "triple_subject": "water",
+        "triple_relation": "feed",
+        "triple_object": "horse"
+    },
+    {
+        "prompt": "barge capsize basket",
+        "ground_truth": "1",
+        "triple": [
+            "barge",
+            "capsize",
+            "basket"
+        ],
+        "triple_subject": "barge",
+        "triple_relation": "capsize",
+        "triple_object": "basket"
+    },
+    {
+        "prompt": "finger scratch mud",
+        "ground_truth": "1",
+        "triple": [
+            "finger",
+            "scratch",
+            "mud"
+        ],
+        "triple_subject": "finger",
+        "triple_relation": "scratch",
+        "triple_object": "mud"
+    },
+    {
+        "prompt": "finger hook shirt",
+        "ground_truth": "1",
+        "triple": [
+            "finger",
+            "hook",
+            "shirt"
+        ],
+        "triple_subject": "finger",
+        "triple_relation": "hook",
+        "triple_object": "shirt"
+    },
+    {
+        "prompt": "child haul cat",
+        "ground_truth": "1",
+        "triple": [
+            "child",
+            "haul",
+            "cat"
+        ],
+        "triple_subject": "child",
+        "triple_relation": "haul",
+        "triple_object": "cat"
+    },
+    {
+        "prompt": "scissors scratch toe",
+        "ground_truth": "1",
+        "triple": [
+            "scissors",
+            "scratch",
+            "toe"
+        ],
+        "triple_subject": "scissors",
+        "triple_relation": "scratch",
+        "triple_object": "toe"
+    },
+    {
+        "prompt": "pipe ejaculate water",
+        "ground_truth": "1",
+        "triple": [
+            "pipe",
+            "ejaculate",
+            "water"
+        ],
+        "triple_subject": "pipe",
+        "triple_relation": "ejaculate",
+        "triple_object": "water"
+    },
+    {
+        "prompt": "elephant pull house",
+        "ground_truth": "1",
+        "triple": [
+            "elephant",
+            "pull",
+            "house"
+        ],
+        "triple_subject": "elephant",
+        "triple_relation": "pull",
+        "triple_object": "house"
+    },
+    {
+        "prompt": "cat kick girl",
+        "ground_truth": "1",
+        "triple": [
+            "cat",
+            "kick",
+            "girl"
+        ],
+        "triple_subject": "cat",
+        "triple_relation": "kick",
+        "triple_object": "girl"
+    },
+    {
+        "prompt": "chair bake chef",
+        "ground_truth": "0",
+        "triple": [
+            "chair",
+            "bake",
+            "chef"
+        ],
+        "triple_subject": "chair",
+        "triple_relation": "bake",
+        "triple_object": "chef"
+    },
+    {
+        "prompt": "rock damage table",
+        "ground_truth": "1",
+        "triple": [
+            "rock",
+            "damage",
+            "table"
+        ],
+        "triple_subject": "rock",
+        "triple_relation": "damage",
+        "triple_object": "table"
+    },
+    {
+        "prompt": "infant sew boat",
+        "ground_truth": "0",
+        "triple": [
+            "infant",
+            "sew",
+            "boat"
+        ],
+        "triple_subject": "infant",
+        "triple_relation": "sew",
+        "triple_object": "boat"
+    },
+    {
+        "prompt": "cat close chair",
+        "ground_truth": "0",
+        "triple": [
+            "cat",
+            "close",
+            "chair"
+        ],
+        "triple_subject": "cat",
+        "triple_relation": "close",
+        "triple_object": "chair"
+    },
+    {
+        "prompt": "octopus grope soda",
+        "ground_truth": "0",
+        "triple": [
+            "octopus",
+            "grope",
+            "soda"
+        ],
+        "triple_subject": "octopus",
+        "triple_relation": "grope",
+        "triple_object": "soda"
+    },
+    {
+        "prompt": "policeman hold scissors",
+        "ground_truth": "1",
+        "triple": [
+            "policeman",
+            "hold",
+            "scissors"
+        ],
+        "triple_subject": "policeman",
+        "triple_relation": "hold",
+        "triple_object": "scissors"
+    },
+    {
+        "prompt": "knife dig bike",
+        "ground_truth": "1",
+        "triple": [
+            "knife",
+            "dig",
+            "bike"
+        ],
+        "triple_subject": "knife",
+        "triple_relation": "dig",
+        "triple_object": "bike"
+    },
+    {
+        "prompt": "pen draw water",
+        "ground_truth": "1",
+        "triple": [
+            "pen",
+            "draw",
+            "water"
+        ],
+        "triple_subject": "pen",
+        "triple_relation": "draw",
+        "triple_object": "water"
+    },
+    {
+        "prompt": "gorilla stretch snake",
+        "ground_truth": "1",
+        "triple": [
+            "gorilla",
+            "stretch",
+            "snake"
+        ],
+        "triple_subject": "gorilla",
+        "triple_relation": "stretch",
+        "triple_object": "snake"
+    },
+    {
+        "prompt": "girl climb skyscraper",
+        "ground_truth": "1",
+        "triple": [
+            "girl",
+            "climb",
+            "skyscraper"
+        ],
+        "triple_subject": "girl",
+        "triple_relation": "climb",
+        "triple_object": "skyscraper"
+    },
+    {
+        "prompt": "cat bite turtle",
+        "ground_truth": "1",
+        "triple": [
+            "cat",
+            "bite",
+            "turtle"
+        ],
+        "triple_subject": "cat",
+        "triple_relation": "bite",
+        "triple_object": "turtle"
+    },
+    {
+        "prompt": "beak tap air",
+        "ground_truth": "0",
+        "triple": [
+            "beak",
+            "tap",
+            "air"
+        ],
+        "triple_subject": "beak",
+        "triple_relation": "tap",
+        "triple_object": "air"
+    },
+    {
+        "prompt": "cat create grape",
+        "ground_truth": "0",
+        "triple": [
+            "cat",
+            "create",
+            "grape"
+        ],
+        "triple_subject": "cat",
+        "triple_relation": "create",
+        "triple_object": "grape"
+    },
+    {
+        "prompt": "monkey chew rice",
+        "ground_truth": "1",
+        "triple": [
+            "monkey",
+            "chew",
+            "rice"
+        ],
+        "triple_subject": "monkey",
+        "triple_relation": "chew",
+        "triple_object": "rice"
+    },
+    {
+        "prompt": "man fix machine",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "fix",
+            "machine"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "fix",
+        "triple_object": "machine"
+    },
+    {
+        "prompt": "chair scratch oil",
+        "ground_truth": "0",
+        "triple": [
+            "chair",
+            "scratch",
+            "oil"
+        ],
+        "triple_subject": "chair",
+        "triple_relation": "scratch",
+        "triple_object": "oil"
+    },
+    {
+        "prompt": "lion ride bowl",
+        "ground_truth": "0",
+        "triple": [
+            "lion",
+            "ride",
+            "bowl"
+        ],
+        "triple_subject": "lion",
+        "triple_relation": "ride",
+        "triple_object": "bowl"
+    },
+    {
+        "prompt": "wolf jail cake",
+        "ground_truth": "0",
+        "triple": [
+            "wolf",
+            "jail",
+            "cake"
+        ],
+        "triple_subject": "wolf",
+        "triple_relation": "jail",
+        "triple_object": "cake"
+    },
+    {
+        "prompt": "monkey lift rabbit",
+        "ground_truth": "1",
+        "triple": [
+            "monkey",
+            "lift",
+            "rabbit"
+        ],
+        "triple_subject": "monkey",
+        "triple_relation": "lift",
+        "triple_object": "rabbit"
+    },
+    {
+        "prompt": "bread cut rock",
+        "ground_truth": "0",
+        "triple": [
+            "bread",
+            "cut",
+            "rock"
+        ],
+        "triple_subject": "bread",
+        "triple_relation": "cut",
+        "triple_object": "rock"
+    },
+    {
+        "prompt": "man push plastic",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "push",
+            "plastic"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "push",
+        "triple_object": "plastic"
+    },
+    {
+        "prompt": "barber cook rabbit",
+        "ground_truth": "1",
+        "triple": [
+            "barber",
+            "cook",
+            "rabbit"
+        ],
+        "triple_subject": "barber",
+        "triple_relation": "cook",
+        "triple_object": "rabbit"
+    },
+    {
+        "prompt": "infant chew turtle",
+        "ground_truth": "0",
+        "triple": [
+            "infant",
+            "chew",
+            "turtle"
+        ],
+        "triple_subject": "infant",
+        "triple_relation": "chew",
+        "triple_object": "turtle"
+    },
+    {
+        "prompt": "dog push cup",
+        "ground_truth": "1",
+        "triple": [
+            "dog",
+            "push",
+            "cup"
+        ],
+        "triple_subject": "dog",
+        "triple_relation": "push",
+        "triple_object": "cup"
+    },
+    {
+        "prompt": "knife erase pond",
+        "ground_truth": "0",
+        "triple": [
+            "knife",
+            "erase",
+            "pond"
+        ],
+        "triple_subject": "knife",
+        "triple_relation": "erase",
+        "triple_object": "pond"
+    },
+    {
+        "prompt": "casket cover ground",
+        "ground_truth": "0",
+        "triple": [
+            "casket",
+            "cover",
+            "ground"
+        ],
+        "triple_subject": "casket",
+        "triple_relation": "cover",
+        "triple_object": "ground"
+    },
+    {
+        "prompt": "student climb water",
+        "ground_truth": "0",
+        "triple": [
+            "student",
+            "climb",
+            "water"
+        ],
+        "triple_subject": "student",
+        "triple_relation": "climb",
+        "triple_object": "water"
+    },
+    {
+        "prompt": "elephant shake air",
+        "ground_truth": "0",
+        "triple": [
+            "elephant",
+            "shake",
+            "air"
+        ],
+        "triple_subject": "elephant",
+        "triple_relation": "shake",
+        "triple_object": "air"
+    },
+    {
+        "prompt": "mouth squirt milk",
+        "ground_truth": "1",
+        "triple": [
+            "mouth",
+            "squirt",
+            "milk"
+        ],
+        "triple_subject": "mouth",
+        "triple_relation": "squirt",
+        "triple_object": "milk"
+    },
+    {
+        "prompt": "knife trim rock",
+        "ground_truth": "0",
+        "triple": [
+            "knife",
+            "trim",
+            "rock"
+        ],
+        "triple_subject": "knife",
+        "triple_relation": "trim",
+        "triple_object": "rock"
+    },
+    {
+        "prompt": "monkey grab hand",
+        "ground_truth": "1",
+        "triple": [
+            "monkey",
+            "grab",
+            "hand"
+        ],
+        "triple_subject": "monkey",
+        "triple_relation": "grab",
+        "triple_object": "hand"
+    },
+    {
+        "prompt": "oven chill cake",
+        "ground_truth": "0",
+        "triple": [
+            "oven",
+            "chill",
+            "cake"
+        ],
+        "triple_subject": "oven",
+        "triple_relation": "chill",
+        "triple_object": "cake"
+    },
+    {
+        "prompt": "dentist drive van",
+        "ground_truth": "1",
+        "triple": [
+            "dentist",
+            "drive",
+            "van"
+        ],
+        "triple_subject": "dentist",
+        "triple_relation": "drive",
+        "triple_object": "van"
+    },
+    {
+        "prompt": "stick slam oil",
+        "ground_truth": "0",
+        "triple": [
+            "stick",
+            "slam",
+            "oil"
+        ],
+        "triple_subject": "stick",
+        "triple_relation": "slam",
+        "triple_object": "oil"
+    },
+    {
+        "prompt": "closet contain house",
+        "ground_truth": "0",
+        "triple": [
+            "closet",
+            "contain",
+            "house"
+        ],
+        "triple_subject": "closet",
+        "triple_relation": "contain",
+        "triple_object": "house"
+    },
+    {
+        "prompt": "man pet skyscraper",
+        "ground_truth": "0",
+        "triple": [
+            "man",
+            "pet",
+            "skyscraper"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "pet",
+        "triple_object": "skyscraper"
+    },
+    {
+        "prompt": "cloth mask table",
+        "ground_truth": "1",
+        "triple": [
+            "cloth",
+            "mask",
+            "table"
+        ],
+        "triple_subject": "cloth",
+        "triple_relation": "mask",
+        "triple_object": "table"
+    },
+    {
+        "prompt": "policeman spill milk",
+        "ground_truth": "1",
+        "triple": [
+            "policeman",
+            "spill",
+            "milk"
+        ],
+        "triple_subject": "policeman",
+        "triple_relation": "spill",
+        "triple_object": "milk"
+    },
+    {
+        "prompt": "lion enter bowl",
+        "ground_truth": "0",
+        "triple": [
+            "lion",
+            "enter",
+            "bowl"
+        ],
+        "triple_subject": "lion",
+        "triple_relation": "enter",
+        "triple_object": "bowl"
+    },
+    {
+        "prompt": "clown sew paper",
+        "ground_truth": "0",
+        "triple": [
+            "clown",
+            "sew",
+            "paper"
+        ],
+        "triple_subject": "clown",
+        "triple_relation": "sew",
+        "triple_object": "paper"
+    },
+    {
+        "prompt": "water fill cup",
+        "ground_truth": "1",
+        "triple": [
+            "water",
+            "fill",
+            "cup"
+        ],
+        "triple_subject": "water",
+        "triple_relation": "fill",
+        "triple_object": "cup"
+    },
+    {
+        "prompt": "paper absorb sand",
+        "ground_truth": "0",
+        "triple": [
+            "paper",
+            "absorb",
+            "sand"
+        ],
+        "triple_subject": "paper",
+        "triple_relation": "absorb",
+        "triple_object": "sand"
+    },
+    {
+        "prompt": "tongue lick air",
+        "ground_truth": "0",
+        "triple": [
+            "tongue",
+            "lick",
+            "air"
+        ],
+        "triple_subject": "tongue",
+        "triple_relation": "lick",
+        "triple_object": "air"
+    },
+    {
+        "prompt": "women kiss bottle",
+        "ground_truth": "1",
+        "triple": [
+            "women",
+            "kiss",
+            "bottle"
+        ],
+        "triple_subject": "women",
+        "triple_relation": "kiss",
+        "triple_object": "bottle"
+    },
+    {
+        "prompt": "leopard drink oil",
+        "ground_truth": "1",
+        "triple": [
+            "leopard",
+            "drink",
+            "oil"
+        ],
+        "triple_subject": "leopard",
+        "triple_relation": "drink",
+        "triple_object": "oil"
+    },
+    {
+        "prompt": "worm roll log",
+        "ground_truth": "0",
+        "triple": [
+            "worm",
+            "roll",
+            "log"
+        ],
+        "triple_subject": "worm",
+        "triple_relation": "roll",
+        "triple_object": "log"
+    },
+    {
+        "prompt": "sponge absorb rain",
+        "ground_truth": "1",
+        "triple": [
+            "sponge",
+            "absorb",
+            "rain"
+        ],
+        "triple_subject": "sponge",
+        "triple_relation": "absorb",
+        "triple_object": "rain"
+    },
+    {
+        "prompt": "man shake door",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "shake",
+            "door"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "shake",
+        "triple_object": "door"
+    },
+    {
+        "prompt": "crane lift log",
+        "ground_truth": "1",
+        "triple": [
+            "crane",
+            "lift",
+            "log"
+        ],
+        "triple_subject": "crane",
+        "triple_relation": "lift",
+        "triple_object": "log"
+    },
+    {
+        "prompt": "ape kiss remote",
+        "ground_truth": "1",
+        "triple": [
+            "ape",
+            "kiss",
+            "remote"
+        ],
+        "triple_subject": "ape",
+        "triple_relation": "kiss",
+        "triple_object": "remote"
+    },
+    {
+        "prompt": "elephant slide car",
+        "ground_truth": "1",
+        "triple": [
+            "elephant",
+            "slide",
+            "car"
+        ],
+        "triple_subject": "elephant",
+        "triple_relation": "slide",
+        "triple_object": "car"
+    },
+    {
+        "prompt": "man stretch shirt",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "stretch",
+            "shirt"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "stretch",
+        "triple_object": "shirt"
+    },
+    {
+        "prompt": "child fish branch",
+        "ground_truth": "1",
+        "triple": [
+            "child",
+            "fish",
+            "branch"
+        ],
+        "triple_subject": "child",
+        "triple_relation": "fish",
+        "triple_object": "branch"
+    },
+    {
+        "prompt": "chair absorb water",
+        "ground_truth": "1",
+        "triple": [
+            "chair",
+            "absorb",
+            "water"
+        ],
+        "triple_subject": "chair",
+        "triple_relation": "absorb",
+        "triple_object": "water"
+    },
+    {
+        "prompt": "mallet mince dough",
+        "ground_truth": "1",
+        "triple": [
+            "mallet",
+            "mince",
+            "dough"
+        ],
+        "triple_subject": "mallet",
+        "triple_relation": "mince",
+        "triple_object": "dough"
+    },
+    {
+        "prompt": "man attach letter",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "attach",
+            "letter"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "attach",
+        "triple_object": "letter"
+    },
+    {
+        "prompt": "hand spin bottle",
+        "ground_truth": "1",
+        "triple": [
+            "hand",
+            "spin",
+            "bottle"
+        ],
+        "triple_subject": "hand",
+        "triple_relation": "spin",
+        "triple_object": "bottle"
+    },
+    {
+        "prompt": "rabbit grasp ant",
+        "ground_truth": "1",
+        "triple": [
+            "rabbit",
+            "grasp",
+            "ant"
+        ],
+        "triple_subject": "rabbit",
+        "triple_relation": "grasp",
+        "triple_object": "ant"
+    },
+    {
+        "prompt": "hand rip rug",
+        "ground_truth": "1",
+        "triple": [
+            "hand",
+            "rip",
+            "rug"
+        ],
+        "triple_subject": "hand",
+        "triple_relation": "rip",
+        "triple_object": "rug"
+    },
+    {
+        "prompt": "infant tear tree",
+        "ground_truth": "0",
+        "triple": [
+            "infant",
+            "tear",
+            "tree"
+        ],
+        "triple_subject": "infant",
+        "triple_relation": "tear",
+        "triple_object": "tree"
+    },
+    {
+        "prompt": "sun cool water",
+        "ground_truth": "0",
+        "triple": [
+            "sun",
+            "cool",
+            "water"
+        ],
+        "triple_subject": "sun",
+        "triple_relation": "cool",
+        "triple_object": "water"
+    },
+    {
+        "prompt": "cat knead cream",
+        "ground_truth": "1",
+        "triple": [
+            "cat",
+            "knead",
+            "cream"
+        ],
+        "triple_subject": "cat",
+        "triple_relation": "knead",
+        "triple_object": "cream"
+    },
+    {
+        "prompt": "knife destroy cloth",
+        "ground_truth": "1",
+        "triple": [
+            "knife",
+            "destroy",
+            "cloth"
+        ],
+        "triple_subject": "knife",
+        "triple_relation": "destroy",
+        "triple_object": "cloth"
+    },
+    {
+        "prompt": "fist punch wall",
+        "ground_truth": "1",
+        "triple": [
+            "fist",
+            "punch",
+            "wall"
+        ],
+        "triple_subject": "fist",
+        "triple_relation": "punch",
+        "triple_object": "wall"
+    },
+    {
+        "prompt": "hand smash laptop",
+        "ground_truth": "1",
+        "triple": [
+            "hand",
+            "smash",
+            "laptop"
+        ],
+        "triple_subject": "hand",
+        "triple_relation": "smash",
+        "triple_object": "laptop"
+    },
+    {
+        "prompt": "oil wet oil",
+        "ground_truth": "0",
+        "triple": [
+            "oil",
+            "wet",
+            "oil"
+        ],
+        "triple_subject": "oil",
+        "triple_relation": "wet",
+        "triple_object": "oil"
+    },
+    {
+        "prompt": "man haul girl",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "haul",
+            "girl"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "haul",
+        "triple_object": "girl"
+    },
+    {
+        "prompt": "hand lengthen dough",
+        "ground_truth": "1",
+        "triple": [
+            "hand",
+            "lengthen",
+            "dough"
+        ],
+        "triple_subject": "hand",
+        "triple_relation": "lengthen",
+        "triple_object": "dough"
+    },
+    {
+        "prompt": "spatula capsize pan",
+        "ground_truth": "1",
+        "triple": [
+            "spatula",
+            "capsize",
+            "pan"
+        ],
+        "triple_subject": "spatula",
+        "triple_relation": "capsize",
+        "triple_object": "pan"
+    },
+    {
+        "prompt": "glue attach sticker",
+        "ground_truth": "1",
+        "triple": [
+            "glue",
+            "attach",
+            "sticker"
+        ],
+        "triple_subject": "glue",
+        "triple_relation": "attach",
+        "triple_object": "sticker"
+    },
+    {
+        "prompt": "water wet scissors",
+        "ground_truth": "1",
+        "triple": [
+            "water",
+            "wet",
+            "scissors"
+        ],
+        "triple_subject": "water",
+        "triple_relation": "wet",
+        "triple_object": "scissors"
+    },
+    {
+        "prompt": "man film shirt",
+        "ground_truth": "1",
+        "triple": [
+            "man",
+            "film",
+            "shirt"
+        ],
+        "triple_subject": "man",
+        "triple_relation": "film",
+        "triple_object": "shirt"
+    },
+    {
+        "prompt": "finger spin beans",
+        "ground_truth": "1",
+        "triple": [
+            "finger",
+            "spin",
+            "beans"
+        ],
+        "triple_subject": "finger",
+        "triple_relation": "spin",
+        "triple_object": "beans"
+    }
+]
