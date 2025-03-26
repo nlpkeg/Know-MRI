@@ -51,10 +51,10 @@ We integrate a variety of interpretation methods to assist users in comprehensiv
 |  SPINE                   | ✓    | ✓    | ✓     |          | ✓    | ✓  | ✓        |          | ✓    |
 
 ## Example Usage
-
+To begin with, you can change the hyperparameter in `/Know-MRI/methods/XXX/hparams/xxxmodel.json`. The file name corresponds to `/Know-MRI/models/__init__.py`.
 
 ### Code-based Usage
-We provide some code-based usage examples in `/Know-MRI/example.
+We provide some code-based usage examples in `/Know-MRI/example`.
 This example uses the KN method to analysis Llama2:
 ```python
 # Import corresponding interpretation method, dataset and model.
