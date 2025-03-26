@@ -1,0 +1,4 @@
+{
+    "model_path": "openai-community/gpt2-xl",
+    "num_heads": 5
+}

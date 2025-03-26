@@ -1,0 +1,7 @@
+{
+    "model_path": "THUDM/chatglm2-6b",
+    "model_name": "THUDM/chatglm2-6b",
+    "api_key": "YOUR_API_KEY",
+    "base_url": "YOUR_BASE_URL",
+    "topn": 500
+}

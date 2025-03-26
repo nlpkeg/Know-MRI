@@ -1,0 +1,4 @@
+{
+    "model_path": "google/flan-t5-large",
+    "num_heads": 5
+}

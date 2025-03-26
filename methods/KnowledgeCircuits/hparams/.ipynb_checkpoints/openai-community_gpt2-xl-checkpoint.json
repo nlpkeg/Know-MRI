@@ -1,0 +1,4 @@
+{
+    "model_path": "openai-community/gpt2-xl",
+    "unembedding_num": 3
+}

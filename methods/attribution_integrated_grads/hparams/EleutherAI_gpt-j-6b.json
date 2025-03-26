@@ -1,0 +1,5 @@
+{
+    "model_path": "EleutherAI/gpt-j-6b", 
+    "num_steps": 20, 
+    "batch_size": 10
+}

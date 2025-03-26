@@ -1,0 +1,6 @@
+{
+    "model_path": "internlm/internlm-xcomposer2d5-ol-7b",
+    "replace": false,
+    "window": 10, 
+    "noise_level": "s3"
+}

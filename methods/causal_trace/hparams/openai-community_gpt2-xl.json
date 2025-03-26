@@ -1,0 +1,6 @@
+{
+    "model_path": "openai-community/gpt2-xl",
+    "replace": false,
+    "window": 10, 
+    "noise_level": "s3"
+}

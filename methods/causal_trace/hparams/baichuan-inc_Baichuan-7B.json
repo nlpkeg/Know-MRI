@@ -1,0 +1,6 @@
+{
+    "model_path": "baichuan-inc/Baichuan-7B",
+    "replace": false,
+    "window": 10, 
+    "noise_level": "s3"
+}

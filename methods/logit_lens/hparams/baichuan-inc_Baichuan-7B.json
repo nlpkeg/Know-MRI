@@ -1,0 +1,4 @@
+{
+    "model_path": "baichuan-inc/Baichuan-7B",
+    "unembedding_num": 3
+}

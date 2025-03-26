@@ -1,0 +1,4 @@
+{
+    "model_path": "EleutherAI/gpt-j-6b", 
+    "num_heads": 5
+}

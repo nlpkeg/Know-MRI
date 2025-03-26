@@ -1,0 +1,7 @@
+{
+    "model_path": "EleutherAI/gpt-j-6b",
+    "model_name": "EleutherAI/gpt-j-6b",
+    "api_key": "YOUR_API_KEY",
+    "base_url": "YOUR_BASE_URL",
+    "topn": 500
+}

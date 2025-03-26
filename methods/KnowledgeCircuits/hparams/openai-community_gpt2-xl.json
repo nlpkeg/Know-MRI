@@ -1,0 +1,7 @@
+{
+    "model_path": "openai-community/gpt2-xl",
+    "model_name": "openai-community/gpt2-xl",
+    "api_key": "YOUR_API_KEY",
+    "base_url": "YOUR_BASE_URL",
+    "topn": 500
+}

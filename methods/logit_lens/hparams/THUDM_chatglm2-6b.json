@@ -1,0 +1,4 @@
+{
+    "model_path": "THUDM/chatglm2-6b",
+    "unembedding_num": 3
+}
