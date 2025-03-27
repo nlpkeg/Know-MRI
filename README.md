@@ -2,7 +2,7 @@
 
 Know-MRI is a comprehensive toolkit for analyzing knowledge mechanisms in LLMs.
 
-## Installation
+## Installation 🚀
 You can create an environment and install the dependencies via [Anaconda](https://www.anaconda.com).
 ```shell
 conda create -n Know-MRI python=3.10
@@ -10,7 +10,7 @@ conda activate Know-MRI
 pip install -r requirements.txt
 ```
 
-## Feature
+## Feature 📃
 
 ### Framework
 Know-MRI primarily integrates model, dataset, and interpretation method.
@@ -50,7 +50,7 @@ We integrate a variety of interpretation methods to assist users in comprehensiv
 |  PatchScopes              | ✓    | ✓    | ✓     | ✓        |      |    |          | ✓        | ✓    |
 |  SPINE                   | ✓    | ✓    | ✓     |          | ✓    | ✓  | ✓        |          | ✓    |
 
-## Example Usage
+## Example Usage ⚙️
 To begin with, you can change the hyperparameter in `/Know-MRI/methods/XXX/hparams/xxxmodel.json`. The file name corresponds to `/Know-MRI/models/__init__.py`.
 
 ### Code-based Usage
