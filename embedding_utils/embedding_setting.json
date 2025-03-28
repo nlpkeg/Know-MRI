@@ -1,5 +1,5 @@
 {
-    "embedding_model_path": "bge-base-en-v1.5", 
+    "embedding_model_path": "BAAI/bge-base-en-v1.5", 
     "vectordb_path": "interp.db",
     "emb_dim": 768, 
     "topk": 10, 
