@@ -813,7 +813,7 @@ def diagnose(sample, model_name_or_path, hparams=None):
         origin_data_list = []
         for layer_source in range(num_layers - 1):
             # Determine layer_target as the last layer
-            layer_target = num_layers - 1
+            layer_target = layer_source
 
             # Determine position_source as the last position of prompt_source
             prompt_source = sample["prompt"]
