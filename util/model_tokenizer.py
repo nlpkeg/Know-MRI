@@ -230,11 +230,11 @@ class ModelAndTokenizer:
 import threading
 lock_get_cached_model_tok= threading.Lock()
 model_name2obj = dict()
-def get_cached_model_tok(model_name, model_name2obj=model_name2obj) -> ModelAndTokenizer:
+def get_cached_model_tok(model_name, model_name2obj=model_name2obj, model2path=None) -> ModelAndTokenizer:
     with lock_get_cached_model_tok:
         if model_name not in model_name2obj:
             model_name2obj[model_name] = ModelAndTokenizer(
-                model_name,
+                model_name if model2path is None else model2path[model_name],
                 torch_dtype=torch.float16
             )
             if "chatglm" not in model_name:

@@ -1,0 +1,12 @@
+{
+    "meta-llama/Llama-2-7b-hf": "meta-llama/Llama-2-7b-hf",
+    "openai-community/gpt2-xl": "openai-community/gpt2-xl",
+    "google-bert/bert-base-uncased": "google-bert/bert-base-uncased",
+    "EleutherAI/gpt-j-6b": "EleutherAI/gpt-j-6b",
+    "baichuan-inc/Baichuan-7B": "baichuan-inc/Baichuan-7B",
+    "google/flan-t5-large": "google/flan-t5-large",
+    "THUDM/chatglm2-6b": "THUDM/chatglm2-6b",
+    "internlm/internlm-xcomposer2d5-ol-7b": "internlm/internlm-xcomposer2d5-ol-7b",
+    "Qwen/Qwen-1_8b": "Qwen/Qwen-1_8b",
+    "mistralai/Mistral-Nemo-Instruct-2407": "mistralai/Mistral-Nemo-Instruct-2407"
+}
