@@ -1,4 +1,4 @@
-# <img src="./src/Know-MRI.png" width="50px"> Know-MRI: A Knowledge Mechanisms Interpreter for Large Language Models
+# <img src="./src/Know-MRI.png" width="50px"> [Know-MRI: A Knowledge Mechanisms Interpreter for Large Language Models](https://arxiv.org/abs/2506.08427)
 
 Know-MRI is a comprehensive toolkit for analyzing knowledge mechanisms in LLMs.
 
