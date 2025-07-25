@@ -42,6 +42,8 @@ class InterpretGUIFlask:
         self.vecdb = Interpret_vectordb(args.vecdb_config_path)
         self.gpt4o = OpenAI(base_url=args.openai_base_url, 
                             api_key=args.openai_api_key)
+        with open(args.model_name2path, 'r', encoding='utf-8') as f:
+            self.model2path = json.load(f)
         
         CORS(self.app, resources={r"/*": {"origins": "*"}}, send_wildcard=True)
 
@@ -73,7 +75,7 @@ class InterpretGUIFlask:
             try:
                 model_name = request.args.get('modelName')
                 print('-------------model_name----------------\n',model_name)
-                get_cached_model_tok(model_name=model_name)
+                get_cached_model_tok(model_name=model_name, model2path=self.model2path)
                 return jsonify({"data": "OK", "code": 200})
             except Exception as e:
                 traceback.print_exc()
@@ -426,6 +428,7 @@ class InterpretGUIFlask:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--vecdb_config_path', default="../embedding_utils/embedding_setting.json", type=str)
+    parser.add_argument('--model_name2path', default="../models/model2path.json", type=str)
     parser.add_argument('--openai_base_url', default="", type=str)
     parser.add_argument('--openai_api_key', default="", type=str)
     args = parser.parse_args()
