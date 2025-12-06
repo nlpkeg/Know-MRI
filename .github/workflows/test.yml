@@ -1,0 +1,83 @@
+name: Test Suite
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.8', '3.9', '3.10', '3.11', '3.12']
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    
+    - name: Cache pip packages
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+    
+    - name: Install test dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov pytest-mock
+    
+    - name: Run lightweight tests
+      run: |
+        pytest tests/ -v --tb=short
+    
+    - name: Generate coverage report
+      run: |
+        pytest tests/ --cov=. --cov-report=xml --cov-report=term
+    
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        files: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+  test-with-ml-deps:
+    runs-on: ubuntu-latest
+    # Only run full tests on main branch or when dependencies change
+    if: github.ref == 'refs/heads/main' || contains(github.event.head_commit.message, '[full-test]')
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install full dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pytest pytest-cov pytest-mock
+        # Install ML dependencies for full test coverage
+        pip install torch --index-url https://download.pytorch.org/whl/cpu
+        pip install transformers
+    
+    - name: Run all tests
+      run: |
+        pytest tests/ -v --cov=. --cov-report=xml
+    
+    - name: Upload coverage
+      uses: codecov/codecov-action@v3
+      with:
+        files: ./coverage.xml
+        flags: fulltests
+        name: codecov-full
