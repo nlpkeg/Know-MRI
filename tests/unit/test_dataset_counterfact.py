@@ -4,13 +4,19 @@ Unit tests for dataset_process module.
 import pytest
 import json
 from pathlib import Path
-from dataset_process.counterfact import (
-    get_processed_kvs, 
-    support_template_keys,
-    CounterfactDataset
-)
+
+try:
+    from dataset_process.counterfact import (
+        get_processed_kvs, 
+        support_template_keys,
+        CounterfactDataset
+    )
+    COUNTERFACT_AVAILABLE = True
+except ImportError:
+    COUNTERFACT_AVAILABLE = False
 
 
+@pytest.mark.skipif(not COUNTERFACT_AVAILABLE, reason="PyTorch/Dataset dependencies not available")
 class TestCounterfactDataset:
     """Test cases for CounterfactDataset class."""
     

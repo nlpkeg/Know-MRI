@@ -2,10 +2,16 @@
 Unit tests for util/model_tokenizer.py module.
 """
 import pytest
-from util.model_tokenizer import model_type, get_attributes
-import torch.nn as nn
+
+try:
+    from util.model_tokenizer import model_type, get_attributes
+    import torch.nn as nn
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
 
 
+@pytest.mark.skipif(not TORCH_AVAILABLE, reason="PyTorch and transformers not available")
 class TestModelType:
     """Test cases for model type detection."""
     
@@ -69,6 +75,7 @@ class TestModelType:
         assert model_type("mistral-7b") == "mistral"
 
 
+@pytest.mark.skipif(not TORCH_AVAILABLE, reason="PyTorch not available")
 class TestGetAttributes:
     """Test cases for get_attributes function."""
     
