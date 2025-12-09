@@ -240,7 +240,7 @@ def get_cached_model_tok(model_name, model_name2obj=model_name2obj, model2path=N
     """
     with lock_get_cached_model_tok:
         if model_name not in model_name2obj:
-            if model2path is not None:
+            if (model2path is not None) and (model_path is None):
                 model_name2obj[model_name] = ModelAndTokenizer(
                     model_name=model_name,
                     model_path=model2path[model_name],
