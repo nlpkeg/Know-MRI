@@ -39,7 +39,7 @@ def process_model_name(model_name):
     if "✨default-" in model_path:
         model_path = None
     
-    return temp_model_name.strip(), model_path.strip()
+    return temp_model_name.strip(), model_path.strip() if model_path is not None else None
 
 class InterpretGUIFlask:
     
