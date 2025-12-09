@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+openai-community/
+util/tmp/
+
+
+*/front/node_modules
+*/front/dist
+cache.json
