@@ -1,30 +1,42 @@
 <!-- -----------------------------------------------模板区域--------------------------------------- -->
 <template>
-	<div class="root">
+    <div class="root">
 
         <div class="root-top">
-                <!-- 输入框 -->
-                <div style="display: flex; flex-direction: row; align-items: center;">
-                    <!-- <div class="item_input"  v-text="input_value" ></div> -->
+            <!-- 输入框 -->
+            <div style="display: flex; flex-direction: row; align-items: center;">
+                <!-- <div class="item_input"  v-text="input_value" ></div> -->
 
-                    <!--  type="textarea" :rows="1" -->
-                    <el-input v-if="dataset_flag == 'USEREDITINPUT'" v-model="user_input" placeholder="Please enter your question" @input="handleChangeInputValue('')"  style="width: calc(100% - 400px); margin-left: 10px; flex: 1;"></el-input>
-                    <el-select v-if="dataset_flag == 'USEREDITINPUT'"  v-model="input_value"  clearable  default-first-option placeholder="Please enter your question" @change="changeInputValue('')" no-data-text="No Data" style="flex: 1; margin-left: 15px;">
-                        <el-option v-for="item in input_list" :key="item['prompt']" :label="item" :value="item"> </el-option>
-                    </el-select>
+                <!--  type="textarea" :rows="1" -->
+                <el-input v-if="dataset_flag == 'USEREDITINPUT'" v-model="user_input"
+                    placeholder="Please enter your question" @input="handleChangeInputValue('')"
+                    style="width: calc(100% - 400px); margin-left: 10px; flex: 1;"></el-input>
+                <el-select v-if="dataset_flag == 'USEREDITINPUT'" v-model="input_value" clearable default-first-option
+                    placeholder="Please enter your question" @change="changeInputValue('')" no-data-text="No Data"
+                    style="flex: 1; margin-left: 15px;">
+                    <el-option v-for="item in input_list" :key="item['prompt']" :label="item" :value="item">
+                    </el-option>
+                </el-select>
 
-                    <el-select v-else v-model="input_value"  clearable  default-first-option placeholder="Please enter your question" @change="changeInputValue('')" no-data-text="No Data" style="flex: 1;">
-                        <el-option v-for="item in input_list" :key="item" :label="item" :value="item"> </el-option>
-                    </el-select>
+                <el-select v-else v-model="input_value" clearable default-first-option
+                    placeholder="Please enter your question" @change="changeInputValue('')" no-data-text="No Data"
+                    style="flex: 1;">
+                    <el-option v-for="item in input_list" :key="item" :label="item" :value="item"> </el-option>
+                </el-select>
 
-                    <el-button v-if="dataset_flag == 'USEREDITINPUT'" type="primary" icon="el-icon-question" round style="margin-left: 15px; max-height: 44.44px;flex: 1;max-width: 130px;" @click="do_search_topn_by_input" :loading="SearchingLoading">Search</el-button>
+                <el-button v-if="dataset_flag == 'USEREDITINPUT'" type="primary" icon="el-icon-question" round
+                    style="margin-left: 15px; max-height: 44.44px;flex: 1;max-width: 130px;"
+                    @click="do_search_topn_by_input" :loading="SearchingLoading">Search</el-button>
 
-                    <!-- Another random question -->
-                    <el-button v-if="dataset_flag != 'USEREDITINPUT'" type="primary" icon="el-icon-question" round @click="get_dataset_random" style="flex: 1;margin-left: 15px; max-width: 130px;">Search</el-button>
+                <!-- Another random question -->
+                <el-button v-if="dataset_flag != 'USEREDITINPUT'" type="primary" icon="el-icon-question" round
+                    @click="get_dataset_random" style="flex: 1;margin-left: 15px; max-width: 130px;">Search</el-button>
 
-                    <el-button type="primary" icon="el-icon-s-promotion" round style="margin-left: 15px; max-height: 44.44px;flex: 1; max-width: 130px;" @click="do_generate" :loading="GenerateLoading" >Diagnose</el-button>
+                <el-button type="primary" icon="el-icon-s-promotion" round
+                    style="margin-left: 15px; max-height: 44.44px;flex: 1; max-width: 130px;" @click="do_generate"
+                    :loading="GenerateLoading">Diagnose</el-button>
 
-                </div>
+            </div>
 
 
         </div>
@@ -43,7 +55,8 @@
                         </div>
                     </div>
 
-                    <div class="item-dataset" :id="item['name']" v-for="item in dataset_list"" @click="get_dataset_data_topn(item['name'])">
+                    <div class="item-dataset" :id="item['name']" v-for="item in dataset_list"" @click="
+                        get_dataset_data_topn(item['name'])">
                         <div class="dataset-title">
                             {{ item['name'] }}
                         </div>
@@ -54,41 +67,58 @@
 
                 </div>
                 <div class="item_select_models">
-                    <el-form ref="form" label-width="80px">
-                        <el-form-item label="Model">
-                            <el-select v-model="select_model" placeholder="Please select" @change="changeSelectModel" no-data-text="No Data">
-                                <el-option
-                                v-for="item in model_list"
-                                :key="item"
-                                :label="item"
-                                :value="item">
+                    <el-form ref="form" label-width="90px" style="margin-left: 0px;">
+
+                        <el-form-item label="Model Type">
+                            <el-select v-model="select_model_type" placeholder="Please select"
+                                @change="changeSelectModelPath" no-data-text="No Data">
+                                <el-option v-for="item in model_config_list" :key="item['model_type']"
+                                    :label="item['model_type']" :value="item['model_type']">
                                 </el-option>
                             </el-select>
                         </el-form-item>
 
+                        <el-form-item label="Model Path">
+                            <!-- <el-select v-model="select_model_path" placeholder="Please select"
+                                @change="changeSelectModel" allow-create filterable default-first-option
+                                no-data-text="No Data">
+                                <el-option v-for="item in model_path_list" :key="item['value']" :label="item['value']"
+                                    :value="item['value']">
+                                </el-option>
+                            </el-select> -->
+
+                            <el-autocomplete class="inline-input" v-model="select_model_path" @input="changeSelectModel"
+                                :fetch-suggestions="querySearch" placeholder="Please Input Path">
+                                <i class="el-icon-edit el-input__icon" slot="suffix">
+                                </i>
+                            </el-autocomplete>
+
+
+                        </el-form-item>
+
                         <el-form-item label="Method">
 
-                            <el-cascader   v-model="select_method" placeholder="Please select" 
-                                :options="method_list"
-                                :props="props" >
+                            <el-cascader v-model="select_method" placeholder="Please select" :options="method_list"
+                                :props="props">
 
-                                    <template v-slot:empty>
-                                        No Data
-                                    </template>
+                                <template v-slot:empty>
+                                    No Data
+                                </template>
 
                             </el-cascader>
 
                         </el-form-item>
 
                         <el-form-item label="">
-                            <el-button type="primary" icon="el-icon-s-cooperation" round @click="load_model" :loading="loading_model_flag">Load Model</el-button>
+                            <el-button type="primary" icon="el-icon-s-cooperation" round @click="load_model"
+                                :loading="loading_model_flag">Load Model</el-button>
 
                         </el-form-item>
 
 
 
                     </el-form>
-                                
+
                 </div>
 
                 <div class="input-params">
@@ -107,23 +137,28 @@
                     <div class="item_result" v-text="result['result']"></div>
 
                 </div>
-                
+
                 <div style="display: flex; height: calc(100% - 90px); width: 100%;">
 
                     <!-- 动态展示结果 -->
-                    <div v-if="isEmptyObject_result(result)" class="item_des" >
+                    <div v-if="isEmptyObject_result(result)" class="item_des">
                         <el-empty :image-size="300" description="No Data"></el-empty>
                     </div>
-                    
-                    <div  v-else class="item_des_parent">
 
-                        <div  v-for="(root_item, root_index) in result" :key="root_index" v-if="root_index != 'result'" style="width: 100%; height: 100%; display: flex;">
+                    <div v-else class="item_des_parent">
+
+                        <div v-for="(root_item, root_index) in result" :key="root_index" v-if="root_index != 'result'"
+                            style="width: 100%; height: 100%; display: flex;">
                             <div class="item_des">
                                 <h1 class="el-icon-chat-dot-square item_root_title">&nbsp;{{ root_index }}</h1>
 
-                                <div class="item_des_type" v-for="(root_item_type, root_index_type) in root_item" :key="root_index_type" > 
-                                    <h2 class="el-icon-s-opportunity item_root_type_title">&nbsp; {{ root_index_type }}</h2>
-                                    <collapse_des_box_result v-for="(item, index) in root_item_type" :key="index" :root_method_name="root_index" :root_type_name="root_index_type" :method_name="index" :result_data="item"></collapse_des_box_result>
+                                <div class="item_des_type" v-for="(root_item_type, root_index_type) in root_item"
+                                    :key="root_index_type">
+                                    <h2 class="el-icon-s-opportunity item_root_type_title">&nbsp; {{ root_index_type }}
+                                    </h2>
+                                    <collapse_des_box_result v-for="(item, index) in root_item_type" :key="index"
+                                        :root_method_name="root_index" :root_type_name="root_index_type"
+                                        :method_name="index" :result_data="item"></collapse_des_box_result>
                                 </div>
 
                             </div>
@@ -138,7 +173,7 @@
 
         </div>
 
-	</div>
+    </div>
 </template>
 
 <!-- ------------------------------------------------脚本区域--------------------------------------- -->
@@ -158,11 +193,13 @@ export default {
             GenerateLoading: false,
             loading_model_flag:false,
             // 列表与选择数据
-            model_list: [],
+            model_config_list: [],
+            model_path_list: [],
             method_list: [],
             dataset_flag:"",
             select_dataset: "",
-            select_model: "",
+            select_model_type: "",
+            select_model_path: "",
             select_method: [],
             // 用户输入
             user_input: "",
@@ -198,6 +235,14 @@ export default {
                 this.select_dataset = "USEREDITINPUT";
                 this.dataset_flag = "USEREDITINPUT"
                 this.$nextTick(() => { 
+
+                    axios_instance
+                        .get("/getModelList")
+                        .then((response) => {
+                            console.log("🚀 -> response.data.data:\n", response.data.data)
+                        })
+                        .catch((error) => { });
+
                     this.get_dataset_data_topn(this.select_dataset);
                     this.get_model_list();
                 })
@@ -236,10 +281,18 @@ export default {
         // 获取模型列表 并默认选择模型
         get_model_list() {
             axios_instance
-                .get("/getModelList")
+                .get("/getModelSecList")
                 .then((response) => {
-                    this.model_list = response.data.data;
-                    this.select_model = this.model_list[0];
+                    this.model_config_list = response.data.data;
+                    this.select_model_type = this.model_config_list[0]['model_type'];
+                    
+                    for (let i in this.model_config_list) {
+                        if (this.model_config_list[i]['model_type'] == this.select_model_type) {
+                            this.model_path_list = this.model_config_list[i]['model_list']
+                            this.select_model_path = this.model_path_list[0]['value']
+                        }
+                    }
+                    
                     // 初始化 方法列表 并默认选择方法
                     this.changeSelectModel();
                 })
@@ -248,7 +301,7 @@ export default {
 
         // 加载模型
         load_model(){
-            // console.log(this.select_model);
+            let model = this.select_model_type + "/" + this.select_model_path;
             this.loading_model_flag = true;
             let hold = this.$message({
                 message: 'The model is loading, please wait a moment ...',
@@ -256,7 +309,7 @@ export default {
                 duration:0
             });
             axios_instance
-                .get("/loadModelByName?modelName=" + this.select_model)
+                .get("/loadModelByName?modelName=" + model)
                 .then((response) => {
                     this.loading_model_flag = false;
                     hold.close();
@@ -350,21 +403,44 @@ export default {
             return []; 
         },
 
+        querySearch(queryString, cb) {
+            for (let i in this.model_config_list) {
+                if (this.model_config_list[i]['model_type'] == this.select_model_type) {
+                    this.model_path_list = this.model_config_list[i]['model_list'];
+                    // this.select_model_path = this.model_path_list[0]['value'];
+                }
+            }
+            cb(this.model_path_list);
+        },
+
+        changeSelectModelPath(){
+
+            for (let i in this.model_config_list) {
+                if (this.model_config_list[i]['model_type'] == this.select_model_type) {
+                    this.model_path_list = this.model_config_list[i]['model_list'];
+                    this.select_model_path = this.model_path_list[0]['value'];
+                }
+            }
+
+        },
+
         // // 根据模型 获取方法
         changeSelectModel() {
+            let model = this.select_model_type + "/" + this.select_model_path;
+            // console.log("🚀 -> model:\n", model)
             if (this.select_dataset == "") {
                 this.method_list = [];
                 this.select_method = [];
                 return;
             }
-            if (this.select_model == "") {
+            if (model == "") {
                 this.method_list = [];
                 this.select_method = [];
                 return;
             }
 
             axios_instance
-            	.get("/getMethodListByModelName?model_name=" + this.select_model + "&dataset_name=" + this.select_dataset)
+            	.get("/getMethodListByModelName?model_name=" + model + "&dataset_name=" + this.select_dataset)
             	.then((response) => {
                     this.method_list = response.data.data;
                     // console.log("🚀 -> this.method_list:\n", this.method_list)
@@ -508,6 +584,7 @@ export default {
         // 开始推理 流式生成
         do_generate() {
 
+            let model = this.select_model_type + "/" + this.select_model_path;
             if (this.input_value == "") {
                 this.$message({
                     message: "The input question cannot be empty",
@@ -517,7 +594,7 @@ export default {
                 return;
             }
 
-            if (this.select_model == "") {
+            if (model == "") {
                 this.$message({
                     message: "The model cannot be empty",
                     type: "warning",
@@ -537,7 +614,7 @@ export default {
 
             let params = {
                 "dataset_name": this.select_dataset,
-                "model_name": this.select_model,
+                "model_name": model,
                 "method_name": this.select_method,
                 "input": this.input_obj,
             }

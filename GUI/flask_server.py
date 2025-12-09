@@ -30,7 +30,16 @@ from util.openai_generate_data import system_prompt, str2dic
 random.seed(1)
 
 # server port
-root_port = int(os.environ.get("PORT", 11008))
+root_port = int(os.environ.get("PORT", 10051))
+
+def process_model_name(model_name):
+    temp_model_name = "/".join(model_name.split("/")[:2])
+    model_path = "/".join(model_name.split("/")[2:]) if len(model_name.split("/"))>2 else ""
+
+    if "✨default-" in model_path:
+        model_path = None
+    
+    return temp_model_name.strip(), model_path.strip()
 
 class InterpretGUIFlask:
     
@@ -42,8 +51,12 @@ class InterpretGUIFlask:
         self.vecdb = Interpret_vectordb(args.vecdb_config_path)
         self.gpt4o = OpenAI(base_url=args.openai_base_url, 
                             api_key=args.openai_api_key)
-        with open(args.model_name2path, 'r', encoding='utf-8') as f:
-            self.model2path = json.load(f)
+
+        if os.path.exists(args.model_name2path):
+            with open(args.model_name2path, 'r', encoding='utf-8') as f:
+                self.model2path = json.load(f)
+        else:
+            self.model2path = None
         
         CORS(self.app, resources={r"/*": {"origins": "*"}}, send_wildcard=True)
 
@@ -73,9 +86,9 @@ class InterpretGUIFlask:
         @self.app.get('/loadModelByName')
         def loadModelByName():
             try:
-                model_name = request.args.get('modelName')
+                model_name, model_path = process_model_name(request.args.get('modelName'))
                 print('-------------model_name----------------\n',model_name)
-                get_cached_model_tok(model_name=model_name, model2path=self.model2path)
+                get_cached_model_tok(model_name=model_name, model_path=model_path, model2path=self.model2path)
                 return jsonify({"data": "OK", "code": 200})
             except Exception as e:
                 traceback.print_exc()
@@ -135,6 +148,57 @@ class InterpretGUIFlask:
                 traceback.print_exc()
                 return jsonify({"data": [], "code": 500})
             
+            
+        @self.app.get('/getModelSecList')
+        def getModelSecList():
+            try:
+                """
+                model_config = [
+                    {
+                        "model_type":"meta-llama/Llama-2-7b-hf",
+                        "model_list":[
+                            {
+                                "value":"defualt-llama2-7b",
+                            },
+                        ],
+                    },
+                    {
+                        "model_type":"openai-community/gpt2-xl",
+                        "model_list":[
+                            {
+                                "value":"default-gpt2-xl"
+                            },
+                        ],
+                    },
+                    {
+                        "model_type":"google-bert/bert-base-uncased",
+                        "model_list":[
+                            {
+                                "value":"default-bert-base-uncased"
+                            },
+                        ],
+                    },    
+
+                ]"""
+
+                model_config = []
+                for model in support_models:
+                    model_name = model.split("/")[ -1]
+                    model_dict = {
+                        "model_type":model,
+                        "model_list":[
+                            {
+                                "value":f"✨default-{model_name}",
+                            },
+                        ],
+                    }
+                    model_config.append(model_dict)
+                return jsonify({"data": model_config, "code": 200})
+            except Exception as e:
+                traceback.print_exc()
+                return jsonify({"data": [], "code": 500})
+
+            
         @self.app.get('/getModelList')
         def getModelList():
             try:
@@ -148,7 +212,7 @@ class InterpretGUIFlask:
         def getMethodListByModelName():
             try:
                 dataset_name = request.args.get('dataset_name')
-                model_name = request.args.get('model_name')
+                model_name, model_path = process_model_name(request.args.get('model_name'))
                 print('-------------dataset_name----------------\n',dataset_name)
                 print('-------------model_name----------------\n',model_name)
                 
@@ -230,7 +294,6 @@ class InterpretGUIFlask:
                     },
                 ]
                 """
-
                 base_method_dic = [{"value": "External", "label": "External", "children": []}, {"value": "Internal", "label": "Internal", "children": []}]
                 for method in method_list:
                     sub_mod = method_name2sub_module[method]
@@ -326,7 +389,7 @@ class InterpretGUIFlask:
         def do_generate_stream():
             jsondata = request.get_json()
             dataset_name = jsondata["dataset_name"]
-            model_name = jsondata["model_name"]
+            model_name, _ = process_model_name(jsondata["model_name"])
             tem_method_name_list = jsondata["method_name"]
             input_data = jsondata["input"]
 

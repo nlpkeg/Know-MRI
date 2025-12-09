@@ -62,29 +62,29 @@ def model_type(model_name: str):
         raise ValueError("Model {model_name} not supported")
 
 
-def initialize_model_and_tokenizer(model_name: str, dtype=torch.float16, device_map="auto"):
+def initialize_model_and_tokenizer(model_name: str, model_path: str =None, dtype=torch.float16, device_map="auto"):
     torch_dtype = dtype
 
     if 't5' in model_name.lower():
-        model = T5ForConditionalGeneration.from_pretrained(model_name, torch_dtype=torch_dtype, device_map=device_map)
-        tok = T5Tokenizer.from_pretrained(model_name)
+        model = T5ForConditionalGeneration.from_pretrained(model_path, torch_dtype=torch_dtype, device_map=device_map)
+        tok = T5Tokenizer.from_pretrained(model_path)
     elif 'gpt-3.5' in model_name.lower():
         model, tok = None, None
     elif 'gpt-j' in model_name.lower():
-        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, trust_remote_code=True, device_map=device_map)
-        tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch_dtype, trust_remote_code=True, device_map=device_map)
+        tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
         tok.pad_token_id = tok.eos_token_id
     elif 'gpt' in model_name.lower():
-        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, trust_remote_code=True, device_map=device_map)
-        tok = GPT2Tokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch_dtype, trust_remote_code=True, device_map=device_map)
+        tok = GPT2Tokenizer.from_pretrained(model_path)
         tok.pad_token_id = tok.eos_token_id
     elif 'llama' in model_name.lower():
-        model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, device_map=device_map)
-        tok = LlamaTokenizer.from_pretrained(model_name)
+        model = LlamaForCausalLM.from_pretrained(model_path, torch_dtype=torch_dtype, device_map=device_map)
+        tok = LlamaTokenizer.from_pretrained(model_path)
         tok.pad_token_id = tok.eos_token_id
     elif 'baichuan' in model_name.lower():
-        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, trust_remote_code=True, device_map=device_map)
-        tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch_dtype, trust_remote_code=True, device_map=device_map)
+        tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
         tok.pad_token_id = tok.eos_token_id
     #elif 'chatglm' in model_name.lower():
         #model = AutoModel.from_pretrained(model_name, trust_remote_code=True, torch_dtype=torch_dtype, device_map=device_map)
@@ -92,30 +92,30 @@ def initialize_model_and_tokenizer(model_name: str, dtype=torch.float16, device_
         #tok.unk_token_id = 64787
         # self.tok.pad_token_id = self.tok.eos_token_id
     elif 'chatglm' in model_name.lower():
-        model = AutoModel.from_pretrained(model_name, trust_remote_code=True, torch_dtype=torch_dtype, device_map=device_map)
+        model = AutoModel.from_pretrained(model_path, trust_remote_code=True, torch_dtype=torch_dtype, device_map=device_map)
         
-        tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
         if not tok.pad_token:
             tok._pad_token = '<|PAD|>' 
             tok.pad_token_id = 0  
         ####
         tok.unk_token_id = 64787
     elif 'internlm' in model_name.lower():
-        model = AutoModel.from_pretrained(model_name, trust_remote_code=True, torch_dtype=torch_dtype, device_map=device_map)
-        tok = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+        model = AutoModel.from_pretrained(model_path, trust_remote_code=True, torch_dtype=torch_dtype, device_map=device_map)
+        tok = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
         tok.pad_token_id = tok.eos_token_id
     elif 'qwen' in model_name.lower():
-        model = AutoModelForCausalLM.from_pretrained(model_name, fp32=False, trust_remote_code=True,device_map=device_map)
-        tok = AutoTokenizer.from_pretrained(model_name, eos_token='<|endoftext|>',
+        model = AutoModelForCausalLM.from_pretrained(model_path, fp32=False, trust_remote_code=True,device_map=device_map)
+        tok = AutoTokenizer.from_pretrained(model_path, eos_token='<|endoftext|>',
                                                         pad_token='<|endoftext|>', unk_token='<|endoftext|>',
                                                         trust_remote_code=True)
     elif 'mistral' in model_name.lower():
-        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch_dtype, device_map=device_map)
-        tok = AutoTokenizer.from_pretrained(model_name)
+        model = AutoModelForCausalLM.from_pretrained(model_path, torch_dtype=torch_dtype, device_map=device_map)
+        tok = AutoTokenizer.from_pretrained(model_path)
         tok.pad_token_id = tok.eos_token_id
     elif 'bert' in model_name.lower():
-        tok = BertTokenizer.from_pretrained(model_name)
-        model = BertLMHeadModel.from_pretrained(model_name)
+        tok = BertTokenizer.from_pretrained(model_path)
+        model = BertLMHeadModel.from_pretrained(model_path)
         model = model.cuda()
     else:
         raise NotImplementedError
@@ -132,15 +132,16 @@ class ModelAndTokenizer:
     def __init__(
         self,
         model_name=None,
+        model_path=None,
         model=None,
         tokenizer=None,
         low_cpu_mem_usage=False,
         torch_dtype=None,
         device="auto"
     ):
-        print(f"loading model: {model_name}")
+        print(f"loading model: {model_name} from path: {model_path}")
         if model is None and tokenizer is None:
-            model, tokenizer = initialize_model_and_tokenizer(model_name=model_name, dtype=torch_dtype, device_map=device)
+            model, tokenizer = initialize_model_and_tokenizer(model_name=model_name, model_path=model_path, dtype=torch_dtype, device_map=device)
             model.requires_grad_(False)
             model.eval()
         else: 
@@ -230,13 +231,33 @@ class ModelAndTokenizer:
 import threading
 lock_get_cached_model_tok= threading.Lock()
 model_name2obj = dict()
-def get_cached_model_tok(model_name, model_name2obj=model_name2obj, model2path=None) -> ModelAndTokenizer:
+def get_cached_model_tok(model_name, model_name2obj=model_name2obj, model2path=None,  model_path=None) -> ModelAndTokenizer:
+    """
+    model_name: str the name of the model (essentially the huggingface path)
+    model_name2obj: dict mapping model names to ModelAndTokenizer objects
+    model2path: dict mapping model names to local paths
+    model_path: str local path for the model (overrides model2path)
+    """
     with lock_get_cached_model_tok:
         if model_name not in model_name2obj:
-            model_name2obj[model_name] = ModelAndTokenizer(
-                model_name if model2path is None else model2path[model_name],
-                torch_dtype=torch.float16
-            )
+            if model2path is not None:
+                model_name2obj[model_name] = ModelAndTokenizer(
+                    model_name=model_name,
+                    model_path=model2path[model_name],
+                    torch_dtype=torch.float16
+                )
+            elif model_path is not None:
+                model_name2obj[model_name] = ModelAndTokenizer(
+                    model_name=model_name,
+                    model_path=model_path,
+                    torch_dtype=torch.float16
+                )
+            else:
+                model_name2obj[model_name] = ModelAndTokenizer(
+                    model_name=model_name,
+                    model_path=model_name,
+                    torch_dtype=torch.float16
+                )
             if "chatglm" not in model_name:
                 model_name2obj[model_name].tokenizer.pad_token = model_name2obj[model_name].tokenizer.eos_token
     return model_name2obj[model_name]
