@@ -27,6 +27,7 @@ def parse_args():
     parser.add_argument("--model_path", type=str, default="EleutherAI/gpt-j-6b", help="Path to the model")
     parser.add_argument("--hparams_path", type=str, default="./evaluation/gpt-j-6B.yaml", help="Path to hyperparameters YAML file")
     parser.add_argument("--output_dir", type=str, default="./evaluation/result", help="Directory to save output results")
+    parser.add_argument("--cache_dir", type=str, default="./evaluation/data/stats", help="Directory for cache data of EasyEdit")
     
     # 预计算缓存相关参数
     parser.add_argument("--pre_calculated_file", type=str, default="", help="Path to pre-calculated metrics file")
@@ -64,6 +65,7 @@ with open(HPARAMS_PATH, 'r') as f:
 
 raw_model_name = hparams_config.get('model_name', 'unknown_model')
 hparams_config['model_name'] = MODEL_PATH
+hparams_config['stats_dir'] = args.cache_dir
 with open(HPARAMS_PATH.replace(".yaml", "_copy.yaml"), 'w') as f:
     yaml.dump(hparams_config, f)
 HPARAMS_PATH = HPARAMS_PATH.replace(".yaml", "_copy.yaml")

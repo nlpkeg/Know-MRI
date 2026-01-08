@@ -1,6 +1,6 @@
 alg_name: "MEMIT"
 model_name: "EleutherAI/gpt-j-6b"
-stats_dir: "./data/stats"
+stats_dir: "./evaluation/data/stats"
 device: 0,1,2
 layers: [4, 5, 6, 7, 8]
 clamp_norm_factor: 0.75

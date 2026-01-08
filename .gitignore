@@ -9,3 +9,4 @@ util/tmp/
 */front/node_modules
 */front/dist
 cache.json
+logs/
