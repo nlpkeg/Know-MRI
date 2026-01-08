@@ -1,0 +1,77 @@
+diff --git a/easyeditor/models/memit/compute_z.py b/easyeditor/models/memit/compute_z.py
+index 3ebed6d..1d50a04 100644
+--- a/easyeditor/models/memit/compute_z.py
++++ b/easyeditor/models/memit/compute_z.py
+@@ -128,9 +128,9 @@ def compute_z(
+             for i, idx in enumerate(lookup_idxs):
+ 
+                 if len(lookup_idxs)!=layer_output.shape[0]:
+-                    layer_output[idx, i, :] += delta
++                    layer_output[idx, i, :] += delta.to(layer_output.device)
+                 else:
+-                    layer_output[i, idx, :] += delta
++                    layer_output[i, idx, :] += delta.to(layer_output.device)
+ 
+             return _rewrap_output(layer_output, original_container)
+ 
+@@ -195,7 +195,7 @@ def compute_z(
+             kl_distr_init, kl_log_probs, log_target=True, reduction="batchmean"
+         )
+         weight_decay = hparams.v_weight_decay * (
+-            torch.norm(delta) / torch.norm(target_init) ** 2
++            torch.norm(delta) / torch.norm(target_init.to(delta.device)) ** 2
+         )
+         # weight_decay = hparams.v_weight_decay * torch.norm(delta) ** 2
+         loss = nll_loss + kl_loss.to(nll_loss.device) + weight_decay.to(nll_loss.device)
+@@ -216,11 +216,11 @@ def compute_z(
+ 
+         # Project within L2 ball
+         max_norm = hparams.clamp_norm_factor * target_init.norm()
+-        if delta.norm() > max_norm:
++        if delta.norm() > max_norm.to(delta.device):
+             with torch.no_grad():
+-                delta[...] = delta * max_norm / delta.norm()
++                delta[...] = delta * max_norm.to(delta.device) / delta.norm()
+ 
+-    target = target_init + delta
++    target = target_init + delta.to(target_init.device)
+     print(
+         f"Init norm {target_init.norm()} | Delta norm {delta.norm()} | Target norm {target.norm()}"
+     )
+diff --git a/easyeditor/models/memit/memit_main.py b/easyeditor/models/memit/memit_main.py
+index 69487cc..3f82dc9 100644
+--- a/easyeditor/models/memit/memit_main.py
++++ b/easyeditor/models/memit/memit_main.py
+@@ -54,7 +54,7 @@ def apply_memit_to_model(
+ 
+             if return_orig_weights and w_name not in weights_copy:
+                 weights_copy[w_name] = w.detach().clone()
+-            w[...] += upd_matrix.float()
++            w[...] += upd_matrix.float().to(w.device)
+ 
+     print(f"New weights successfully inserted into {list(deltas.keys())}")
+ 
+@@ -204,11 +204,11 @@ def execute_memit(
+         )
+ 
+         adj_k = torch.linalg.solve(
+-            hparams.mom2_update_weight * cov.double() + layer_ks @ layer_ks.T,
+-            layer_ks,
++            hparams.mom2_update_weight * cov.double() + layer_ks.to(cov.device) @ layer_ks.T.to(cov.device),
++            layer_ks.to(cov.device),
+         )
+         resid = targets / (len(hparams.layers) - i)  # Distribute residual across layers
+-        upd_matrix = resid @ adj_k.T
++        upd_matrix = resid @ adj_k.T.to(resid.device)
+ 
+         # Adjust update matrix shape
+         weight_name = f"{hparams.rewrite_module_tmp.format(layer)}.weight"
+@@ -219,7 +219,7 @@ def execute_memit(
+ 
+         # Update model weights and record desired changes in `delta` variable
+         with torch.no_grad():
+-            weights[weight_name][...] = weights_copy[weight_name] + upd_matrix.float()
++            weights[weight_name][...] = weights_copy[weight_name] + upd_matrix.float().to(weights[weight_name].device)
+             deltas[weight_name] = (
+                 adj_k.detach().cpu(),
+                 resid.detach().cpu(),
