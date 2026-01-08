@@ -1,0 +1,1 @@
+huggingface-cli download EleutherAI/gpt-j-6b --local-dir ./evaluation/models/gpt-j-6b --resume-download
